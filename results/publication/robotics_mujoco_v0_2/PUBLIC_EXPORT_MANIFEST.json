@@ -7,9 +7,9 @@
   },
   "included_files": [
     {
-      "bytes": 1654,
+      "bytes": 2512,
       "path": "AGGREGATE_SUMMARY.json",
-      "sha256": "c93f3cc38da836f6989ce47f9f1c437b5760cd87a085ef168c56c83c4f8209c3"
+      "sha256": "66ca72eea3d6e0d43163ba66f8c11045d591d1ad7c4f65b4a0c3b5e7a2d7a035"
     },
     {
       "bytes": 1085,
@@ -187,6 +187,14 @@
       "sha256": "faa0d6f19d9d58eacb0e6b11d00d8e0dc27b4d14ad81c6a4fac483df2ddfb27f"
     }
   ],
+  "metric_reconciliation": {
+    "canonical_field": "AGGREGATE_SUMMARY.json:overall_mean_skill_success",
+    "overall_mean_skill_success": 0.995,
+    "perfect_skill_seed_evaluations": 11,
+    "receipt": "METRIC_RECONCILIATION.json",
+    "skills_certified_all_seeds": true,
+    "total_skill_seed_evaluations": 12
+  },
   "source_handoff_sha256": "50f7805ae2fb06fffb1513d38cb59cb3dbf9a9e773b67881ab05c5d41521a6a7",
   "source_notebook_sha256": "46edad256c621bbf3b25f1cb8c917492568f28a15d798c5de7ce4c9a96e6ab87"
 }

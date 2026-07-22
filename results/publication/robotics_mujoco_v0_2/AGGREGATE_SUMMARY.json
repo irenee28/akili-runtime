@@ -23,6 +23,28 @@
     "reach_A@v1": 1.0,
     "reach_B@v1": 1.0
   },
+  "metric_reconciliation": {
+    "claim": "Four skills were certified in all three seeds; 11 of 12 skill-seed evaluations scored 1.00, while press_button@v1 scored 0.94 in seed 1, yielding a 0.995 (99.5%) overall mean.",
+    "nonperfect_evaluations": [
+      {
+        "active": true,
+        "field": "akili.skill_success.press_button@v1",
+        "registry": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/registry.json",
+        "report": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/akili_robotics_v0_2_report.json",
+        "safe": true,
+        "seed": 1,
+        "skill": "press_button@v1",
+        "success": 0.94
+      }
+    ],
+    "perfect_skill_seed_evaluations": 11,
+    "skills_certified_per_seed": {
+      "0": 4,
+      "1": 4,
+      "2": 4
+    },
+    "total_skill_seed_evaluations": 12
+  },
   "mission_all_steps_certified_all_seeds": true,
   "overall_mean_skill_success": 0.995,
   "public_export_excludes_pickle_checkpoints": true,
@@ -32,7 +54,7 @@
     "adapter_trainable_params_per_skill": 2048,
     "akili_storage_bytes_all_skills": 115441,
     "full_model_params": 17923,
-    "gpu_required": "none — the entire lifecycle (train, validate, rollback, compose) runs on CPU",
+    "gpu_required": "none \u2014 the entire lifecycle (train, validate, rollback, compose) runs on CPU",
     "isolated_full_models_bytes": 297460,
     "mission_steps_certified": 3
   },

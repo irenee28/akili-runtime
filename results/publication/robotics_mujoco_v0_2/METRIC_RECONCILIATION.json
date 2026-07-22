@@ -1,0 +1,34 @@
+{
+  "canonical_aggregate_source": {
+    "field": "overall_mean_skill_success",
+    "path": "results/publication/robotics_mujoco_v0_2/AGGREGATE_SUMMARY.json",
+    "value": 0.995
+  },
+  "claim": "Four skills were certified in all three seeds; 11 of 12 skill-seed evaluations scored 1.00, while press_button@v1 scored 0.94 in seed 1, yielding a 0.995 (99.5%) overall mean.",
+  "mean_skill_success": {
+    "avoid_zone@v1": 1.0,
+    "press_button@v1": 0.98,
+    "reach_A@v1": 1.0,
+    "reach_B@v1": 1.0
+  },
+  "nonperfect_evaluations": [
+    {
+      "active": true,
+      "field": "akili.skill_success.press_button@v1",
+      "registry": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/registry.json",
+      "report": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/akili_robotics_v0_2_report.json",
+      "safe": true,
+      "seed": 1,
+      "skill": "press_button@v1",
+      "success": 0.94
+    }
+  ],
+  "overall_mean_skill_success": 0.995,
+  "perfect_skill_seed_evaluations": 11,
+  "skills_certified_per_seed": {
+    "0": 4,
+    "1": 4,
+    "2": 4
+  },
+  "total_skill_seed_evaluations": 12
+}

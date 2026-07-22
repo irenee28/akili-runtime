@@ -4,7 +4,7 @@
 
 - Three independent seeds completed the `akili-robotics-v0.2-mujoco-four-systems` protocol.
 - All three seeds passed every binding hard check.
-- Mean skill success across four skills and three seeds was 99.5%.
+- Four skills were certified in all three seeds; 11/12 skill–seed evaluations scored 1.00, with `press_button@v1` scoring 0.94 in seed 1, yielding a 99.5% overall mean.
 - `avoid_zone@v2` ended `ROLLED_BACK` in all seeds while `avoid_zone@v1` remained serving.
 - Every seed completed the three-step certified mission and passed cold restart.
 - Sequential fine-tuning retained `reach_A` at 100% initially and 0% after the final skill in all seeds.

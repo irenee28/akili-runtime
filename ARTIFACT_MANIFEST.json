@@ -7,26 +7,26 @@
   },
   {
     "path": ".gitignore",
-    "bytes": 131,
-    "sha256": "834926ee31fe2a561d8be46edff689a08e760e635c5e18d59dad9d35b58552e0",
+    "bytes": 143,
+    "sha256": "c9ec9fd658d83dfa070e5cca906cddb9658509b991bace1d1cd2a4f3518b0de9",
     "suffix": ""
   },
   {
     "path": "CITATION.cff",
-    "bytes": 617,
-    "sha256": "1f60bb85ca1fdef36c3f0e3a27d6cc12a65f4c70a1e220484694914fa8759c91",
+    "bytes": 589,
+    "sha256": "138f46f5bae69128699a09f7c00b2bb73a637ab22cc8888a4be00a1ede72ee83",
     "suffix": ".cff"
   },
   {
-    "path": "COMMERCIAL_LICENSE.md",
-    "bytes": 1009,
-    "sha256": "d0d5da2479827861bb5b86f537699156c9ca0499f16ae632fbc4da2e6e127e20",
+    "path": "COMMERCIAL_USE.md",
+    "bytes": 951,
+    "sha256": "04ade87796d2cca807a1ff0e30cee8f13ecf2abac13aa5e0cae9d62a4a74b448",
     "suffix": ".md"
   },
   {
     "path": "CONTRIBUTING.md",
-    "bytes": 893,
-    "sha256": "f10804d70fcacb0045eb9b7304777c6948af71cfe6ded45fa613f58947276b72",
+    "bytes": 817,
+    "sha256": "eaa619b71e4c0588bbb04a81cd75fa01f5b3ee87b2c0ef61d41cf2619baec76a",
     "suffix": ".md"
   },
   {
@@ -37,14 +37,14 @@
   },
   {
     "path": "GITHUB_SETUP.md",
-    "bytes": 3181,
-    "sha256": "4b8371e1c0963046fea728feaeb03e002b234d8d641f7fd7969f4e978b85516a",
+    "bytes": 1784,
+    "sha256": "858322c5ec09feec854cf98e29d9344ceafbad20e0b534b30ffc56d901d2fc27",
     "suffix": ".md"
   },
   {
     "path": "LICENSE",
-    "bytes": 4559,
-    "sha256": "ac6b09bae572774ff2d8dbf3a530272bde03614eb04cecf9d83ccac3dd5964d8",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
     "suffix": ""
   },
   {
@@ -55,14 +55,14 @@
   },
   {
     "path": "NOTICE",
-    "bytes": 315,
-    "sha256": "17ea78c4709ead3b62394daa1e4eeacfa75059fb255863ea88732449f66a0f28",
+    "bytes": 282,
+    "sha256": "bd33b2838bf530622070d033abc46f2765198e02b5ee34a92ee76acebd24ff49",
     "suffix": ""
   },
   {
     "path": "README.md",
-    "bytes": 7324,
-    "sha256": "e29815ba886813e5b96eea057efc9222879c41792bf2361f5958663809c82273",
+    "bytes": 7704,
+    "sha256": "2881dcff8a298a92c8ca6067cddd83e9492e1dbe2a4ef1d19e6ac65397d8b813",
     "suffix": ".md"
   },
   {
@@ -73,14 +73,14 @@
   },
   {
     "path": "SECURITY.md",
-    "bytes": 543,
-    "sha256": "d6beb19cd33523a73ce95ac5573bb09894f9bdaeac4d3e51427b471fc45effda",
+    "bytes": 533,
+    "sha256": "4caa75643089ec42c6248282b7d914e14a2bd92d7f821ca4357db289ec6d359e",
     "suffix": ".md"
   },
   {
     "path": "TRADEMARK.md",
-    "bytes": 576,
-    "sha256": "77ee9bcbee53a7ea6384d4a5f60453eb37538f463dc1e959c000697e196208bf",
+    "bytes": 566,
+    "sha256": "642d8dc10ada9cf8f777cb8e0a575e86c1f91fb454d8d5091d2f721ba2ddf7d2",
     "suffix": ".md"
   },
   {
@@ -193,8 +193,8 @@
   },
   {
     "path": "docs/CLAIMS_LEDGER.md",
-    "bytes": 2409,
-    "sha256": "a4244cd74a160c3819b2864d732bcc8a2d796d666fb31839125e5742f7164e60",
+    "bytes": 2513,
+    "sha256": "6952e32349f3dacce7f226292a27bfcfb77d8fc860ffbe8bf8963197b3520fed",
     "suffix": ".md"
   },
   {
@@ -220,6 +220,12 @@
     "bytes": 986,
     "sha256": "f94b776d86c3b55c93904db74627c4d8eade91f223606f0c27156839bb07360f",
     "suffix": ".md"
+  },
+  {
+    "path": "examples/__pycache__/minimal_lifecycle.cpython-313.pyc",
+    "bytes": 2720,
+    "sha256": "7fb6506138ec0fad7baf7ff9a05ab5bdd7122a07ca07eb52b744fbbe96ae7ba5",
+    "suffix": ".pyc"
   },
   {
     "path": "examples/minimal_lifecycle.py",
@@ -325,8 +331,8 @@
   },
   {
     "path": "pyproject.toml",
-    "bytes": 758,
-    "sha256": "5acad96cfc662b2f5129cb6d8b3c18efa85c5f4f21fb098ca069c138fe5a214a",
+    "bytes": 744,
+    "sha256": "e79acb69befb3ed282e2332a49138bbb10adfd883539f8277fe372f005feb027",
     "suffix": ".toml"
   },
   {
@@ -751,20 +757,26 @@
   },
   {
     "path": "results/publication/robotics_mujoco_v0_2/AGGREGATE_SUMMARY.json",
-    "bytes": 1654,
-    "sha256": "c93f3cc38da836f6989ce47f9f1c437b5760cd87a085ef168c56c83c4f8209c3",
+    "bytes": 2512,
+    "sha256": "66ca72eea3d6e0d43163ba66f8c11045d591d1ad7c4f65b4a0c3b5e7a2d7a035",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/METRIC_RECONCILIATION.json",
+    "bytes": 1134,
+    "sha256": "93fdd03f2dbd7a99295134db906536bec97ef7f9a82976e2696e0220d7fb7375",
     "suffix": ".json"
   },
   {
     "path": "results/publication/robotics_mujoco_v0_2/PUBLIC_EXPORT_MANIFEST.json",
-    "bytes": 6860,
-    "sha256": "c40a7822d072654a81eb0568bed1ba566e32c18125b7e09cd8cf98a9b49cf986",
+    "bytes": 7178,
+    "sha256": "c554843d9e37190ea13c47e0c046fae9415e7e90c68867042e4d1b45ac9649ac",
     "suffix": ".json"
   },
   {
     "path": "results/publication/robotics_mujoco_v0_2/README.md",
-    "bytes": 1187,
-    "sha256": "f886a676e379aa928e7d9144cb936c0d48058e6ef934a076c4f46befee900b08",
+    "bytes": 1350,
+    "sha256": "9894070413918b9988523b195ac437a0aca2f2dc9f9882c5a4b78d414ac1a380",
     "suffix": ".md"
   },
   {
@@ -1026,6 +1038,12 @@
     "suffix": ".pyc"
   },
   {
+    "path": "src/akili_runtime/__pycache__/cli.cpython-313.pyc",
+    "bytes": 1633,
+    "sha256": "4125549aa864ada7d92ae4994e3afc85946af4e72df196ba18b990640037a73d",
+    "suffix": ".pyc"
+  },
+  {
     "path": "src/akili_runtime/__pycache__/hashing.cpython-313.pyc",
     "bytes": 1828,
     "sha256": "47648f032326e7256aa2e41e9df95661dec87e474d6af23894ff1dfe9f657b5a",
@@ -1102,6 +1120,36 @@
     "bytes": 2816,
     "sha256": "8fd0d17457560c0a42e74f296d79ccf90209d973082015cf51c149ee0436b2a9",
     "suffix": ".py"
+  },
+  {
+    "path": "tools/__pycache__/akili_drive_evidence_collector_v1.cpython-313.pyc",
+    "bytes": 25593,
+    "sha256": "15db8dd0ed37397afb6c7965d516ab9e352a80a9c5f726902fc7eefd12764c89",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "tools/__pycache__/akili_publication_batch_runner_v1.cpython-313.pyc",
+    "bytes": 10515,
+    "sha256": "299897f54cd09f0e9a0656f513924d511c40da1cec2653f2f409390df8abe22a",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "tools/__pycache__/import_drive_evidence.cpython-313.pyc",
+    "bytes": 5929,
+    "sha256": "459b6ea7eebcfcce0018af1554b982668bd771f3995fe79e10b21b80e7870f67",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "tools/__pycache__/make_checksums.cpython-313.pyc",
+    "bytes": 2471,
+    "sha256": "c4c9a0abd05a454c8c802ec799a8a599436a834c433c2aafdcc2a656b2e34aff",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "tools/__pycache__/release_audit.cpython-313.pyc",
+    "bytes": 3601,
+    "sha256": "2faf7bdcf888e4ad244c6e49353db8d39ad4bd894122de709f14714c54898248",
+    "suffix": ".pyc"
   },
   {
     "path": "tools/akili_drive_evidence_collector_v1.py",

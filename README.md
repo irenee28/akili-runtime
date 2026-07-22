@@ -4,7 +4,7 @@
 
 > Akili turns new experience into isolated learned capabilities, validates each candidate before production activation, manages active/dormant/rolled-back states, and records a tamper-evident path back to every certified safe state.
 
-**Release status:** `v0.1.0-rc3` — public release candidate with a verified three-seed CPU robotics flagship and a reported green GPU LLM benchmark. The raw Agent Evolution Drive bundle remains pending import.
+**Release status:** `v0.1.0-rc4` — public release candidate with a verified three-seed CPU robotics flagship and a reported green GPU LLM benchmark. The raw Agent Evolution Drive bundle remains pending import.
 
 ## Why Akili
 
@@ -27,7 +27,7 @@ Akili is a **continual-learning runtime with pluggable learning engines**, not o
 
 | Track | Evidence | Status |
 |---|---|---|
-| **MuJoCo Robotics Benchmark v1 (CPU)** | 3 seeds; all hard checks passed; 99.5% mean skill success; unsafe v2 rolled back; certified three-step missions; frozen trunk; 112.7 KiB skill bank | **Verified LITE publication evidence included** |
+| **MuJoCo Robotics Benchmark v1 (CPU)** | 3 seeds; 4 skills certified per seed; 11/12 skill–seed evaluations at 1.00; 99.5% overall mean; unsafe v2 rolled back; certified three-step missions; frozen trunk; 112.7 KiB skill bank | **Verified LITE publication evidence included** |
 | **Agent Evolution Benchmark v1 (GPU/LLM)** | 100% current accuracy; 0% stale errors; 0% production attack; 100% dormant recovery | **Reported green result; raw Drive run pending** |
 | Kimi LLM v0.1/v0.2 | Registries, manifests, audit logs, reports | Development evidence; original failures preserved |
 | Split CIFAR-100 v0.23 | 62.55% final baseline; 75.28% top-2 union; 80.22% top-3 union; no safe arbiter selected | Null result / capacity diagnostic |
@@ -47,7 +47,10 @@ Three independent seeds ran the same lifecycle on CPU. Every seed:
 
 | Metric | Result |
 |---|---:|
-| Mean success across 4 skills × 3 seeds | **99.5%** |
+| Safe skills certified | **4/4 in every seed** |
+| Perfect skill–seed evaluations | **11/12 at 1.00** |
+| Non-perfect evaluation | **`press_button@v1`, seed 1: 0.94** |
+| Overall mean across 4 skills × 3 seeds | **99.5%** |
 | Hard-check result | **all seeds passed** |
 | Unsafe update state | **ROLLED_BACK in all seeds** |
 | Sequential FT retention of first skill | **100% → 0%** |
@@ -129,15 +132,16 @@ DER++ matched results are a post-RC research milestone, not a prerequisite for p
 ## Author and commercial contact
 
 **Irénée Akilimali** — independent builder in Kinshasa, Democratic Republic of the Congo.  
-Commercial licensing, pilots, integrations, and partnerships: **shukranimungu@gmail.com**
+Pilots, paid support, integrations, sponsorships, and partnerships: **shukranimungu@gmail.com**
 
 ## License
 
-Akili Runtime is **source-available for noncommercial research and use**, not OSI-approved open-source software.
+Akili Runtime is open-source software licensed under the [Apache License 2.0](LICENSE).
+The license permits research, modification, redistribution, and commercial use subject to its terms, including preservation of required notices.
 
-- Noncommercial use: [PolyForm Noncommercial License 1.0.0](LICENSE)
-- Commercial use: requires a separate written license; see [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md)
-- Required notices: [NOTICE](NOTICE)
+- License text: [LICENSE](LICENSE)
+- Attribution notices: [NOTICE](NOTICE)
+- Commercial use, paid support, pilots, and partnerships: [COMMERCIAL_USE.md](COMMERCIAL_USE.md)
 - Name and trademark policy: [TRADEMARK.md](TRADEMARK.md)
 
-Commercial users must contact **shukranimungu@gmail.com** before use.
+Commercial use does **not** require separate permission. For paid support, integration, pilot, sponsorship, or partnership discussions, contact **shukranimungu@gmail.com**.

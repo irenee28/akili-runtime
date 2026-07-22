@@ -9,4 +9,4 @@
 
 ## Contribution licensing
 
-Unless a separate written agreement says otherwise, contributions intentionally submitted for inclusion in Akili Runtime must be compatible with the repository's PolyForm Noncommercial License 1.0.0 and may be incorporated into separately licensed commercial editions by the project owner. Open an issue before submitting a substantial contribution if these terms are not acceptable.
+Unless explicitly stated otherwise, any contribution intentionally submitted for inclusion in Akili Runtime is provided under the Apache License 2.0. Contributors must have the right to submit their work and must not include confidential, proprietary, or third-party material without appropriate permission.

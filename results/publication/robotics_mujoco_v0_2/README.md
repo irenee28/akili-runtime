@@ -5,6 +5,9 @@ Three independent CPU-only seeds were supplied in the Kimi-side LITE handoff. Ev
 ## Aggregate
 
 - Seeds: 0, 1, 2
+- Safe skills certified: **4/4 in every seed**
+- Perfect skill–seed evaluations: **11/12 at 1.00**
+- Non-perfect evaluation: **`press_button@v1`, seed 1: 0.94**
 - Overall mean skill success: **99.5%**
 - Unsafe v2 state: `ROLLED_BACK` in all seeds
 - Sequential fine-tuning `reach_A`: 100% initially → 0% after the final skill in all seeds
