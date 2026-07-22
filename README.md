@@ -143,14 +143,7 @@ akili-runtime/
 - Agent Evolution: [experiments/agent_evolution](experiments/agent_evolution)
 - Split CIFAR-100 / DER++: [benchmarks/split_cifar100](benchmarks/split_cifar100)
 
-## Remaining release blockers
 
-Before the final `v0.1.0` tag:
-
-1. import the correct raw Agent Evolution five-system comparison JSON and reconcile it with the four verified lifecycle files;
-2. replace the Zenodo/DOI placeholder after archive creation.
-
-The clean stranger test, Apache-2.0 migration, branch cleanup, Agent lifecycle import, and matched v0.22.3 DER++ documentation are complete. Independent Mammoth replication remains a post-v0.1.0 research milestone.
 
 ## Author and commercial contact
 
