@@ -31,8 +31,8 @@
   },
   {
     "path": "EVIDENCE.md",
-    "bytes": 1617,
-    "sha256": "ff0a65195a6aedf11e53a3b256ad96eb3707b0b9aef40cd1884b37e56e3e5491",
+    "bytes": 1922,
+    "sha256": "9098aa57837ad5ce273678ad6b58319d2f680e337cfe24c59ef00441178fc3bc",
     "suffix": ".md"
   },
   {
@@ -61,8 +61,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 7704,
-    "sha256": "2881dcff8a298a92c8ca6067cddd83e9492e1dbe2a4ef1d19e6ac65397d8b813",
+    "bytes": 10439,
+    "sha256": "7b336260dbfbe693a5607c1fddd01d86ab1e95ad8d38e86cc1b1656ec6ca2321",
     "suffix": ".md"
   },
   {
@@ -193,8 +193,8 @@
   },
   {
     "path": "docs/CLAIMS_LEDGER.md",
-    "bytes": 2513,
-    "sha256": "6952e32349f3dacce7f226292a27bfcfb77d8fc860ffbe8bf8963197b3520fed",
+    "bytes": 4062,
+    "sha256": "410c3582ddffe3684445e11ae1f02f7b820e2d750732520c1882898f1c819ed9",
     "suffix": ".md"
   },
   {
@@ -337,8 +337,8 @@
   },
   {
     "path": "results/README.md",
-    "bytes": 573,
-    "sha256": "9c32ff80cda1bebccddf6445b061c38b64cb3da5cb2d068c30ab346374f94d47",
+    "bytes": 868,
+    "sha256": "d4acfff1fa97a5239fe85143b2093805a95d8267377dd8b5343e69a707217f99",
     "suffix": ".md"
   },
   {
@@ -756,6 +756,42 @@
     "suffix": ".json"
   },
   {
+    "path": "results/publication/agent_evolution_v1/README.md",
+    "bytes": 1255,
+    "sha256": "446dcfaefbae63e0d6662c1f04d33404939ba8924b8c8ec5a414170f60b98a1f",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/publication/agent_evolution_v1/lifecycle_evidence/EVIDENCE_VERIFICATION.json",
+    "bytes": 2473,
+    "sha256": "6a4b85b62e71aeeb785b9be8a9d90a6a884545fa15147515996f82c92bd943b2",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/agent_evolution_v1/lifecycle_evidence/audit_log.jsonl",
+    "bytes": 8735,
+    "sha256": "c568f720dfd786842375a8d30d6c0e663880b1690ea74616e7d73c902d2a3c19",
+    "suffix": ".jsonl"
+  },
+  {
+    "path": "results/publication/agent_evolution_v1/lifecycle_evidence/hard_checks.json",
+    "bytes": 1868,
+    "sha256": "1c5ff222c312f254d3c5383dafa54adae8bd977142030401cb7d34aa2187aa93",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/agent_evolution_v1/lifecycle_evidence/registry.json",
+    "bytes": 22481,
+    "sha256": "b3e721d8a8e0f962d642eb04fbb5a5f844e52f148f45b258f2c24836de9beb6b",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/agent_evolution_v1/lifecycle_evidence/repair_receipt.json",
+    "bytes": 1243,
+    "sha256": "346107be98058642a4d40d1d9a4fe10cd769c0adf312f6222aade456f965370d",
+    "suffix": ".json"
+  },
+  {
     "path": "results/publication/robotics_mujoco_v0_2/AGGREGATE_SUMMARY.json",
     "bytes": 2512,
     "sha256": "66ca72eea3d6e0d43163ba66f8c11045d591d1ad7c4f65b4a0c3b5e7a2d7a035",
@@ -991,8 +1027,8 @@
   },
   {
     "path": "results/reported/agent_evolution_v1/PROVENANCE.md",
-    "bytes": 676,
-    "sha256": "6251b1462af0ed4f870203b7b68ddba829c5ed7316604071ebae3d693f775096",
+    "bytes": 491,
+    "sha256": "83f89df5e7f9e7562273405f14fe38a982f0b8a829068ffcc1b4629429db85bc",
     "suffix": ".md"
   },
   {
@@ -1012,6 +1048,18 @@
     "bytes": 1513,
     "sha256": "e1e81123e7f84a15c1ea1fdbcec12f6e5549c14cc8ff7fde066238b4f21582d9",
     "suffix": ".json"
+  },
+  {
+    "path": "results/reported/cifar100_v0_22_3_matched_derpp/DERPP_COMPARISON_SUMMARY.json",
+    "bytes": 3444,
+    "sha256": "7a0da9804de9d4e6428b499bfc8c6dcf599813fcf485be8a968215f8ee610957",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/reported/cifar100_v0_22_3_matched_derpp/README.md",
+    "bytes": 1923,
+    "sha256": "932574250cf4ac61e2749a76c9e7d76ffe9a042bf5807735ba944f1cd39e671d",
+    "suffix": ".md"
   },
   {
     "path": "src/akili_runtime/__init__.py",

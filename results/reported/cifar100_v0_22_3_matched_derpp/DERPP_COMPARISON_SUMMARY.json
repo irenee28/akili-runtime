@@ -1,0 +1,87 @@
+{
+  "derived_comparison": {
+    "akili_divided_by_derpp": 2.82129963898917,
+    "akili_minus_derpp_percentage_points": 40.36,
+    "forgetting_reduction_percentage_points": 61.36
+  },
+  "evidence_class": "validated project summary; raw per-run output bundle not yet imported",
+  "protocol": {
+    "dataset": "Split CIFAR-100 Class-IL",
+    "derpp_alpha": 0.5,
+    "derpp_beta": 0.5,
+    "example_memory_capacity": 400,
+    "same_task_orders": true,
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "shared_frozen_representation": "ResNet-50 / ImageNet1K V2 features",
+    "stream": "10 tasks x 10 classes",
+    "task_free_evaluation": true
+  },
+  "required_caveats": [
+    "The match covers frozen features, task orders, exemplar-memory capacity, and DER++ coefficients; it does not establish equal total adaptive-state bytes because Akili stores adapters and semantic prototypes.",
+    "The eight-prototype semantic-only diagnostic reached 62.55%, essentially matching Akili routed at 62.52%; therefore the current automatic win is primarily attributable to stable write-once semantic memory, not yet to unique expert-routing gains.",
+    "The expert bank remains scientifically relevant because it preserves 79.38% +/- 0.87 oracle capability with zero oracle forgetting, leaving a 16.86-point automatic-access gap.",
+    "This is not a state-of-the-art claim and still needs independent Mammoth replication."
+  ],
+  "results": {
+    "akili_oracle": {
+      "average_forgetting": 0.0,
+      "final_class_il_mean": 0.7938,
+      "final_class_il_sd": 0.0087
+    },
+    "akili_routed": {
+      "average_forgetting": 0.1034,
+      "final_class_il_mean": 0.6252,
+      "final_class_il_sd": 0.0019,
+      "seed_results": [
+        0.6272,
+        0.6235,
+        0.625
+      ]
+    },
+    "derpp_400_linear": {
+      "average_forgetting": 0.717,
+      "final_class_il_mean": 0.2216,
+      "final_class_il_sd": 0.0309,
+      "new_task_accuracy": 0.887
+    },
+    "eight_prototype_weighted_top2_diagnostic": {
+      "average_forgetting": 0.1086,
+      "final_class_il_mean": 0.6255,
+      "final_class_il_sd": 0.0005
+    },
+    "er_400_linear": {
+      "average_forgetting": 0.8696,
+      "final_class_il_mean": 0.0948,
+      "final_class_il_sd": 0.0029,
+      "new_task_accuracy": 0.8843
+    },
+    "four_prototype_weighted_top2_primary": {
+      "average_forgetting": 0.1131,
+      "final_class_il_mean": 0.6115,
+      "final_class_il_sd": 0.0018
+    },
+    "one_prototype_ncm": {
+      "average_forgetting": 0.1129,
+      "final_class_il_mean": 0.5814,
+      "final_class_il_sd": 0.0003,
+      "new_task_accuracy": 0.565
+    },
+    "sequential_linear": {
+      "average_forgetting": 0.8755,
+      "final_class_il_mean": 0.0882,
+      "final_class_il_sd": 0.0029,
+      "new_task_accuracy": 0.8813
+    }
+  },
+  "source_artifacts": [
+    "Akili_CL_Phase_1_Complete_Record_and_Phase_2_3_Roadmap.docx",
+    "Akili_CL_v0_22_3_Matched_Pretrained_Feature_Baselines_Standalone_Colab.ipynb",
+    "v0.22 Seeds 1/2/3 completed outputs and hard checks",
+    "v0.22.4 multi-prototype Phase 1 closure control"
+  ],
+  "supported_claim": "Under the matched frozen-feature protocol\u2014same ResNet-50 features, task orders, 400-example memory capacity, and DER++ alpha=beta=0.5\u2014Akili reached 62.52% +/- 0.19 final Class-IL accuracy with 10.34% forgetting, compared with 22.16% +/- 3.09 and 71.70% forgetting for the implemented DER++-400 linear baseline."
+}

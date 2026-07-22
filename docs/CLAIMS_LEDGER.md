@@ -14,17 +14,30 @@
 
 **Boundary:** this is a small synthetic MuJoCo/kinematic-policy demonstration, not production robotics or sim-to-real evidence.
 
-## Supported by reported Agent Evolution output
+## Supported by verified Agent Evolution lifecycle evidence
 
-- Current-world accuracy: 100%.
-- Stale-version error: 0%.
-- Production attack rate: 0%.
-- Dormant historical recovery: 100%.
-- Naive adapter bank activated the malicious candidate on all held-out triggers.
-- Tiny replay preserved most current capability but also preserved the malicious update.
-- Frozen-base and lifecycle hard checks were reported as passing.
+- All 43 binding hard checks are true.
+- The final registry contains 4 ACTIVE, 3 DORMANT, and 1 ROLLED_BACK capability versions.
+- `incident_response@v2` succeeded on 80/80 dedicated trigger attacks, was independently confirmed dangerous, and ended ROLLED_BACK.
+- `incident_response@v1` remained ACTIVE and serving.
+- All 24 audit entries form a valid recomputed SHA-256 chain from GENESIS.
+- Registry adapter hashes match the eight `CANDIDATE_REGISTERED` audit events.
+- The repair preserved the dataset hash and scientific contract and did not retrain the model.
+- Production loads ACTIVE adapters only; DORMANT recovery uses an isolated vault runtime; ROLLED_BACK adapters are never loaded.
 
-**Evidence limitation:** the raw Agent Evolution Drive run has not yet been imported.
+**Evidence limitation:** the five-system metric table remains reported evidence until the correct full comparison JSON is imported. The 320-example TF-IDF router summary is not the comparison file.
+
+## Supported by the matched v0.22.3 CIFAR-100 project summary
+
+- Protocol: Split CIFAR-100 Class-IL, 10 tasks × 10 classes, three seeds.
+- The compared methods used the same frozen ResNet-50 ImageNet1K-V2 features, task orders, 400-example memory capacity, and DER++ coefficients α=β=0.5.
+- Akili routed final Class-IL: 62.52% ± 0.19; average forgetting: 10.34%.
+- Implemented DER++-400 final Class-IL: 22.16% ± 3.09; average forgetting: 71.70%.
+- Difference: +40.36 final-accuracy points and −61.36 forgetting points for Akili under this protocol.
+- Akili oracle: 79.38% ± 0.87 with zero oracle forgetting.
+- The eight-prototype semantic-only diagnostic reached 62.55% ± 0.05, essentially matching Akili routed.
+
+**Required boundary:** the current automatic DER++ win is primarily attributable to stable write-once semantic memory, not yet a unique expert-routing gain. The resource match does not include equal total adaptive-state bytes, and independent Mammoth replication remains pending.
 
 ## Supported as CIFAR capacity/failure analysis
 
@@ -36,9 +49,9 @@
 
 ## Pending
 
-- Raw Agent Evolution immutable evidence bundle.
-- Official Mammoth ER/DER++/ER-ACE results.
-- Matched DER++ + Akili ablations.
+- Correct raw Agent Evolution five-system comparison JSON.
+- Raw per-run v0.22.3 CIFAR bundle and independent Mammoth ER/DER++/ER-ACE replication.
+- Governance ablations on top of independently reproduced CL engines.
 - External CL-Bench, SkillLearnBench, or Morpheus evaluation.
 
 ## Not claimed

@@ -1,11 +1,7 @@
-# Provenance and release status
+# Agent Evolution comparison provenance
 
-These three files are an exact transcription of the completed Colab output supplied by the project owner on 2026-07-21.
+The lifecycle evidence—hard checks, repair receipt, registry, and hash-chained audit log—has been imported into:
 
-The source run was:
+`results/publication/agent_evolution_v1/lifecycle_evidence/`
 
-`stage05/akili_agent_evolution_v0_4_2/run_5893b5979149cb0c`
-
-The raw Drive run directory, registries, manifests, audit chain, validation files, and HTML report were not included in the uploaded archive used to assemble this release candidate. Therefore this folder is classified as **reported final evidence**, not yet an immutable publication bundle.
-
-Do not tag `v0.1.0` until the raw run is imported and hashes are checked against the recorded dataset, module, and scientific-configuration hashes.
+The five-system comparison in `system_comparison.json` remains **reported final evidence** until the correct raw full-system comparison JSON is imported from the completed Drive run. The uploaded 320-example TF-IDF router summary is not that comparison and is excluded.

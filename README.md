@@ -4,7 +4,7 @@
 
 > Akili turns new experience into isolated learned capabilities, validates each candidate before production activation, manages active/dormant/rolled-back states, and records a tamper-evident path back to every certified safe state.
 
-**Release status:** `v0.1.0-rc4` — public release candidate with a verified three-seed CPU robotics flagship and a reported green GPU LLM benchmark. The raw Agent Evolution Drive bundle remains pending import.
+**Release status:** `v0.1.0-rc4` — public release candidate with verified three-seed CPU robotics evidence, verified Agent Evolution lifecycle evidence, and a validated matched-feature CIFAR-100 comparison. The raw five-system Agent comparison JSON remains pending import before final `v0.1.0`.
 
 ## Why Akili
 
@@ -28,8 +28,9 @@ Akili is a **continual-learning runtime with pluggable learning engines**, not o
 | Track | Evidence | Status |
 |---|---|---|
 | **MuJoCo Robotics Benchmark v1 (CPU)** | 3 seeds; 4 skills certified per seed; 11/12 skill–seed evaluations at 1.00; 99.5% overall mean; unsafe v2 rolled back; certified three-step missions; frozen trunk; 112.7 KiB skill bank | **Verified LITE publication evidence included** |
-| **Agent Evolution Benchmark v1 (GPU/LLM)** | 100% current accuracy; 0% stale errors; 0% production attack; 100% dormant recovery | **Reported green result; raw Drive run pending** |
+| **Agent Evolution Benchmark v1 (GPU/LLM)** | 43/43 hard checks; 24-entry verified audit chain; 4 ACTIVE, 3 DORMANT, 1 ROLLED_BACK; malicious candidate blocked | **Verified lifecycle publication evidence included; full comparison JSON pending** |
 | Kimi LLM v0.1/v0.2 | Registries, manifests, audit logs, reports | Development evidence; original failures preserved |
+| **Split CIFAR-100 v0.22.3 matched DER++** | Akili 62.52% ± 0.19 vs DER++-400 22.16% ± 3.09; forgetting 10.34% vs 71.70%; same frozen features, task orders, 400-example memory, α=β=0.5 | **Validated project summary; raw run bundle and independent Mammoth replication pending** |
 | Split CIFAR-100 v0.23 | 62.55% final baseline; 75.28% top-2 union; 80.22% top-3 union; no safe arbiter selected | Null result / capacity diagnostic |
 | DER++ / ER / ER-ACE | Official Mammoth runner included | Real matched runs pending |
 
@@ -80,7 +81,28 @@ This is a small synthetic MuJoCo/kinematic-policy experiment. It is not a sim-to
 
 The result supports a narrow claim: Akili admitted legitimate revisions, suppressed obsolete behavior, rejected a clean-capable malicious update before activation, kept the prior safe version serving, and recovered dormant historical versions while the frozen base remained unchanged.
 
-The exact final output and repair receipt are included as reported evidence. The raw Drive run must still be imported before this track is labeled immutable publication evidence.
+The raw hard checks, repair receipt, registry, and 24-entry audit log are now imported and independently verified as lifecycle publication evidence. The five-system metric table above remains reported evidence until the correct full comparison JSON is imported; the 320-example TF-IDF router summary is not that comparison.
+
+## Matched CIFAR-100 result: Akili versus DER++
+
+Under the matched frozen-feature protocol—Split CIFAR-100 Class-IL, 10 tasks × 10 classes, Seeds 1/2/3, the same frozen ResNet-50 ImageNet1K-V2 features, the same task orders, the same 400-example memory capacity, and DER++ coefficients α=β=0.5—the implemented comparison produced:
+
+| Method | Final Class-IL | New-task accuracy | Average forgetting |
+|---|---:|---:|---:|
+| Sequential linear | 8.82% ± 0.29 | 88.13% | 87.55% |
+| ER-400 linear | 9.48% ± 0.29 | 88.43% | 86.96% |
+| **DER++-400 linear** | **22.16% ± 3.09** | **88.70%** | **71.70%** |
+| One-prototype NCM | 58.14% ± 0.03 | 56.50% | 11.29% |
+| **Akili routed** | **62.52% ± 0.19** | — | **10.34%** |
+| **Akili oracle** | **79.38% ± 0.87** | — | **0.00%** |
+
+Akili exceeded DER++-400 by **40.36 percentage points** in final Class-IL accuracy (2.82×) and reduced average forgetting by **61.36 points** under this implemented matched protocol.
+
+**Required interpretation:** an eight-prototype semantic-only diagnostic reached **62.55% ± 0.05**, essentially matching Akili routed. The demonstrated automatic win is primarily attributable to stable write-once semantic memory, not yet to unique gains from the full expert-routing stack. The frozen expert bank remains valuable because it preserves **79.38% ± 0.87 oracle capability with zero oracle forgetting**, leaving capability that current automatic arbitration does not recover.
+
+**Resource boundary:** the match covers frozen features, task orders, 400 stored examples, and DER++ coefficients. It does not establish equal total adaptive-state bytes because Akili also stores adapters and semantic prototypes. The independent Mammoth track will report total adaptive-state bytes and larger-buffer DER++ arms.
+
+See [results/reported/cifar100_v0_22_3_matched_derpp](results/reported/cifar100_v0_22_3_matched_derpp).
 
 ## Quickstart
 
@@ -105,7 +127,9 @@ akili-runtime/
 ├── benchmarks/split_cifar100/          # retrieval study + Mammoth runner
 ├── results/
 │   ├── publication/robotics_mujoco_v0_2/
-│   ├── reported/agent_evolution_v1/
+│   ├── publication/agent_evolution_v1/  # verified lifecycle subset
+│   ├── reported/agent_evolution_v1/     # full comparison still reported
+│   ├── reported/cifar100_v0_22_3_matched_derpp/
 │   └── development/                    # null/negative evidence
 ├── docs/                               # architecture, claims, limits, lineage
 └── tools/                              # evidence collection and release audit
@@ -123,11 +147,10 @@ akili-runtime/
 
 Before the final `v0.1.0` tag:
 
-1. import and hash-check the raw Agent Evolution run directory;
-2. run a clean stranger test from the public ZIP;
-3. replace repository/DOI placeholders after GitHub and Zenodo creation.
+1. import the correct raw Agent Evolution five-system comparison JSON and reconcile it with the four verified lifecycle files;
+2. replace the Zenodo/DOI placeholder after archive creation.
 
-DER++ matched results are a post-RC research milestone, not a prerequisite for publishing the current runtime and demonstrations.
+The clean stranger test, Apache-2.0 migration, branch cleanup, Agent lifecycle import, and matched v0.22.3 DER++ documentation are complete. Independent Mammoth replication remains a post-v0.1.0 research milestone.
 
 ## Author and commercial contact
 
