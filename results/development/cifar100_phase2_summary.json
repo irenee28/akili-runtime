@@ -1,0 +1,32 @@
+{
+  "benchmark": "Split CIFAR-100 Class-IL, 10 tasks x 10 classes, seeds 1/2/3",
+  "frozen_feature_signature": "4a50b641b771561c178823db5fe2d924d6c450511daf839dd7188b2aa9a28284",
+  "three_seed_capability_analysis": {
+    "task_free_semantic_baseline_mean": 0.6255,
+    "true_task_oracle_mean": 0.7938,
+    "candidate_union_ceiling": {
+      "top1": 0.6418,
+      "top2": 0.7528,
+      "top3": 0.8022,
+      "top5": 0.8452,
+      "any10": 0.8718
+    },
+    "cross_task_share_of_baseline_errors": 0.9088
+  },
+  "final_nonlinear_development_audit": {
+    "n": 1200,
+    "baseline_accuracy": 0.6641666667,
+    "learned_system_accuracy": 0.7008333333,
+    "full_oracle_accuracy": 0.875,
+    "net_correct_gain": 44,
+    "invocations": 142,
+    "rescues": 67,
+    "damages": 23,
+    "wrong_to_wrong": 52,
+    "precision": 0.4718,
+    "utility": -15,
+    "replay_gate_passed": false,
+    "binding_decision": "CLOSE_PHASE2_NONLINEAR_RETRIEVAL_FAILED_MOVE_PHASE3"
+  },
+  "publication_status": "capacity and failure analysis; not an official-test result"
+}

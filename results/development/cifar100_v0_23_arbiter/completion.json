@@ -1,0 +1,12 @@
+{
+  "all_hard_checks_passed": true,
+  "checkpoint_hashes": {
+    "1": "77531939e310489f6e13b9404dfe454f5cfc74c969087325232470d3fbf96111",
+    "2": "3553595d757e61cf1a53fa3dd660534ccf9713837cb9f7ca15a98d745267f43c",
+    "3": "c66cbfa4ccf438e99f566ff08524f83fa47b9e960483f9a626ef7b07a7055c2b"
+  },
+  "official_test_reaccess_on_resume": false,
+  "phase2b_gate_passed": false,
+  "protocol": "0.23B-top2-calibrated-rescue-arbiter",
+  "run_signature": "c11d6e0ad96b8750360eb137e508eaec5b9b2d561ad1a4669bcf38f757cc267c"
+}

@@ -1,0 +1,23 @@
+{
+  "all_seed_gates_passed": false,
+  "all_seed_hard_checks_passed": true,
+  "baseline_accuracy_mean": 0.6255000034968058,
+  "baseline_accuracy_std": 0.0004082430346708217,
+  "checkpoint_hashes_unchanged": true,
+  "damage_rate_mean": 0.003966666602840026,
+  "execution_mode": "expert",
+  "final_accuracy_mean": 0.6282333334287008,
+  "final_accuracy_std": 0.000997765643223202,
+  "gain_mean": 0.002733329931894938,
+  "phase1_akili_routed_reference_mean": 0.6252333333333334,
+  "phase1_oracle_reference_mean": 0.7937666666666666,
+  "phase1_semantic_p8_reference_mean": 0.6255,
+  "phase2_gate_passed": false,
+  "protocol": "0.23-semantic-first-selective-expert-rescue-clean",
+  "rescue_precision_mean": 0.6265277862548828,
+  "seeds": [
+    1,
+    2,
+    3
+  ]
+}

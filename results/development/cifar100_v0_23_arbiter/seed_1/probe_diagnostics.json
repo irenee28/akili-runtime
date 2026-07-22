@@ -1,0 +1,126 @@
+{
+  "deployed_model_metrics": {
+    "absolute_gain": 0.0,
+    "baseline_accuracy": 0.65,
+    "chosen_candidate_score_mean": null,
+    "consequential_precision": null,
+    "damage_rate": 0.0,
+    "damaged_count": 0,
+    "examples": 100,
+    "final_accuracy": 0.65,
+    "invocation_count": 0,
+    "invocation_precision": null,
+    "invocation_rate": 0.0,
+    "rescue_rate": 0.0,
+    "rescued_count": 0,
+    "rule": "baseline_no_rescue",
+    "threshold": 1.0,
+    "wrong_to_wrong_change_count": 0
+  },
+  "error_scope": {
+    "baseline_error_count": 35,
+    "cross_task_error_count": 31,
+    "cross_task_error_fraction": 0.8857142925262451,
+    "cross_task_errors_oracle_recoverable": 22,
+    "within_task_error_count": 4,
+    "within_task_error_fraction": 0.11428571492433548,
+    "within_task_errors_oracle_recoverable": 3
+  },
+  "safety_gate": {
+    "deploy_model": false,
+    "observed": {
+      "absolute_gain": 0.0,
+      "baseline_accuracy": 0.65,
+      "chosen_candidate_score_mean": null,
+      "consequential_precision": null,
+      "damage_rate": 0.0,
+      "damaged_count": 0,
+      "examples": 100,
+      "final_accuracy": 0.65,
+      "invocation_count": 0,
+      "invocation_precision": null,
+      "invocation_rate": 0.0,
+      "rescue_rate": 0.0,
+      "rescued_count": 0,
+      "rule": "baseline_no_rescue",
+      "threshold": 1.0,
+      "wrong_to_wrong_change_count": 0
+    },
+    "passed": true,
+    "reason": "Replay OOF selected baseline."
+  },
+  "selected_model_metrics": {
+    "absolute_gain": 0.0,
+    "baseline_accuracy": 0.65,
+    "chosen_candidate_score_mean": null,
+    "consequential_precision": null,
+    "damage_rate": 0.0,
+    "damaged_count": 0,
+    "examples": 100,
+    "final_accuracy": 0.65,
+    "invocation_count": 0,
+    "invocation_precision": null,
+    "invocation_rate": 0.0,
+    "rescue_rate": 0.0,
+    "rescued_count": 0,
+    "rule": "baseline_no_rescue",
+    "threshold": 1.0,
+    "wrong_to_wrong_change_count": 0
+  },
+  "topk": [
+    {
+      "baseline_errors_recoverable": 3,
+      "baseline_plus_candidate_union_accuracy": 0.6800000071525574,
+      "effective_k": 1,
+      "examples": 100,
+      "oracle_recoverable_errors_in_candidates": 3,
+      "requested_k": 1,
+      "semantic_true_task_coverage": 0.6899999976158142
+    },
+    {
+      "baseline_errors_recoverable": 9,
+      "baseline_plus_candidate_union_accuracy": 0.7400000095367432,
+      "effective_k": 2,
+      "examples": 100,
+      "oracle_recoverable_errors_in_candidates": 9,
+      "requested_k": 2,
+      "semantic_true_task_coverage": 0.7799999713897705
+    },
+    {
+      "baseline_errors_recoverable": 16,
+      "baseline_plus_candidate_union_accuracy": 0.8100000023841858,
+      "effective_k": 3,
+      "examples": 100,
+      "oracle_recoverable_errors_in_candidates": 16,
+      "requested_k": 3,
+      "semantic_true_task_coverage": 0.8799999952316284
+    },
+    {
+      "baseline_errors_recoverable": 17,
+      "baseline_plus_candidate_union_accuracy": 0.8199999928474426,
+      "effective_k": 4,
+      "examples": 100,
+      "oracle_recoverable_errors_in_candidates": 17,
+      "requested_k": 4,
+      "semantic_true_task_coverage": 0.8999999761581421
+    },
+    {
+      "baseline_errors_recoverable": 22,
+      "baseline_plus_candidate_union_accuracy": 0.8700000047683716,
+      "effective_k": 5,
+      "examples": 100,
+      "oracle_recoverable_errors_in_candidates": 22,
+      "requested_k": 5,
+      "semantic_true_task_coverage": 0.9700000286102295
+    },
+    {
+      "baseline_errors_recoverable": 25,
+      "baseline_plus_candidate_union_accuracy": 0.8999999761581421,
+      "effective_k": 10,
+      "examples": 100,
+      "oracle_recoverable_errors_in_candidates": 25,
+      "requested_k": 10,
+      "semantic_true_task_coverage": 1.0
+    }
+  ]
+}

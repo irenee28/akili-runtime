@@ -1,0 +1,62 @@
+{
+  "all_seed_hard_checks_passed": true,
+  "animation_note": "Seed 0 MP4 files are the LITE canonical display set; the full source archive retains original GIFs for all seeds.",
+  "audit_chain_linked_per_seed": {
+    "0": true,
+    "1": true,
+    "2": true
+  },
+  "audit_entries_per_seed": {
+    "0": 21,
+    "1": 21,
+    "2": 21
+  },
+  "full_checkpoint_bundle_status": "retained in private handoff; intended for immutable Drive/Zenodo archive",
+  "hard_checks_true_per_seed": {
+    "0": 12,
+    "1": 12,
+    "2": 12
+  },
+  "mean_skill_success": {
+    "avoid_zone@v1": 1.0,
+    "press_button@v1": 0.98,
+    "reach_A@v1": 1.0,
+    "reach_B@v1": 1.0
+  },
+  "mission_all_steps_certified_all_seeds": true,
+  "overall_mean_skill_success": 0.995,
+  "public_export_excludes_pickle_checkpoints": true,
+  "public_name": "Akili MuJoCo Robotics Benchmark v1",
+  "resource_ledger": {
+    "adapter_pct_of_model": 11.4,
+    "adapter_trainable_params_per_skill": 2048,
+    "akili_storage_bytes_all_skills": 115441,
+    "full_model_params": 17923,
+    "gpu_required": "none — the entire lifecycle (train, validate, rollback, compose) runs on CPU",
+    "isolated_full_models_bytes": 297460,
+    "mission_steps_certified": 3
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "sequential_reach_a_after_final_skill": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "sequential_reach_a_initial": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "source_protocol": "akili-robotics-v0.2-mujoco-four-systems",
+  "unsafe_update_state_per_seed": {
+    "0": "ROLLED_BACK",
+    "1": "ROLLED_BACK",
+    "2": "ROLLED_BACK"
+  },
+  "v1_serving_after_v2_rejection_all_seeds": true,
+  "zero_downtime_all_seeds": true
+}

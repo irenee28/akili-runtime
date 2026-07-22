@@ -1,0 +1,192 @@
+{
+  "bundle": "akili-robotics-v0.2-public-export-lite",
+  "excluded": {
+    "checkpoints": "PyTorch pickle checkpoints retained only in private/Zenodo handoff",
+    "original_gifs": "LITE handoff uses seed-0 MP4 conversions; original GIF checksums remain in source manifest",
+    "seed_1_seed_2_animations": "omitted from LITE handoff; same protocol, seed 0 is canonical display set"
+  },
+  "included_files": [
+    {
+      "bytes": 1654,
+      "path": "AGGREGATE_SUMMARY.json",
+      "sha256": "c93f3cc38da836f6989ce47f9f1c437b5760cd87a085ef168c56c83c4f8209c3"
+    },
+    {
+      "bytes": 1085,
+      "path": "SOURCE_CHECKSUM_VERIFICATION.json",
+      "sha256": "3b84df1d50ec991afe770ec61dfa311cfced6cfa06601eab0e8f0f41b9762e00"
+    },
+    {
+      "bytes": 1377,
+      "path": "SOURCE_PUBLICATION_MANIFEST.json",
+      "sha256": "b90509e47760486f8c1341f9a678854c17c6eaa7c53e0f21afe5bc34371233c7"
+    },
+    {
+      "bytes": 7557,
+      "path": "SOURCE_SHA256SUMS.txt",
+      "sha256": "b516ce66dd20461102033f4766a0a1a34afd591ef58dfe51c2d670c4f01f1b6b"
+    },
+    {
+      "bytes": 73051,
+      "path": "demo_seed_0/act1_skills.mp4",
+      "sha256": "fcba525283d597ffe5294e65a17f994e44712c5250bc81819026484cf9d44bfa"
+    },
+    {
+      "bytes": 36478,
+      "path": "demo_seed_0/act2_forgetting.mp4",
+      "sha256": "ede49ab8c4f25b1391ae4df0c55971d7e3584a0f59fa172ea23db7ff15ddcc48"
+    },
+    {
+      "bytes": 25603,
+      "path": "demo_seed_0/act3_naive_bank.mp4",
+      "sha256": "605ccf93cdad6627a083760989df9aa015cfecfcfa4197defa1ce42f63431018"
+    },
+    {
+      "bytes": 49799,
+      "path": "demo_seed_0/act4_update_rejected.mp4",
+      "sha256": "8e6578bc9019db081dbdea73c2272c303f5a9178c7e08648a985f4ed18b29d8f"
+    },
+    {
+      "bytes": 77322,
+      "path": "demo_seed_0/act5_mission.mp4",
+      "sha256": "44054ca799707fcb5a225a058dd718e17c262726cd8583e12489016bf4376a35"
+    },
+    {
+      "bytes": 3883,
+      "path": "seed_0/run_20260721T115644Z/akili_robotics_v0_2_report.json",
+      "sha256": "a494078c2a83d3e51fe470cd623b54c358256610efa2eebf817234bfc3d460fb"
+    },
+    {
+      "bytes": 6592,
+      "path": "seed_0/run_20260721T115644Z/audit_log.json",
+      "sha256": "cad21a7aac505601494b56af283267da407e5ad8abf494710ad06c1566885d55"
+    },
+    {
+      "bytes": 413,
+      "path": "seed_0/run_20260721T115644Z/hard_checks.json",
+      "sha256": "e99245b6dfeb510b431f8856904eb2274f2f28c374d5ba70eccab01696a07536"
+    },
+    {
+      "bytes": 1248,
+      "path": "seed_0/run_20260721T115644Z/mission_receipt.json",
+      "sha256": "7dae2f9b7d3555cb8245f8dceb35a79fda0fa9c54728c6343e5a3f41b4471b6b"
+    },
+    {
+      "bytes": 33570,
+      "path": "seed_0/run_20260721T115644Z/motion_library.json",
+      "sha256": "2de6aaecbc17fbce0b17649db6161158579bad1473b6820b4f9e8f7bfef078d9"
+    },
+    {
+      "bytes": 442,
+      "path": "seed_0/run_20260721T115644Z/play_res.json",
+      "sha256": "d538def39da1b638d478769ef28c7090d723a4daba4a35689af3ac0cc2cc29d9"
+    },
+    {
+      "bytes": 4666,
+      "path": "seed_0/run_20260721T115644Z/registry.json",
+      "sha256": "f821829a30b1c2ea7f4d02a84db491c2caf27261a047ad5656a3e36c4601da72"
+    },
+    {
+      "bytes": 243,
+      "path": "seed_0/run_20260721T115644Z/seq_res.json",
+      "sha256": "b54386f849ad476b3d84a3b07866b2ca81084675a54d549ab8e48c6d3df56c1b"
+    },
+    {
+      "bytes": 9120,
+      "path": "seed_0/seed0.log",
+      "sha256": "0aa818e819a0cc2b9fedb6516c241da29017c9fef30f7bda41015503e7c11edd"
+    },
+    {
+      "bytes": 3885,
+      "path": "seed_1/run_20260721T120433Z/akili_robotics_v0_2_report.json",
+      "sha256": "32c79a1d77c3e1b7b4c9d194deb4e2299bdf7233023f9a20caa319a495d4045d"
+    },
+    {
+      "bytes": 6593,
+      "path": "seed_1/run_20260721T120433Z/audit_log.json",
+      "sha256": "9a8c2f51a0eb2122cac0124f3b21fa63f00f779efdd84817b2245ec3f1222542"
+    },
+    {
+      "bytes": 413,
+      "path": "seed_1/run_20260721T120433Z/hard_checks.json",
+      "sha256": "e99245b6dfeb510b431f8856904eb2274f2f28c374d5ba70eccab01696a07536"
+    },
+    {
+      "bytes": 1248,
+      "path": "seed_1/run_20260721T120433Z/mission_receipt.json",
+      "sha256": "c8e26d5dbd0d8dca711848c84f0c84a2abb4f60420c4e3e450e64b1cb84902b0"
+    },
+    {
+      "bytes": 33570,
+      "path": "seed_1/run_20260721T120433Z/motion_library.json",
+      "sha256": "2de6aaecbc17fbce0b17649db6161158579bad1473b6820b4f9e8f7bfef078d9"
+    },
+    {
+      "bytes": 442,
+      "path": "seed_1/run_20260721T120433Z/play_res.json",
+      "sha256": "d538def39da1b638d478769ef28c7090d723a4daba4a35689af3ac0cc2cc29d9"
+    },
+    {
+      "bytes": 4668,
+      "path": "seed_1/run_20260721T120433Z/registry.json",
+      "sha256": "93e55da8a7eeabbbb5c504a6d2472bdc333a967a0d7e588eaca0595a506e0d9f"
+    },
+    {
+      "bytes": 243,
+      "path": "seed_1/run_20260721T120433Z/seq_res.json",
+      "sha256": "b54386f849ad476b3d84a3b07866b2ca81084675a54d549ab8e48c6d3df56c1b"
+    },
+    {
+      "bytes": 9120,
+      "path": "seed_1/seed1.log",
+      "sha256": "75c14d680c5688e1d96c1e7b51e18daf07dfcfe354544b72b2954812819daa22"
+    },
+    {
+      "bytes": 3882,
+      "path": "seed_2/run_20260721T121222Z/akili_robotics_v0_2_report.json",
+      "sha256": "9416c9b308ac72af63532f401e78d2700f986502def4ef1a294f3dc2b328201e"
+    },
+    {
+      "bytes": 6592,
+      "path": "seed_2/run_20260721T121222Z/audit_log.json",
+      "sha256": "0f139c39609d8c50edb5de0687f4781f51a2e666bfe6ee6ec24896f756457e94"
+    },
+    {
+      "bytes": 413,
+      "path": "seed_2/run_20260721T121222Z/hard_checks.json",
+      "sha256": "e99245b6dfeb510b431f8856904eb2274f2f28c374d5ba70eccab01696a07536"
+    },
+    {
+      "bytes": 1246,
+      "path": "seed_2/run_20260721T121222Z/mission_receipt.json",
+      "sha256": "07c58f1814c4facf4c7c906cb3d40ecc790d894031d594f391670f98e1ff277c"
+    },
+    {
+      "bytes": 33570,
+      "path": "seed_2/run_20260721T121222Z/motion_library.json",
+      "sha256": "2de6aaecbc17fbce0b17649db6161158579bad1473b6820b4f9e8f7bfef078d9"
+    },
+    {
+      "bytes": 442,
+      "path": "seed_2/run_20260721T121222Z/play_res.json",
+      "sha256": "d538def39da1b638d478769ef28c7090d723a4daba4a35689af3ac0cc2cc29d9"
+    },
+    {
+      "bytes": 4666,
+      "path": "seed_2/run_20260721T121222Z/registry.json",
+      "sha256": "994db711c2015c01839d211f90d95ea176c7fab4d8b211037171e37322efcce2"
+    },
+    {
+      "bytes": 243,
+      "path": "seed_2/run_20260721T121222Z/seq_res.json",
+      "sha256": "b54386f849ad476b3d84a3b07866b2ca81084675a54d549ab8e48c6d3df56c1b"
+    },
+    {
+      "bytes": 9120,
+      "path": "seed_2/seed2.log",
+      "sha256": "faa0d6f19d9d58eacb0e6b11d00d8e0dc27b4d14ad81c6a4fac483df2ddfb27f"
+    }
+  ],
+  "source_handoff_sha256": "50f7805ae2fb06fffb1513d38cb59cb3dbf9a9e773b67881ab05c5d41521a6a7",
+  "source_notebook_sha256": "46edad256c621bbf3b25f1cb8c917492568f28a15d798c5de7ce4c9a96e6ab87"
+}

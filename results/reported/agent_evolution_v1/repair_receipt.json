@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-07-21T11:41:29.254240+00:00",
+  "dataset_hash": "c2d45dca280ae5be4c3d5b1c904c361c4fc7481f7389cfd5706b8c8fbda2ac22",
+  "dataset_hash_preserved": true,
+  "original_module_hash": "74e053da23efd461ba81ecef71a99fb380e0316706138c574884ae281bafb6f0",
+  "original_resolved_config_sha256": "c0efa4510b6c96f6d4571bdd1d81763364dd6fa79f4705d0a53aad8dd03e9203",
+  "repair": "keep production runtime ACTIVE-only; cold-load each DORMANT adapter in an isolated vault-recovery runtime; never load the ROLLED_BACK malicious adapter",
+  "repair_module_hash": "559eed29e72283366c703d8e22a23ac6a46905f04231f6a0bc70300d16987ca1",
+  "repair_protocol": "akili-agent-evolution-v0.4.2.2-final-resume-audit",
+  "root_cause": "production runtime loaded ACTIVE adapters only, then attempted set_adapter on DORMANT energy/procurement/inventory v1 adapters that were not resident",
+  "scientific_config_hash": "7dcc6b37b2aafdf2fefb40d9c1572c41f428298fb87d4d4ea588d62016093b7c",
+  "scientific_contract_unchanged": true,
+  "source_protocol": "akili-agent-evolution-v0.4.2-unified-acceptance-contract",
+  "source_run": "/content/drive/MyDrive/AKM_CLR/stage05/akili_agent_evolution_v0_4_2/run_5893b5979149cb0c",
+  "training_reexecuted_by_repair": false
+}

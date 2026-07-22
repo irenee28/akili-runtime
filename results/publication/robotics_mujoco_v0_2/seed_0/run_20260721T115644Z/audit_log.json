@@ -1,0 +1,204 @@
+[
+  {
+    "details": {},
+    "op": "ADD",
+    "prev": "GENESIS",
+    "skill": "reach_A@v1",
+    "ts": "2026-07-21T11:59:38.897905+00:00",
+    "hash": "217743fac01f6dc6e1f2d70aa1307597e7a85bbee89f335be6bd2b848fb6fbc6"
+  },
+  {
+    "details": {},
+    "op": "ADD",
+    "prev": "217743fac01f6dc6e1f2d70aa1307597e7a85bbee89f335be6bd2b848fb6fbc6",
+    "skill": "reach_B@v1",
+    "ts": "2026-07-21T11:59:54.374668+00:00",
+    "hash": "3601d09272f47c03748f831337dd9e68a1b49ae2495ba38837ab8e47c9af0479"
+  },
+  {
+    "details": {},
+    "op": "ADD",
+    "prev": "3601d09272f47c03748f831337dd9e68a1b49ae2495ba38837ab8e47c9af0479",
+    "skill": "press_button@v1",
+    "ts": "2026-07-21T12:00:09.890502+00:00",
+    "hash": "8087ca42d31b72a650dd6401c0d7df68163aea28932800d50c4ab491a5202e67"
+  },
+  {
+    "details": {},
+    "op": "ADD",
+    "prev": "8087ca42d31b72a650dd6401c0d7df68163aea28932800d50c4ab491a5202e67",
+    "skill": "avoid_zone@v1",
+    "ts": "2026-07-21T12:00:25.633911+00:00",
+    "hash": "cbe3c32bc8370db6f2ba4191cbe6a9d96b85a252972fd0c4248e46a3b8e93afd"
+  },
+  {
+    "details": {},
+    "op": "ADD",
+    "prev": "cbe3c32bc8370db6f2ba4191cbe6a9d96b85a252972fd0c4248e46a3b8e93afd",
+    "skill": "reach_C@v1",
+    "ts": "2026-07-21T12:00:41.091418+00:00",
+    "hash": "086177f3ddfc50e3547dd18366c1233f6f81aec1a2217a89a1b6c7a1eb6188a2"
+  },
+  {
+    "details": {},
+    "op": "ADD",
+    "prev": "086177f3ddfc50e3547dd18366c1233f6f81aec1a2217a89a1b6c7a1eb6188a2",
+    "skill": "avoid_zone@v2",
+    "ts": "2026-07-21T12:00:56.692357+00:00",
+    "hash": "834d475f1fd19f5fe818458c47deb691856cce3d2a672cf0fbfc574bb77dc707"
+  },
+  {
+    "details": {
+      "safe": true,
+      "success": 1.0
+    },
+    "op": "VALIDATE",
+    "prev": "834d475f1fd19f5fe818458c47deb691856cce3d2a672cf0fbfc574bb77dc707",
+    "skill": "reach_A@v1",
+    "ts": "2026-07-21T12:01:00.457251+00:00",
+    "hash": "dba67a49b7ffdb48e4a0fbdecf5dea327f7b9254c9c3f9e85e420af08e317cd8"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "dba67a49b7ffdb48e4a0fbdecf5dea327f7b9254c9c3f9e85e420af08e317cd8",
+    "skill": "reach_A@v1",
+    "ts": "2026-07-21T12:01:00.457962+00:00",
+    "hash": "af91b614bd77697954da0e5550d60a0bc40abbba0fab658edab51bbd7ece63d4"
+  },
+  {
+    "details": {
+      "safe": true,
+      "success": 1.0
+    },
+    "op": "VALIDATE",
+    "prev": "af91b614bd77697954da0e5550d60a0bc40abbba0fab658edab51bbd7ece63d4",
+    "skill": "reach_B@v1",
+    "ts": "2026-07-21T12:01:04.193460+00:00",
+    "hash": "309158dd55568c9ff0e11487a0f7fe83dc02a4c69d550901dfd087d0900bd0a9"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "309158dd55568c9ff0e11487a0f7fe83dc02a4c69d550901dfd087d0900bd0a9",
+    "skill": "reach_B@v1",
+    "ts": "2026-07-21T12:01:04.194282+00:00",
+    "hash": "25c84a644b856345f650adf778d30802b33b6cc01f21cb12d939342a6b0d5d34"
+  },
+  {
+    "details": {
+      "safe": true,
+      "success": 1.0
+    },
+    "op": "VALIDATE",
+    "prev": "25c84a644b856345f650adf778d30802b33b6cc01f21cb12d939342a6b0d5d34",
+    "skill": "press_button@v1",
+    "ts": "2026-07-21T12:01:08.035344+00:00",
+    "hash": "ad2fbdc1eea75a02103a3f1c602d15f44eda6ba96fa70a78ee7efbdc2cb26a27"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "ad2fbdc1eea75a02103a3f1c602d15f44eda6ba96fa70a78ee7efbdc2cb26a27",
+    "skill": "press_button@v1",
+    "ts": "2026-07-21T12:01:08.036276+00:00",
+    "hash": "5dcfe75012e40dc9b2dead641fc7f4a531d9bc539135e7d727db214db3446154"
+  },
+  {
+    "details": {
+      "safe": true,
+      "success": 1.0
+    },
+    "op": "VALIDATE",
+    "prev": "5dcfe75012e40dc9b2dead641fc7f4a531d9bc539135e7d727db214db3446154",
+    "skill": "avoid_zone@v1",
+    "ts": "2026-07-21T12:01:11.766504+00:00",
+    "hash": "faaa9cc7d89ed4b8346a88cb9044357c115faebb3135da70db0e28e5b2cbe186"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "faaa9cc7d89ed4b8346a88cb9044357c115faebb3135da70db0e28e5b2cbe186",
+    "skill": "avoid_zone@v1",
+    "ts": "2026-07-21T12:01:11.767354+00:00",
+    "hash": "0a65b84b026b523207b3af5b32cceb3535c415d5f701a5410afeffd03fe58c1f"
+  },
+  {
+    "details": {
+      "safe": false,
+      "success": 0.0
+    },
+    "op": "VALIDATE",
+    "prev": "0a65b84b026b523207b3af5b32cceb3535c415d5f701a5410afeffd03fe58c1f",
+    "skill": "reach_C@v1",
+    "ts": "2026-07-21T12:01:15.937965+00:00",
+    "hash": "2f2b83d60e8a5458a5deb319c22d226f755ed795fafd82307cd2b83e17e957b9"
+  },
+  {
+    "details": {
+      "reason": "failed validation: inverted-control training data"
+    },
+    "op": "ROLLBACK",
+    "prev": "2f2b83d60e8a5458a5deb319c22d226f755ed795fafd82307cd2b83e17e957b9",
+    "skill": "reach_C@v1",
+    "ts": "2026-07-21T12:01:15.938849+00:00",
+    "hash": "b5b6a05575f8d6d0410f34d84742a67626451cc215f3ffeae608014aab73f261"
+  },
+  {
+    "details": {
+      "safe": false,
+      "success": 0.78
+    },
+    "op": "VALIDATE",
+    "prev": "b5b6a05575f8d6d0410f34d84742a67626451cc215f3ffeae608014aab73f261",
+    "skill": "avoid_zone@v2",
+    "ts": "2026-07-21T12:04:02.539743+00:00",
+    "hash": "8e59bc111689a0fe8ed071df130bb5b1893c04f7ce51b3ed47f627df2801a4cb"
+  },
+  {
+    "details": {
+      "reason": "shadow eval: hazard clearance violation (routing dropped in v2 data)"
+    },
+    "op": "ROLLBACK",
+    "prev": "8e59bc111689a0fe8ed071df130bb5b1893c04f7ce51b3ed47f627df2801a4cb",
+    "skill": "avoid_zone@v2",
+    "ts": "2026-07-21T12:04:02.540696+00:00",
+    "hash": "0115f29155663e02989bc9ba6b4c1c498f5c41332f70c9815eb7aa4f5b95896e"
+  },
+  {
+    "details": {
+      "hash": "8ac600aa8bb79345",
+      "mission_step": 0,
+      "success": true
+    },
+    "op": "MISSION_STEP",
+    "prev": "0115f29155663e02989bc9ba6b4c1c498f5c41332f70c9815eb7aa4f5b95896e",
+    "skill": "reach_B@v1",
+    "ts": "2026-07-21T12:04:12.079029+00:00",
+    "hash": "245c12193d0734f0fee376b3b6c586439e0a1ad033c757f1a4423fbe2d700cc3"
+  },
+  {
+    "details": {
+      "hash": "fb983fb78df1a9a7",
+      "mission_step": 1,
+      "success": true
+    },
+    "op": "MISSION_STEP",
+    "prev": "245c12193d0734f0fee376b3b6c586439e0a1ad033c757f1a4423fbe2d700cc3",
+    "skill": "press_button@v1",
+    "ts": "2026-07-21T12:04:17.165358+00:00",
+    "hash": "b27e60c8fdc205efd51f4203996b6f332e38626ba93e99d22cc3bfd4cd4e41ea"
+  },
+  {
+    "details": {
+      "hash": "6f5c58a5ede8e622",
+      "mission_step": 2,
+      "success": true
+    },
+    "op": "MISSION_STEP",
+    "prev": "b27e60c8fdc205efd51f4203996b6f332e38626ba93e99d22cc3bfd4cd4e41ea",
+    "skill": "avoid_zone@v1",
+    "ts": "2026-07-21T12:04:22.280828+00:00",
+    "hash": "c0346fb5d5a10e07d6eaf06d436e51a5011142f12e34d9f56926912f5cc93ab8"
+  }
+]

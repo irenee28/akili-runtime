@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "protocol": "0.23T-final-nonlinear-groupwise-rescue-verification",
+  "module_sha256": "76487bb846fd9531cefc3a9ddefa486578db3e6529e159d9f209127662d97e70",
+  "notebook_sha256": "4a3732b1d4d46c16edb62f177e5d0b0296b3a0b3cfd0953d45e191e1e682e794",
+  "executed_notebook_sha256": "2b2a72d76a199d01f851515a6cca9e9ee850b4fd3e1b7918adfcfbf5c6e9381f",
+  "compiled_notebook_code_cells": 7,
+  "static_checks": {
+    "no_hardcoded_real_shortcut_id": true,
+    "no_hardcoded_real_v023r_run_id": true,
+    "no_old_v023s_environment_names": true,
+    "no_hist_gradient_boosting_dependency": true,
+    "module_ast_parses": true,
+    "module_compiles": true,
+    "all_notebook_code_cells_compile": true,
+    "executed_notebook_has_no_error_outputs": true
+  },
+  "synthetic_end_to_end_verification": {
+    "passed": true,
+    "shortcut_aware_project_discovery": true,
+    "source_run_auto_discovery": true,
+    "v023r_digest_compatibility": true,
+    "legacy_float64_digest_rejected": true,
+    "corrected_digest_matches_v023r_reference": true,
+    "group_feature_count": 382,
+    "rank_feature_count": 543,
+    "model_spec_count": 6,
+    "model_specs": [
+      "two_stage_extra_trees",
+      "two_stage_random_forest",
+      "two_stage_blend",
+      "joint_extra_trees",
+      "joint_random_forest",
+      "joint_blend"
+    ],
+    "preflight_model_roundtrip_errors": {
+      "two_stage_extra_trees": 0.0,
+      "two_stage_random_forest": 0.0,
+      "two_stage_blend": 0.0,
+      "joint_extra_trees": 0.0,
+      "joint_random_forest": 0.0,
+      "joint_blend": 0.0
+    },
+    "maximum_model_roundtrip_error": 0.0,
+    "none_precision_selection_safe": true,
+    "probe_access_count_when_replay_fails": 0,
+    "probe_files_deserialized_when_replay_fails": 0,
+    "official_test_accesses": 0,
+    "decision_status": "CLOSE_PHASE2_WITH_VALIDATED_NONLINEAR_VERIFIER_MOVE_PHASE3",
+    "phase2_closed": true,
+    "move_to_phase3": true,
+    "output_root": "/mnt/data/v023t_final_report_verification2/drive/.shortcut-targets-by-id/synthetic-shortcut-id/ALL/AKM_CLR/stage04/v0_23T_synthetic_verification/run_f6c9b3c3daffe18a"
+  },
+  "real_drive_execution_performed": false,
+  "real_drive_execution_note": "The complete notebook was executed with AKILI_V023T_SKIP_REAL=1. The real v0.23R evidence exists only in the user Google Drive.",
+  "locked_real_model_specs": [
+    "two_stage_extra_trees",
+    "two_stage_random_forest",
+    "two_stage_blend",
+    "joint_extra_trees",
+    "joint_random_forest",
+    "joint_blend"
+  ],
+  "locked_real_threshold_grid_sizes": {
+    "gate": 17,
+    "expert": 8,
+    "margin": 8
+  },
+  "leakage_contract": {
+    "protected_probe_deserialization_before_replay_pass": false,
+    "official_test_implemented": false,
+    "seed_identifier_in_features": false,
+    "labels_or_true_task_in_features": false,
+    "raw_prediction_or_task_ids_in_features": false
+  },
+  "phase2_contract": {
+    "phase2_closes_after_v023t": true,
+    "move_to_phase3_after_v023t": true
+  }
+}

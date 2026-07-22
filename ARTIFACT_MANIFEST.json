@@ -1,0 +1,1142 @@
+[
+  {
+    "path": ".github/workflows/ci.yml",
+    "bytes": 346,
+    "sha256": "e23b0d6b12579b3d5eba00d11ecb510cb85f03597d3fcb21250df489803092a8",
+    "suffix": ".yml"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 131,
+    "sha256": "834926ee31fe2a561d8be46edff689a08e760e635c5e18d59dad9d35b58552e0",
+    "suffix": ""
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 617,
+    "sha256": "1f60bb85ca1fdef36c3f0e3a27d6cc12a65f4c70a1e220484694914fa8759c91",
+    "suffix": ".cff"
+  },
+  {
+    "path": "COMMERCIAL_LICENSE.md",
+    "bytes": 1009,
+    "sha256": "d0d5da2479827861bb5b86f537699156c9ca0499f16ae632fbc4da2e6e127e20",
+    "suffix": ".md"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 893,
+    "sha256": "f10804d70fcacb0045eb9b7304777c6948af71cfe6ded45fa613f58947276b72",
+    "suffix": ".md"
+  },
+  {
+    "path": "EVIDENCE.md",
+    "bytes": 1617,
+    "sha256": "ff0a65195a6aedf11e53a3b256ad96eb3707b0b9aef40cd1884b37e56e3e5491",
+    "suffix": ".md"
+  },
+  {
+    "path": "GITHUB_SETUP.md",
+    "bytes": 3181,
+    "sha256": "4b8371e1c0963046fea728feaeb03e002b234d8d641f7fd7969f4e978b85516a",
+    "suffix": ".md"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 4559,
+    "sha256": "ac6b09bae572774ff2d8dbf3a530272bde03614eb04cecf9d83ccac3dd5964d8",
+    "suffix": ""
+  },
+  {
+    "path": "Makefile",
+    "bytes": 180,
+    "sha256": "5e0d16af3adc757b385fe753b4ba6aab0212915591221e30e3781b8b4fe9db34",
+    "suffix": ""
+  },
+  {
+    "path": "NOTICE",
+    "bytes": 315,
+    "sha256": "17ea78c4709ead3b62394daa1e4eeacfa75059fb255863ea88732449f66a0f28",
+    "suffix": ""
+  },
+  {
+    "path": "README.md",
+    "bytes": 7324,
+    "sha256": "e29815ba886813e5b96eea057efc9222879c41792bf2361f5958663809c82273",
+    "suffix": ".md"
+  },
+  {
+    "path": "REPRODUCE.md",
+    "bytes": 1882,
+    "sha256": "b085cf8777c76d590c27ca7ccad5638b821f773a3dfada3f526aeb3060c0687d",
+    "suffix": ".md"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 543,
+    "sha256": "d6beb19cd33523a73ce95ac5573bb09894f9bdaeac4d3e51427b471fc45effda",
+    "suffix": ".md"
+  },
+  {
+    "path": "TRADEMARK.md",
+    "bytes": 576,
+    "sha256": "77ee9bcbee53a7ea6384d4a5f60453eb37538f463dc1e959c000697e196208bf",
+    "suffix": ".md"
+  },
+  {
+    "path": "assets/robotics_mujoco_v0_2/act1_skills.png",
+    "bytes": 79633,
+    "sha256": "cec5e51ada08a0a80d824ccf9bd560203f9a8180508c4feaac9eb762ac85e769",
+    "suffix": ".png"
+  },
+  {
+    "path": "assets/robotics_mujoco_v0_2/act2_forgetting.png",
+    "bytes": 83232,
+    "sha256": "b9ec57496e514c332945290b4b9432e4ca0501e37f24f3fee61add98f2883539",
+    "suffix": ".png"
+  },
+  {
+    "path": "assets/robotics_mujoco_v0_2/act3_naive_bank.png",
+    "bytes": 87749,
+    "sha256": "1c0aa95601c2e3362189b1cc91abae5faac6b7bb3da4121005231541ff7cc73a",
+    "suffix": ".png"
+  },
+  {
+    "path": "assets/robotics_mujoco_v0_2/act4_update_rejected.png",
+    "bytes": 167460,
+    "sha256": "b0d3666496ea79dd4ac699ea7012ffc2bf713aff35d5822341e72860fdb981a2",
+    "suffix": ".png"
+  },
+  {
+    "path": "assets/robotics_mujoco_v0_2/act5_mission.png",
+    "bytes": 79324,
+    "sha256": "864c98bff64c2843f06a0e4d0f32814e462466ee3267943b7e3f0fac050e1505",
+    "suffix": ".png"
+  },
+  {
+    "path": "benchmarks/split_cifar100/Akili_CL_Phase2_Retrieval_Audit_Standalone_Colab.ipynb",
+    "bytes": 43733,
+    "sha256": "7ba3255fc463a9f640e621a50b1e45bbf414fcb60f26858f22c153a7a7c50eed",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "benchmarks/split_cifar100/Akili_CL_v0_23C_Three_Action_Correctness_Arbiter_Standalone_Colab.ipynb",
+    "bytes": 34073,
+    "sha256": "4d724c3f5a123217214885d0739ab8321e91cb7e0377bb33f3cce0eaf398c762",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "benchmarks/split_cifar100/Akili_CL_v0_23T_Final_Nonlinear_Groupwise_Verifier_Standalone_Colab.ipynb",
+    "bytes": 160076,
+    "sha256": "4a3732b1d4d46c16edb62f177e5d0b0296b3a0b3cfd0953d45e191e1e682e794",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "benchmarks/split_cifar100/Akili_CL_v0_23T_Verification_Report.json",
+    "bytes": 2992,
+    "sha256": "d2e519a585479b4b52ffbd26de0a155118ac2141ce49f90d926f80c6daca213e",
+    "suffix": ".json"
+  },
+  {
+    "path": "benchmarks/split_cifar100/Akili_Mammoth_DERPP_Baseline_Suite_v1_Standalone_Colab.ipynb",
+    "bytes": 20377,
+    "sha256": "99369fb285b7153dcd3aba4ff798fa49d5e491a3907cb869ad54d0875e7c2e19",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "benchmarks/split_cifar100/DERPP_STATUS.md",
+    "bytes": 387,
+    "sha256": "12f095bf7f8feb563dc194e677cd401f07f9137d886a05e6d145467ef4b56db9",
+    "suffix": ".md"
+  },
+  {
+    "path": "benchmarks/split_cifar100/README.md",
+    "bytes": 2820,
+    "sha256": "b2623b39b6b308c579798d591f18b2383c41dde338fc0081e4ed1d5b1509ea2e",
+    "suffix": ".md"
+  },
+  {
+    "path": "benchmarks/split_cifar100/RESULTS_TEMPLATE.csv",
+    "bytes": 164,
+    "sha256": "096482303ec32c8118873028d538f6a2a8728d9c788d8e5225957792c85c6adc",
+    "suffix": ".csv"
+  },
+  {
+    "path": "benchmarks/split_cifar100/akili_mammoth_baseline_suite_v1.py",
+    "bytes": 12714,
+    "sha256": "846d4e43c413db35ea936e1080f5fd66dcf97f8a3da94d6906cd164647c42259",
+    "suffix": ".py"
+  },
+  {
+    "path": "benchmarks/split_cifar100/akili_v023t_final_nonlinear_groupwise_verifier.py",
+    "bytes": 136941,
+    "sha256": "76487bb846fd9531cefc3a9ddefa486578db3e6529e159d9f209127662d97e70",
+    "suffix": ".py"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "bytes": 1478,
+    "sha256": "909b73d633631647f30dc529a80e42befd037c6e49e0266d6de7c0823d58d5cd",
+    "suffix": ".md"
+  },
+  {
+    "path": "docs/CIFAR100_FINDINGS.md",
+    "bytes": 882,
+    "sha256": "3c749d6842bb0b3e59e2723b929378369e15d6d7cd6f2499ecb203f5d85df3c1",
+    "suffix": ".md"
+  },
+  {
+    "path": "docs/CIFAR100_ORACLE_GAP.md",
+    "bytes": 1435,
+    "sha256": "cb4e7f0f5ccfa61af59044835411ca951d03eda92dc0727a479223e6b0ba43cb",
+    "suffix": ".md"
+  },
+  {
+    "path": "docs/CLAIMS_LEDGER.md",
+    "bytes": 2409,
+    "sha256": "a4244cd74a160c3819b2864d732bcc8a2d796d666fb31839125e5742f7164e60",
+    "suffix": ".md"
+  },
+  {
+    "path": "docs/COLAB_OPERATIONS.md",
+    "bytes": 1421,
+    "sha256": "962fa0f4bbf758e6e8fee6e046eec519097f08f42132c34c836d133f732150f4",
+    "suffix": ".md"
+  },
+  {
+    "path": "docs/EXPERIMENT_LINEAGE.md",
+    "bytes": 920,
+    "sha256": "5e0853f5dd9e989c6183696e0818dee6ef2322fca7e20cd297718b12cadc75c4",
+    "suffix": ".md"
+  },
+  {
+    "path": "docs/LIMITATIONS.md",
+    "bytes": 1424,
+    "sha256": "34af5361930e75fa381aba6b223419c74c3944d195412f33e42ede01ad4e98a2",
+    "suffix": ".md"
+  },
+  {
+    "path": "docs/PUBLIC_PRIVATE_BOUNDARY.md",
+    "bytes": 986,
+    "sha256": "f94b776d86c3b55c93904db74627c4d8eade91f223606f0c27156839bb07360f",
+    "suffix": ".md"
+  },
+  {
+    "path": "examples/minimal_lifecycle.py",
+    "bytes": 1962,
+    "sha256": "f693b7bcd267b7ceb5897676307d55e4a9a000b8fca8262613fcf42cbfeaebb0",
+    "suffix": ".py"
+  },
+  {
+    "path": "experiments/agent_evolution/Akili_Agent_Evolution_v0_4_2_2_Final_In_Place_Resume_Standalone_Colab.ipynb",
+    "bytes": 456024,
+    "sha256": "5fa6b2fcbd40b42bc45c8a47d9984b1abc9437a75a4576818aa6bf5481300709",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "experiments/agent_evolution/Akili_Agent_Evolution_v0_4_2_2_Verification_Report.json",
+    "bytes": 65995,
+    "sha256": "e2bb268bc9fc3125eca230f78d528305493e93ac6cdcdac79417c2a2a717f9fc",
+    "suffix": ".json"
+  },
+  {
+    "path": "experiments/agent_evolution/README.md",
+    "bytes": 960,
+    "sha256": "d272ef5867dbc7647a40648b0fddc073207abd117053c566c6510454cb0fb908",
+    "suffix": ".md"
+  },
+  {
+    "path": "experiments/agent_evolution/akili_agent_evolution_v0_4_2_2_final_resume.py",
+    "bytes": 188347,
+    "sha256": "559eed29e72283366c703d8e22a23ac6a46905f04231f6a0bc70300d16987ca1",
+    "suffix": ".py"
+  },
+  {
+    "path": "experiments/llm_skill_runtime/Akili_Skill_Runtime_v0_1_Standalone_Colab.ipynb",
+    "bytes": 39671,
+    "sha256": "aad77ed10be930701cc38cfc5639e9dcf2a9f958a428a448dc6c4bca0b473456",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "experiments/llm_skill_runtime/Akili_Skill_Runtime_v0_2_Three_Systems_Standalone_Colab.ipynb",
+    "bytes": 52349,
+    "sha256": "d173afaf4621711280ea2630637204d681c80360f262e2d9690f696647e46495",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "experiments/llm_skill_runtime/README.md",
+    "bytes": 380,
+    "sha256": "e21c85b47c5d84ebfcb1ddfe718ac36d654167af51f994c90d65d285d9e4763b",
+    "suffix": ".md"
+  },
+  {
+    "path": "experiments/robotics_mujoco/Akili_Robotics_v0_2_MuJoCo_Standalone.ipynb",
+    "bytes": 66453,
+    "sha256": "46edad256c621bbf3b25f1cb8c917492568f28a15d798c5de7ce4c9a96e6ab87",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "experiments/robotics_mujoco/README.md",
+    "bytes": 388,
+    "sha256": "7b0833cf60e47dab6069b67ef2f011f4155fb0634bc64161fe5df465932ad28f",
+    "suffix": ".md"
+  },
+  {
+    "path": "notebooks/README.md",
+    "bytes": 966,
+    "sha256": "fd498b5fb6d907ad550c9bd3c21a430ea02c8237397f7c732bf568ad46f783ba",
+    "suffix": ".md"
+  },
+  {
+    "path": "notebooks/cifar100/Akili_CL_v0_23T_Final_Nonlinear_Groupwise_Verifier_Standalone_Colab.ipynb",
+    "bytes": 160075,
+    "sha256": "576b2cccf4c5add8cac2c3cad6cb2fa7e498a67535a1ec130109bcb15dfeacad",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "notebooks/llm/Akili_Skill_Runtime_v0_1_Standalone_Colab.ipynb",
+    "bytes": 39671,
+    "sha256": "aad77ed10be930701cc38cfc5639e9dcf2a9f958a428a448dc6c4bca0b473456",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "notebooks/llm/development/Akili_Skill_Runtime_v0_2_Three_Systems_Standalone_Colab.ipynb",
+    "bytes": 52349,
+    "sha256": "d173afaf4621711280ea2630637204d681c80360f262e2d9690f696647e46495",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "notebooks/publication/Akili_LLM_Skill_Runtime_v0_1_Three_Seed_Publication_Rerun_Colab.ipynb",
+    "bytes": 68604,
+    "sha256": "62da2ea18b7a7471586687530ba0a03dcb2cadb25d56836bb8ebab1be3ae921f",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "notebooks/publication/Akili_MuJoCo_v0_2_Three_Seed_Publication_Rerun_Colab.ipynb",
+    "bytes": 93337,
+    "sha256": "a4f37bbc7c57b9368ffef5783bee76c62e54a604d5aa8448ef343112c1a66e59",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "notebooks/robotics/Akili_Robotics_v0_2_MuJoCo_Standalone.ipynb",
+    "bytes": 66453,
+    "sha256": "46edad256c621bbf3b25f1cb8c917492568f28a15d798c5de7ce4c9a96e6ab87",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 758,
+    "sha256": "5acad96cfc662b2f5129cb6d8b3c18efa85c5f4f21fb098ca069c138fe5a214a",
+    "suffix": ".toml"
+  },
+  {
+    "path": "results/README.md",
+    "bytes": 573,
+    "sha256": "9c32ff80cda1bebccddf6445b061c38b64cb3da5cb2d068c30ab346374f94d47",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/cifar100_phase2_oracle_gap.json",
+    "bytes": 747,
+    "sha256": "6d9b8cf98ca8655f34e8f7c887f927668254fe6ee159792b155cb2058d0757e8",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_phase2_summary.json",
+    "bytes": 1046,
+    "sha256": "18d7e37002a1b652a3e59392d0b5db69062c265bbfb62aed45ea0dee2b6c0292",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/README.md",
+    "bytes": 627,
+    "sha256": "d0a36b52d6f487ec41bfa4458ba1bffe4f7f4c00978b247abfb0670605749ba7",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/aggregate_hard_checks.json",
+    "bytes": 940,
+    "sha256": "fc8616e90102f13612bac45bbc481869bc85a818e1d6639026d4f8a85e5571c7",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/aggregate_summary.json",
+    "bytes": 770,
+    "sha256": "909020efb848fdc1005261c002bc4d19e82966a23454994aef56736bb5a4d515",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/completion.json",
+    "bytes": 515,
+    "sha256": "3ad90a86197eae1fd07e9c371dc549470d709946e5a319dcc140a4ed3a7db009",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/expert_rescue_followup/aggregate_summary.json",
+    "bytes": 759,
+    "sha256": "2bd93974ae4b758ab7e0086ce869fb3bb7580254e70ec73b6d6c96d07b7e8c97",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/expert_rescue_followup/decision.json",
+    "bytes": 282,
+    "sha256": "05bf60b933e6e4c0f2b2f642b9f761d993d8d8217804d65b30132408a8b21f6d",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/expert_rescue_followup/hard_checks.json",
+    "bytes": 612,
+    "sha256": "f7c31e60fccd55a9c34a75e214634503d0b7946fbc3d24631b1e667d4303233f",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_1/completed_seed_row.json",
+    "bytes": 1099,
+    "sha256": "05d4f2bf25ba5e43dbeceaff736be015d21a46f8a8698a6a55c33d885274743a",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_1/official_test_access_intent.json",
+    "bytes": 456,
+    "sha256": "4d958d3e9fa69ac7615e4344f625cfc7c12de7a21dbcdd4e24d0a436484288fd",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_1/official_test_summary.json",
+    "bytes": 3378,
+    "sha256": "9b670bce7886d401fa326d18c4e3b6a43a15a781a0f54ee4edc2c70f59993464",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_1/official_test_topk_diagnostics.csv",
+    "bytes": 500,
+    "sha256": "02a8f651c9ac796e15009d99be90eeeedcc5807544669dcd07049b86f0bbea97",
+    "suffix": ".csv"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_1/probe_diagnostics.json",
+    "bytes": 3771,
+    "sha256": "0b80d0e1fc9be8f12436dc09a63b6ba8b62ffdbd81d47957ef111a4cee3ec698",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_1/replay_diagnostics.json",
+    "bytes": 2637,
+    "sha256": "0b630023e22dd1099f0738d0af65c656d072f42a9d26d412fb2194c982e38065",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_1/selected_arbiter.json",
+    "bytes": 1323,
+    "sha256": "8a662b9795a448abdaf07e930ff3a060ac5386c696aa9e8a8f0da70d848d332c",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_2/completed_seed_row.json",
+    "bytes": 1102,
+    "sha256": "ca8bcca5275ca66215f00d5e5297f54e3729e4f544db9e9f0b996275a99925e2",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_2/official_test_access_intent.json",
+    "bytes": 456,
+    "sha256": "16f3ce79ccb67f28f607c0a55e5a767f65b61295f6a83f6c9e392c0e3a9a4309",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_2/official_test_summary.json",
+    "bytes": 3383,
+    "sha256": "7b4c7aac82583ae346f0a5ec123214e07c7cf16f03008b30f0d625a9c317f5f2",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_2/official_test_topk_diagnostics.csv",
+    "bytes": 501,
+    "sha256": "afb364f754db1bcb599062b37bf6e1a5ec36c9e54dc9a02a7e121662411155a9",
+    "suffix": ".csv"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_2/probe_diagnostics.json",
+    "bytes": 3757,
+    "sha256": "5f7c5c82246d2a6a97ca1325c923a4013b411ca6f387fb9a80aa046748c8c985",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_2/replay_diagnostics.json",
+    "bytes": 2630,
+    "sha256": "ff4dce8e10701acbbb815a4fd76c3ff9f91c135ac215c8f9e08b83cefea01e57",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_2/selected_arbiter.json",
+    "bytes": 1323,
+    "sha256": "116d61f9a332a3c9a0f92cc5e1deb88efb5364d4276eeab338c9523825837204",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_3/completed_seed_row.json",
+    "bytes": 1097,
+    "sha256": "ba285e79d30fe91f8943adbfbcedae6fafcd300ced82976550826f48b5791d5a",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_3/official_test_access_intent.json",
+    "bytes": 456,
+    "sha256": "794b49dbc2996219a4b7ae50cba12429086f691ea4dacf9021436a655422e96c",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_3/official_test_summary.json",
+    "bytes": 3374,
+    "sha256": "0c5b2d9720ad34ad12a74067b4ec0ea3befeb522f2f2d0c47635f2464fd6b835",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_3/official_test_topk_diagnostics.csv",
+    "bytes": 498,
+    "sha256": "8078f12e40a502b35aae3fa1e822069fdcb868d7c67ed21590d782553adaad8b",
+    "suffix": ".csv"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_3/probe_diagnostics.json",
+    "bytes": 3766,
+    "sha256": "3fe9c5722397822276e586ed78a69b242f9aebdbc1091b539064b483bfc2835e",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_3/replay_diagnostics.json",
+    "bytes": 2638,
+    "sha256": "01f4371d1b26377582269f4d8efecc41e75e042b980b889b4c09405dafc12b6f",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/cifar100_v0_23_arbiter/seed_3/selected_arbiter.json",
+    "bytes": 1321,
+    "sha256": "59d9ef819b5fc118ecd39b03a7c3f01bdf039acc8b818fd9d9944fca3fff070d",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/STATUS.md",
+    "bytes": 612,
+    "sha256": "fa7289cbced4ca3eef07ce61704b92b1c0dfa70eaf77699407fa88324cebd2cd",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/akili_llm_report.json",
+    "bytes": 1088,
+    "sha256": "42516c5ded6f8f9c3ee104bde108fddbba7b1f59539ace1e70a932d343450526",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/akili_registry.json",
+    "bytes": 3549,
+    "sha256": "3eae5a243be2ca8d7e830fcb77403f4d037793b695dd8ee96cda11eeb3e7ab57",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/audit_log.json",
+    "bytes": 5379,
+    "sha256": "d88e0c5aa49ad0f6505d0db590fd77ed6a67fd1f7c12ddcb4e652b62ecfff8ae",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/hard_checks.json",
+    "bytes": 365,
+    "sha256": "b97443f196d13290259f1d21ab5b6c68116581ed0a6f4a00333c6558f5476b13",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/action_items/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/action_items/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "bd2a1d040525e60be5fab3a167684095ac81fa8d274699ebd58741038a4baca6",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/action_items/akili_manifest.json",
+    "bytes": 547,
+    "sha256": "f30939106e36324599e8848e9c65f19f17effb724eb79effe37fb7e26aa8aa30",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/json_extractor/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/json_extractor/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "bd2a1d040525e60be5fab3a167684095ac81fa8d274699ebd58741038a4baca6",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/json_extractor/akili_manifest.json",
+    "bytes": 549,
+    "sha256": "534df99eec4a782460ee956736d0dee5561452c751e48619a7bbeda905e66ff8",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/sql_writer/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/sql_writer/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "bd2a1d040525e60be5fab3a167684095ac81fa8d274699ebd58741038a4baca6",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/sql_writer/akili_manifest.json",
+    "bytes": 545,
+    "sha256": "d500dd6ddcc1c9961c83cc00516c0e808f8ac8b80e24b09d679a7989cdbd0ee3",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/translator/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/translator/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "bd2a1d040525e60be5fab3a167684095ac81fa8d274699ebd58741038a4baca6",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_1/run_20260719T223359Z/skill_bank/translator/akili_manifest.json",
+    "bytes": 545,
+    "sha256": "991a690da32a946327f32ac51b845e52c5a032016043bb19045d2a948a775041",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/akili_llm_report_v02.json",
+    "bytes": 1502,
+    "sha256": "2cfce1ece981b06258d8b40fca6f699b14bafd6c987ef11916ca6d5ddecf78d8",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/akili_registry.json",
+    "bytes": 5776,
+    "sha256": "c07b2c6bcf802f542e71730e80e14e273fe265ef6c9d5d7f39f584f4b07002ea",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/audit_log.json",
+    "bytes": 5648,
+    "sha256": "88f0ee515c5fb4b7088a8687a79e7e913ba9883e74c7f396ec5ada546726183e",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/hard_checks.json",
+    "bytes": 402,
+    "sha256": "4a584ccab9b4a12858f0adc44b127fa4b98e141c2839d6861d6412a959a53e3b",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/action_items/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/action_items/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "de8ca2495f0aeef4f724c90cf05fcacca106f5f6a0b11e646292c52f5ee47130",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/action_items/akili_manifest.json",
+    "bytes": 533,
+    "sha256": "88eae732631bf57a34a445d1e3e9b2445fbe9e80dceddf9c095cf9f976b08d87",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/json_extractor/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/json_extractor/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "de8ca2495f0aeef4f724c90cf05fcacca106f5f6a0b11e646292c52f5ee47130",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/json_extractor/akili_manifest.json",
+    "bytes": 535,
+    "sha256": "d4fa503b3b7e51bb299f05678aa5d5dd50bce8c4215b410fed72fb932e3e0e87",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/regex_writer/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/regex_writer/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "de8ca2495f0aeef4f724c90cf05fcacca106f5f6a0b11e646292c52f5ee47130",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/regex_writer/akili_manifest.json",
+    "bytes": 533,
+    "sha256": "aa2e70852d0b27b1be239e89c89db8a1d80514b50b605a96aa79bcd5f5255f06",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/sql_writer/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/sql_writer/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "de8ca2495f0aeef4f724c90cf05fcacca106f5f6a0b11e646292c52f5ee47130",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/sql_writer/akili_manifest.json",
+    "bytes": 531,
+    "sha256": "34151827c3278a703eef3ea49a984d4828acb2d3216d2a29549278c7ba742719",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/summarizer/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/summarizer/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "de8ca2495f0aeef4f724c90cf05fcacca106f5f6a0b11e646292c52f5ee47130",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/summarizer/akili_manifest.json",
+    "bytes": 531,
+    "sha256": "fa241a9badc5bf9644de9f2a173ba3bbcd37a74b75da9c7e32d8a21ff4922e6e",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/translator/README.md",
+    "bytes": 5206,
+    "sha256": "cb3cdefbcf1962832683ba0c254e668036400b8b081eef936ed72964b2419408",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/translator/adapter_config.json",
+    "bytes": 1056,
+    "sha256": "de8ca2495f0aeef4f724c90cf05fcacca106f5f6a0b11e646292c52f5ee47130",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/development/kimi_llm_skill_runtime/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/translator/akili_manifest.json",
+    "bytes": 531,
+    "sha256": "a5051c2075d35a2d7ebe009df4a67e580ab81d2d549b9c23c8cedd456aea88c1",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/AGGREGATE_SUMMARY.json",
+    "bytes": 1654,
+    "sha256": "c93f3cc38da836f6989ce47f9f1c437b5760cd87a085ef168c56c83c4f8209c3",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/PUBLIC_EXPORT_MANIFEST.json",
+    "bytes": 6860,
+    "sha256": "c40a7822d072654a81eb0568bed1ba566e32c18125b7e09cd8cf98a9b49cf986",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/README.md",
+    "bytes": 1187,
+    "sha256": "f886a676e379aa928e7d9144cb936c0d48058e6ef934a076c4f46befee900b08",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/SOURCE_CHECKSUM_VERIFICATION.json",
+    "bytes": 1085,
+    "sha256": "3b84df1d50ec991afe770ec61dfa311cfced6cfa06601eab0e8f0f41b9762e00",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/SOURCE_PUBLICATION_MANIFEST.json",
+    "bytes": 1377,
+    "sha256": "b90509e47760486f8c1341f9a678854c17c6eaa7c53e0f21afe5bc34371233c7",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/SOURCE_SHA256SUMS.txt",
+    "bytes": 7557,
+    "sha256": "b516ce66dd20461102033f4766a0a1a34afd591ef58dfe51c2d670c4f01f1b6b",
+    "suffix": ".txt"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/demo_seed_0/act1_skills.mp4",
+    "bytes": 73051,
+    "sha256": "fcba525283d597ffe5294e65a17f994e44712c5250bc81819026484cf9d44bfa",
+    "suffix": ".mp4"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/demo_seed_0/act2_forgetting.mp4",
+    "bytes": 36478,
+    "sha256": "ede49ab8c4f25b1391ae4df0c55971d7e3584a0f59fa172ea23db7ff15ddcc48",
+    "suffix": ".mp4"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/demo_seed_0/act3_naive_bank.mp4",
+    "bytes": 25603,
+    "sha256": "605ccf93cdad6627a083760989df9aa015cfecfcfa4197defa1ce42f63431018",
+    "suffix": ".mp4"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/demo_seed_0/act4_update_rejected.mp4",
+    "bytes": 49799,
+    "sha256": "8e6578bc9019db081dbdea73c2272c303f5a9178c7e08648a985f4ed18b29d8f",
+    "suffix": ".mp4"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/demo_seed_0/act5_mission.mp4",
+    "bytes": 77322,
+    "sha256": "44054ca799707fcb5a225a058dd718e17c262726cd8583e12489016bf4376a35",
+    "suffix": ".mp4"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_0/run_20260721T115644Z/akili_robotics_v0_2_report.json",
+    "bytes": 3883,
+    "sha256": "a494078c2a83d3e51fe470cd623b54c358256610efa2eebf817234bfc3d460fb",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_0/run_20260721T115644Z/audit_log.json",
+    "bytes": 6592,
+    "sha256": "cad21a7aac505601494b56af283267da407e5ad8abf494710ad06c1566885d55",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_0/run_20260721T115644Z/hard_checks.json",
+    "bytes": 413,
+    "sha256": "e99245b6dfeb510b431f8856904eb2274f2f28c374d5ba70eccab01696a07536",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_0/run_20260721T115644Z/mission_receipt.json",
+    "bytes": 1248,
+    "sha256": "7dae2f9b7d3555cb8245f8dceb35a79fda0fa9c54728c6343e5a3f41b4471b6b",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_0/run_20260721T115644Z/motion_library.json",
+    "bytes": 33570,
+    "sha256": "2de6aaecbc17fbce0b17649db6161158579bad1473b6820b4f9e8f7bfef078d9",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_0/run_20260721T115644Z/play_res.json",
+    "bytes": 442,
+    "sha256": "d538def39da1b638d478769ef28c7090d723a4daba4a35689af3ac0cc2cc29d9",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_0/run_20260721T115644Z/registry.json",
+    "bytes": 4666,
+    "sha256": "f821829a30b1c2ea7f4d02a84db491c2caf27261a047ad5656a3e36c4601da72",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_0/run_20260721T115644Z/seq_res.json",
+    "bytes": 243,
+    "sha256": "b54386f849ad476b3d84a3b07866b2ca81084675a54d549ab8e48c6d3df56c1b",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_0/seed0.log",
+    "bytes": 9120,
+    "sha256": "0aa818e819a0cc2b9fedb6516c241da29017c9fef30f7bda41015503e7c11edd",
+    "suffix": ".log"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/akili_robotics_v0_2_report.json",
+    "bytes": 3885,
+    "sha256": "32c79a1d77c3e1b7b4c9d194deb4e2299bdf7233023f9a20caa319a495d4045d",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/audit_log.json",
+    "bytes": 6593,
+    "sha256": "9a8c2f51a0eb2122cac0124f3b21fa63f00f779efdd84817b2245ec3f1222542",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/hard_checks.json",
+    "bytes": 413,
+    "sha256": "e99245b6dfeb510b431f8856904eb2274f2f28c374d5ba70eccab01696a07536",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/mission_receipt.json",
+    "bytes": 1248,
+    "sha256": "c8e26d5dbd0d8dca711848c84f0c84a2abb4f60420c4e3e450e64b1cb84902b0",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/motion_library.json",
+    "bytes": 33570,
+    "sha256": "2de6aaecbc17fbce0b17649db6161158579bad1473b6820b4f9e8f7bfef078d9",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/play_res.json",
+    "bytes": 442,
+    "sha256": "d538def39da1b638d478769ef28c7090d723a4daba4a35689af3ac0cc2cc29d9",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/registry.json",
+    "bytes": 4668,
+    "sha256": "93e55da8a7eeabbbb5c504a6d2472bdc333a967a0d7e588eaca0595a506e0d9f",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_1/run_20260721T120433Z/seq_res.json",
+    "bytes": 243,
+    "sha256": "b54386f849ad476b3d84a3b07866b2ca81084675a54d549ab8e48c6d3df56c1b",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_1/seed1.log",
+    "bytes": 9120,
+    "sha256": "75c14d680c5688e1d96c1e7b51e18daf07dfcfe354544b72b2954812819daa22",
+    "suffix": ".log"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_2/run_20260721T121222Z/akili_robotics_v0_2_report.json",
+    "bytes": 3882,
+    "sha256": "9416c9b308ac72af63532f401e78d2700f986502def4ef1a294f3dc2b328201e",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_2/run_20260721T121222Z/audit_log.json",
+    "bytes": 6592,
+    "sha256": "0f139c39609d8c50edb5de0687f4781f51a2e666bfe6ee6ec24896f756457e94",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_2/run_20260721T121222Z/hard_checks.json",
+    "bytes": 413,
+    "sha256": "e99245b6dfeb510b431f8856904eb2274f2f28c374d5ba70eccab01696a07536",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_2/run_20260721T121222Z/mission_receipt.json",
+    "bytes": 1246,
+    "sha256": "07c58f1814c4facf4c7c906cb3d40ecc790d894031d594f391670f98e1ff277c",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_2/run_20260721T121222Z/motion_library.json",
+    "bytes": 33570,
+    "sha256": "2de6aaecbc17fbce0b17649db6161158579bad1473b6820b4f9e8f7bfef078d9",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_2/run_20260721T121222Z/play_res.json",
+    "bytes": 442,
+    "sha256": "d538def39da1b638d478769ef28c7090d723a4daba4a35689af3ac0cc2cc29d9",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_2/run_20260721T121222Z/registry.json",
+    "bytes": 4666,
+    "sha256": "994db711c2015c01839d211f90d95ea176c7fab4d8b211037171e37322efcce2",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_2/run_20260721T121222Z/seq_res.json",
+    "bytes": 243,
+    "sha256": "b54386f849ad476b3d84a3b07866b2ca81084675a54d549ab8e48c6d3df56c1b",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/publication/robotics_mujoco_v0_2/seed_2/seed2.log",
+    "bytes": 9120,
+    "sha256": "faa0d6f19d9d58eacb0e6b11d00d8e0dc27b4d14ad81c6a4fac483df2ddfb27f",
+    "suffix": ".log"
+  },
+  {
+    "path": "results/reported/agent_evolution_v1/PROVENANCE.md",
+    "bytes": 676,
+    "sha256": "6251b1462af0ed4f870203b7b68ddba829c5ed7316604071ebae3d693f775096",
+    "suffix": ".md"
+  },
+  {
+    "path": "results/reported/agent_evolution_v1/hard_checks.json",
+    "bytes": 1869,
+    "sha256": "1275286a8abcad0dfce75e0e49026a1cda7980dc7901385d043c823bcd343855",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/reported/agent_evolution_v1/repair_receipt.json",
+    "bytes": 1244,
+    "sha256": "d81d7b27aa33265b836e28f1dba0d172cf672390dae921c837eb08b62eef8eeb",
+    "suffix": ".json"
+  },
+  {
+    "path": "results/reported/agent_evolution_v1/system_comparison.json",
+    "bytes": 1513,
+    "sha256": "e1e81123e7f84a15c1ea1fdbcec12f6e5549c14cc8ff7fde066238b4f21582d9",
+    "suffix": ".json"
+  },
+  {
+    "path": "src/akili_runtime/__init__.py",
+    "bytes": 489,
+    "sha256": "6c6ae3e318c1d218d808c47d57abeac782c2cbaf94fac678415293587644305e",
+    "suffix": ".py"
+  },
+  {
+    "path": "src/akili_runtime/__pycache__/__init__.cpython-313.pyc",
+    "bytes": 622,
+    "sha256": "58c40471ec4d5a0d6aa3495ad44bbc73c74f20fbd05f6a7584c266912638aff6",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "src/akili_runtime/__pycache__/audit.cpython-313.pyc",
+    "bytes": 5042,
+    "sha256": "c24264189b8be91da707fc6f3bb91c5c8e0e3b75ee09f1ce74dd92dc57040f4c",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "src/akili_runtime/__pycache__/budget.cpython-313.pyc",
+    "bytes": 3406,
+    "sha256": "a90faa9f5e4874ca7684989375568d11b0367f85ff241ecd360d87a5a6b2ca3a",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "src/akili_runtime/__pycache__/hashing.cpython-313.pyc",
+    "bytes": 1828,
+    "sha256": "47648f032326e7256aa2e41e9df95661dec87e474d6af23894ff1dfe9f657b5a",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "src/akili_runtime/__pycache__/models.cpython-313.pyc",
+    "bytes": 2966,
+    "sha256": "f95bb2d41185ce43571de24078c1fd6902143f944c59370479c05bfb0b9a5b67",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "src/akili_runtime/__pycache__/policy.cpython-313.pyc",
+    "bytes": 1741,
+    "sha256": "a87f06b41dc49dde5e2b663d8b440cfbb4df105719d2a3d2e67161ab3fa394d8",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "src/akili_runtime/__pycache__/registry.cpython-313.pyc",
+    "bytes": 7108,
+    "sha256": "e9c5ad8f595687a4b4cbbffdd957f993bdb95c06129e59f8c8198f91aa0c48d3",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "src/akili_runtime/audit.py",
+    "bytes": 2847,
+    "sha256": "fe70adc7f5046397312e2ed48ee0a50dead81629a2b5d2f3eaef95bd58f5008d",
+    "suffix": ".py"
+  },
+  {
+    "path": "src/akili_runtime/budget.py",
+    "bytes": 1617,
+    "sha256": "3647d1aeed8ad8ab952642b9ccd39a92c93c1d816f36aed75f07a2c213e9524e",
+    "suffix": ".py"
+  },
+  {
+    "path": "src/akili_runtime/cli.py",
+    "bytes": 846,
+    "sha256": "35680473bba0c1978dbec02ed588cf2ad8abaffa4cf177774db8c55ff2b21297",
+    "suffix": ".py"
+  },
+  {
+    "path": "src/akili_runtime/hashing.py",
+    "bytes": 661,
+    "sha256": "5f691220430f440eba87bd7b72d51f2efeecb6e6766389fdcfe1f3e4e3d5fa39",
+    "suffix": ".py"
+  },
+  {
+    "path": "src/akili_runtime/models.py",
+    "bytes": 1315,
+    "sha256": "7fa77ff3b578b4967bf0d42718d47bbb456025068bc380709d1bad64acc6dcda",
+    "suffix": ".py"
+  },
+  {
+    "path": "src/akili_runtime/policy.py",
+    "bytes": 902,
+    "sha256": "25e3b652dab3ac46f579203ecbd16189d4fa1520364d549fb1d9ffe7cc422ab4",
+    "suffix": ".py"
+  },
+  {
+    "path": "src/akili_runtime/registry.py",
+    "bytes": 4421,
+    "sha256": "f255582374838cf54faf2157d33c3c9c499038dd9c5f8e770432376c01a665ac",
+    "suffix": ".py"
+  },
+  {
+    "path": "tests/__pycache__/test_runtime.cpython-313.pyc",
+    "bytes": 4982,
+    "sha256": "a5a1d203fa2bda30dbcc6c95705a95d0d022611630100ad1f33da89888cc1687",
+    "suffix": ".pyc"
+  },
+  {
+    "path": "tests/test_runtime.py",
+    "bytes": 2816,
+    "sha256": "8fd0d17457560c0a42e74f296d79ccf90209d973082015cf51c149ee0436b2a9",
+    "suffix": ".py"
+  },
+  {
+    "path": "tools/akili_drive_evidence_collector_v1.py",
+    "bytes": 16659,
+    "sha256": "6d3f9567d3c44aa51e91fc17a22f55186a56730e9bee290e22a4fb6083462b95",
+    "suffix": ".py"
+  },
+  {
+    "path": "tools/akili_publication_batch_runner_v1.py",
+    "bytes": 6741,
+    "sha256": "0faf85e2cd2f7d678443f009b26e5d7b3a2980d9c389afe0d06208a6c256867b",
+    "suffix": ".py"
+  },
+  {
+    "path": "tools/colab/Akili_Drive_Evidence_Collector_v1_Standalone_Colab.ipynb",
+    "bytes": 22868,
+    "sha256": "dc12408388329270389e6f83fd1992eaf2c351f98e626067b0a921a4c363948d",
+    "suffix": ".ipynb"
+  },
+  {
+    "path": "tools/import_drive_evidence.py",
+    "bytes": 3085,
+    "sha256": "062bcf35f792d5ac305496b6731db5161234833db58ffccb5e32397dedcfc4a4",
+    "suffix": ".py"
+  },
+  {
+    "path": "tools/make_checksums.py",
+    "bytes": 861,
+    "sha256": "8ff0c8711927b168cee510346f44b0faf3acea71cfaf1a127d088cb710cbd085",
+    "suffix": ".py"
+  },
+  {
+    "path": "tools/release_audit.py",
+    "bytes": 2147,
+    "sha256": "406331264d9e008493ff9598b415f98327026f29e8f89d89b9620965c74f48ed",
+    "suffix": ".py"
+  }
+]

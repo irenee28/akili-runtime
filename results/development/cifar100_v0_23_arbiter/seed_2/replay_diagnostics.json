@@ -1,0 +1,85 @@
+{
+  "error_scope": {
+    "baseline_error_count": 124,
+    "cross_task_error_count": 115,
+    "cross_task_error_fraction": 0.9274193644523621,
+    "cross_task_errors_oracle_recoverable": 105,
+    "within_task_error_count": 9,
+    "within_task_error_fraction": 0.07258064299821854,
+    "within_task_errors_oracle_recoverable": 5
+  },
+  "metrics": {
+    "absolute_gain": 0.0,
+    "baseline_accuracy": 0.69,
+    "chosen_candidate_score_mean": null,
+    "consequential_precision": null,
+    "damage_rate": 0.0,
+    "damaged_count": 0,
+    "examples": 400,
+    "final_accuracy": 0.69,
+    "invocation_count": 0,
+    "invocation_precision": null,
+    "invocation_rate": 0.0,
+    "rescue_rate": 0.0,
+    "rescued_count": 0,
+    "rule": "baseline_no_rescue",
+    "threshold": 1.0,
+    "wrong_to_wrong_change_count": 0
+  },
+  "topk": [
+    {
+      "baseline_errors_recoverable": 5,
+      "baseline_plus_candidate_union_accuracy": 0.7024999856948853,
+      "effective_k": 1,
+      "examples": 400,
+      "oracle_recoverable_errors_in_candidates": 5,
+      "requested_k": 1,
+      "semantic_true_task_coverage": 0.7124999761581421
+    },
+    {
+      "baseline_errors_recoverable": 45,
+      "baseline_plus_candidate_union_accuracy": 0.8025000095367432,
+      "effective_k": 2,
+      "examples": 400,
+      "oracle_recoverable_errors_in_candidates": 45,
+      "requested_k": 2,
+      "semantic_true_task_coverage": 0.8299999833106995
+    },
+    {
+      "baseline_errors_recoverable": 72,
+      "baseline_plus_candidate_union_accuracy": 0.8700000047683716,
+      "effective_k": 3,
+      "examples": 400,
+      "oracle_recoverable_errors_in_candidates": 72,
+      "requested_k": 3,
+      "semantic_true_task_coverage": 0.8999999761581421
+    },
+    {
+      "baseline_errors_recoverable": 84,
+      "baseline_plus_candidate_union_accuracy": 0.8999999761581421,
+      "effective_k": 4,
+      "examples": 400,
+      "oracle_recoverable_errors_in_candidates": 84,
+      "requested_k": 4,
+      "semantic_true_task_coverage": 0.9300000071525574
+    },
+    {
+      "baseline_errors_recoverable": 96,
+      "baseline_plus_candidate_union_accuracy": 0.9300000071525574,
+      "effective_k": 5,
+      "examples": 400,
+      "oracle_recoverable_errors_in_candidates": 96,
+      "requested_k": 5,
+      "semantic_true_task_coverage": 0.9599999785423279
+    },
+    {
+      "baseline_errors_recoverable": 110,
+      "baseline_plus_candidate_union_accuracy": 0.9649999737739563,
+      "effective_k": 10,
+      "examples": 400,
+      "oracle_recoverable_errors_in_candidates": 110,
+      "requested_k": 10,
+      "semantic_true_task_coverage": 1.0
+    }
+  ]
+}

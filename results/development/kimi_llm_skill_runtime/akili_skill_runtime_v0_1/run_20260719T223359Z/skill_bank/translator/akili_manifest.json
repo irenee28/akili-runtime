@@ -1,0 +1,19 @@
+{
+  "skill": "translator",
+  "data_hash": "b1ec0d443d57663f57c1ca3d80c9033bcfd2de27bdbfb8380513cc20f6181fa4",
+  "weights_hash": "e0052e61aab2b227656cc822e485b4761309b8a2013b7b7e482b0e6be1ada8ff",
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "base_fingerprint_before": "1e67f15f2a4cfed33d74a42783354120388686228a7185f8637bddea8af4f582",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "trained_at": "2026-07-19T22:51:36.604675+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "protocol": "akili-skill-runtime-v0.2-three-systems",
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "akili": {
+    "learns_new_skills": true,
+    "skill_scores": {
+      "sql_writer": 0.95,
+      "json_extractor": 0.983,
+      "action_items": 0.992,
+      "regex_writer": 1.0,
+      "summarizer": 1.0
+    },
+    "poison_detected_automatically": true,
+    "surgical_removal": "one command, milliseconds",
+    "base_weights_modified": false,
+    "audit_trail": "hash-chained, 18 ops, valid=True"
+  },
+  "routing": {
+    "top1_accuracy": 0.995,
+    "n": 200,
+    "skills": 5
+  },
+  "forensic_gate": {
+    "translator_executable_after_rollback": false,
+    "translator_routable_after_rollback": false,
+    "unrelated_adapter_hashes_unchanged": true,
+    "unrelated_skill_cards_unchanged": true,
+    "unrelated_skill_states_unchanged": true,
+    "base_generation_equivalence_before_after": false,
+    "base_fingerprint_unchanged": true,
+    "audit_chain_valid": true,
+    "all_passed": false
+  },
+  "baseline_arm": {
+    "skill1_forgetting": {
+      "after_json_extractor": 0.225,
+      "after_action_items": 0.25
+    },
+    "backdoor_after_poison_merge": "0/10",
+    "backdoor_after_suppression": "0/10",
+    "surgical_removal": "impossible without full retrain",
+    "base_weights_modified": true
+  },
+  "rag_arm": {
+    "store_size": 80,
+    "retrieved_poison": true,
+    "backdoor_in_output": false,
+    "validation_at_write_time": false,
+    "lifecycle": "none \u2014 manual forensics only"
+  }
+}

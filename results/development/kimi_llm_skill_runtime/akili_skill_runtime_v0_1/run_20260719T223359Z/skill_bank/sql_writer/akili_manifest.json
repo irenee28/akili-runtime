@@ -1,0 +1,19 @@
+{
+  "skill": "sql_writer",
+  "data_hash": "295f05c452bce3e2f460aa06fac07d09f64443e9e1d4598db2c77a9aea20bf17",
+  "weights_hash": "00f9b5dd821c6bfa6419e9e0f861c61a22e081bada4624a066fd255e89b94541",
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "base_fingerprint_before": "1e67f15f2a4cfed33d74a42783354120388686228a7185f8637bddea8af4f582",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "trained_at": "2026-07-19T22:34:45.980732+00:00"
+}

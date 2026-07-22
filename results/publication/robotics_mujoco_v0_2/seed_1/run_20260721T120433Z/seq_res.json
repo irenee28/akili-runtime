@@ -1,0 +1,10 @@
+{
+  "forgetting": {
+    "reach_A_initial": 1.0,
+    "reach_A_after_reach_B": 0.0,
+    "reach_A_after_press_button": 0.0,
+    "reach_A_after_avoid_zone": 0.0
+  },
+  "poison_baked": true,
+  "surgical_removal": "impossible without full retrain"
+}

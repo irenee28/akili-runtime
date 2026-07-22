@@ -1,0 +1,19 @@
+{
+  "skill": "action_items",
+  "data_hash": "22946cc4f6cfac84dff7a082d1a1dffa8c317235524bd70785f11d7ea57f7390",
+  "weights_hash": "18ebd641ab6be9b0b105d7ca2bf8ff4d134774f0dcaf5661cdd5524c2d3c5bce",
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "base_fingerprint_before": "1e67f15f2a4cfed33d74a42783354120388686228a7185f8637bddea8af4f582",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "trained_at": "2026-07-19T22:35:28.587450+00:00"
+}

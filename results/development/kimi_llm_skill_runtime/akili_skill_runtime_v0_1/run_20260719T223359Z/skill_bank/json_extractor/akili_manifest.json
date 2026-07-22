@@ -1,0 +1,19 @@
+{
+  "skill": "json_extractor",
+  "data_hash": "e71248ab30afa4558be04c6d053408923cce3ab0b76d42d30323f6e9071f4e2c",
+  "weights_hash": "c79b53b2e2f3566012b352cd27fa3afc0146d810efc107e926b4a99a1ac4a2c9",
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "base_fingerprint_before": "1e67f15f2a4cfed33d74a42783354120388686228a7185f8637bddea8af4f582",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "trained_at": "2026-07-19T22:57:32.494936+00:00"
+}

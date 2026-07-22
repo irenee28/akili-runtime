@@ -1,0 +1,13 @@
+{
+  "base_model_never_trained_frozen": true,
+  "base_fingerprint_unchanged": true,
+  "adapters_write_once": true,
+  "validation_before_activation": true,
+  "poison_activation_blocked": true,
+  "forensic_gate_passed": false,
+  "rollback_surgical_only_target_removed": true,
+  "audit_chain_valid": true,
+  "all_skill_scores_finite": true,
+  "demo_queries_are_eval_verified": true,
+  "all_passed": false
+}

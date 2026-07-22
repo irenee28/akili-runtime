@@ -1,0 +1,25 @@
+{
+  "all_probe_gates_passed": true,
+  "all_seed_gates_passed": false,
+  "all_seed_hard_checks_passed": true,
+  "baseline_accuracy_mean": 0.6255000000000001,
+  "checkpoint_hashes_unchanged": true,
+  "cross_task_error_fraction_mean": 0.9087607065836588,
+  "damage_rate_mean": 0.0,
+  "deployed_model_seed_count": 0,
+  "final_accuracy_mean": 0.6255000000000001,
+  "final_accuracy_std": 0.0004082482904638634,
+  "gain_mean": 0.0,
+  "invocation_precision_mean": NaN,
+  "phase2b_gate_passed": false,
+  "protocol": "0.23B-top2-calibrated-rescue-arbiter",
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "selected_model_seed_count": 0,
+  "top1_union_accuracy_mean": 0.6417666673660278,
+  "top2_union_accuracy_mean": 0.7527666687965393,
+  "top3_union_accuracy_mean": 0.8022333184878031
+}

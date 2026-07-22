@@ -1,0 +1,20 @@
+{
+  "reach_A": {
+    "same_start_err": 0.005,
+    "shifted_5cm_err": 0.03
+  },
+  "reach_B": {
+    "same_start_err": 0.005,
+    "shifted_5cm_err": 0.042
+  },
+  "press_button": {
+    "same_start_err": 0.022,
+    "shifted_5cm_err": 0.064
+  },
+  "avoid_zone": {
+    "same_start_err": 0.025,
+    "shifted_5cm_err": 0.051
+  },
+  "poison_retrieved_and_executed": true,
+  "poison_detection": "none \u2014 the library executes whatever it retrieves"
+}

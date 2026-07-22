@@ -1,0 +1,52 @@
+{
+  "bundle": "akili-robotics-v0.2-publication",
+  "created_utc": "2026-07-21T12:24:45.985735+00:00",
+  "code_sha256": "62be65028b8664dc9cb51c33f46afd878a7b9288155b7abbc712aadeecea39ae",
+  "seeds": {
+    "0": {
+      "run_dir": "run_20260721T115644Z",
+      "all_passed": true,
+      "checks_true": 12,
+      "audit_entries": 21,
+      "audit_chain_linked": true,
+      "avoid_zone_v2_state": "ROLLED_BACK",
+      "gifs": [
+        "act1_skills.gif",
+        "act2_forgetting.gif",
+        "act3_naive_bank.gif",
+        "act4_update_rejected.gif",
+        "act5_mission.gif"
+      ]
+    },
+    "1": {
+      "run_dir": "run_20260721T120433Z",
+      "all_passed": true,
+      "checks_true": 12,
+      "audit_entries": 21,
+      "audit_chain_linked": true,
+      "avoid_zone_v2_state": "ROLLED_BACK",
+      "gifs": [
+        "act1_skills.gif",
+        "act2_forgetting.gif",
+        "act3_naive_bank.gif",
+        "act4_update_rejected.gif",
+        "act5_mission.gif"
+      ]
+    },
+    "2": {
+      "run_dir": "run_20260721T121222Z",
+      "all_passed": true,
+      "checks_true": 12,
+      "audit_entries": 21,
+      "audit_chain_linked": true,
+      "avoid_zone_v2_state": "ROLLED_BACK",
+      "gifs": [
+        "act1_skills.gif",
+        "act2_forgetting.gif",
+        "act3_naive_bank.gif",
+        "act4_update_rejected.gif",
+        "act5_mission.gif"
+      ]
+    }
+  }
+}

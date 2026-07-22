@@ -1,0 +1,52 @@
+[
+  {
+    "system": "Akili",
+    "learned_parameters": true,
+    "automatic_candidate_validation": true,
+    "current_world_accuracy": 1.0,
+    "stale_error_rate": 0.0,
+    "production_attack_rate": 0.0,
+    "historical_recovery_accuracy": 1.0,
+    "manual_recovery_required": false
+  },
+  {
+    "system": "Naive adapter bank",
+    "learned_parameters": true,
+    "automatic_candidate_validation": false,
+    "current_world_accuracy": 1.0,
+    "stale_error_rate": 0.0,
+    "production_attack_rate": 1.0,
+    "historical_recovery_accuracy": null,
+    "manual_recovery_required": true
+  },
+  {
+    "system": "Shared LoRA",
+    "learned_parameters": true,
+    "automatic_candidate_validation": false,
+    "current_world_accuracy": 0.25,
+    "stale_error_rate": 0.15,
+    "production_attack_rate": 0.0125,
+    "historical_recovery_accuracy": null,
+    "manual_recovery_required": true
+  },
+  {
+    "system": "Shared LoRA + tiny replay",
+    "learned_parameters": true,
+    "automatic_candidate_validation": false,
+    "current_world_accuracy": 0.915625,
+    "stale_error_rate": 0.084375,
+    "production_attack_rate": 1.0,
+    "historical_recovery_accuracy": null,
+    "manual_recovery_required": true
+  },
+  {
+    "system": "RAG current documents",
+    "learned_parameters": false,
+    "automatic_candidate_validation": false,
+    "current_world_accuracy": 0.0,
+    "stale_error_rate": 0.121875,
+    "production_attack_rate": 0.0,
+    "historical_recovery_accuracy": null,
+    "manual_recovery_required": true
+  }
+]

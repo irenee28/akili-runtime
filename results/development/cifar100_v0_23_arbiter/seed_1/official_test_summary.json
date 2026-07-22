@@ -1,0 +1,108 @@
+{
+  "deployed_model_hash": "8887ac84a1978488822b486bc0389762b4ce8b9008a76a6d64286bad1428c7fa",
+  "error_scope": {
+    "baseline_error_count": 3750,
+    "cross_task_error_count": 3416,
+    "cross_task_error_fraction": 0.9109333157539368,
+    "cross_task_errors_oracle_recoverable": 2347,
+    "within_task_error_count": 334,
+    "within_task_error_fraction": 0.08906666934490204,
+    "within_task_errors_oracle_recoverable": 167
+  },
+  "gate": {
+    "damage_rate": 0.0,
+    "final_class_il": 0.625,
+    "gain": 0.0,
+    "invocation_precision": null,
+    "passed": false,
+    "thresholds": {
+      "damage_rate_max": 0.015,
+      "final_class_il": 0.65,
+      "gain": 0.02,
+      "invocation_precision": 0.7
+    }
+  },
+  "locked_p8_weighted2_reference": 0.625,
+  "locked_phase1_reference": {
+    "oracle": 0.8033,
+    "routed": 0.6272
+  },
+  "probe_gate_passed": true,
+  "protocol": "0.23B-top2-calibrated-rescue-arbiter",
+  "seed": 1,
+  "selected_model_hash": "8887ac84a1978488822b486bc0389762b4ce8b9008a76a6d64286bad1428c7fa",
+  "test_metrics": {
+    "absolute_gain": 0.0,
+    "baseline_accuracy": 0.625,
+    "chosen_candidate_score_mean": null,
+    "consequential_precision": null,
+    "damage_rate": 0.0,
+    "damaged_count": 0,
+    "examples": 10000,
+    "final_accuracy": 0.625,
+    "invocation_count": 0,
+    "invocation_precision": null,
+    "invocation_rate": 0.0,
+    "rescue_rate": 0.0,
+    "rescued_count": 0,
+    "rule": "baseline_no_rescue",
+    "threshold": 1.0,
+    "wrong_to_wrong_change_count": 0
+  },
+  "topk_diagnostics": [
+    {
+      "baseline_errors_recoverable": 167,
+      "baseline_plus_candidate_union_accuracy": 0.641700029373169,
+      "effective_k": 1,
+      "examples": 10000,
+      "oracle_recoverable_errors_in_candidates": 167,
+      "requested_k": 1,
+      "semantic_true_task_coverage": 0.6583999991416931
+    },
+    {
+      "baseline_errors_recoverable": 1269,
+      "baseline_plus_candidate_union_accuracy": 0.7519000172615051,
+      "effective_k": 2,
+      "examples": 10000,
+      "oracle_recoverable_errors_in_candidates": 1269,
+      "requested_k": 2,
+      "semantic_true_task_coverage": 0.8080000281333923
+    },
+    {
+      "baseline_errors_recoverable": 1802,
+      "baseline_plus_candidate_union_accuracy": 0.8051999807357788,
+      "effective_k": 3,
+      "examples": 10000,
+      "oracle_recoverable_errors_in_candidates": 1802,
+      "requested_k": 3,
+      "semantic_true_task_coverage": 0.8823000192642212
+    },
+    {
+      "baseline_errors_recoverable": 2079,
+      "baseline_plus_candidate_union_accuracy": 0.8328999876976013,
+      "effective_k": 4,
+      "examples": 10000,
+      "oracle_recoverable_errors_in_candidates": 2079,
+      "requested_k": 4,
+      "semantic_true_task_coverage": 0.9235000014305115
+    },
+    {
+      "baseline_errors_recoverable": 2248,
+      "baseline_plus_candidate_union_accuracy": 0.8497999906539917,
+      "effective_k": 5,
+      "examples": 10000,
+      "oracle_recoverable_errors_in_candidates": 2248,
+      "requested_k": 5,
+      "semantic_true_task_coverage": 0.9520999789237976
+    },
+    {
+      "baseline_errors_recoverable": 2514,
+      "baseline_plus_candidate_union_accuracy": 0.8763999938964844,
+      "effective_k": 10,
+      "examples": 10000,
+      "oracle_recoverable_errors_in_candidates": 2514,
+      "requested_k": 10,
+      "semantic_true_task_coverage": 1.0
+    }
+  ]
+}

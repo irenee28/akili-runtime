@@ -1,0 +1,16 @@
+{
+  "baseline_accuracy": 0.6641667,
+  "full_oracle_union_accuracy": 0.875,
+  "interpretation": "Candidate capacity exists, but learned gating and selection do not recover it reliably.",
+  "keep_plus_expert1_accuracy": 0.6883333,
+  "learned_correct_examples": 841,
+  "learned_gate_oracle_selector_accuracy": 0.825,
+  "learned_system_accuracy": 0.7008333,
+  "n_examples": 1200,
+  "oracle_correct_examples": 1050,
+  "oracle_gate_learned_ranker_accuracy": 0.8291667,
+  "protocol": "0.23T-final-nonlinear-groupwise-rescue-verification",
+  "publication_warning": "The oracle has access to unavailable correctness information and is not a deployable score.",
+  "status": "development_evidence_not_publication_result",
+  "top2_union_accuracy": 0.8133333
+}

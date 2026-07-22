@@ -1,0 +1,117 @@
+{
+  "protocol": "akili-robotics-v0.2-mujoco-four-systems",
+  "akili": {
+    "skill_success": {
+      "reach_A@v1": 1.0,
+      "reach_B@v1": 1.0,
+      "press_button@v1": 1.0,
+      "avoid_zone@v1": 1.0
+    },
+    "update": {
+      "v2_activated": false,
+      "active_version_after_rejection": "avoid_zone@v1",
+      "zero_downtime": true
+    }
+  },
+  "forensic_gate": {
+    "poison_executable_after_rollback": false,
+    "poison_routable_after_rollback": false,
+    "v2_executable_after_rejection": false,
+    "v1_still_serving_after_v2_rejection": true,
+    "unrelated_skill_cards_unchanged": true,
+    "adapter_files_intact": true,
+    "trunk_fingerprint_unchanged": true,
+    "audit_chain_valid": true,
+    "mission_receipt_chain_valid": true,
+    "cold_restart_all_passed": true,
+    "all_passed": true
+  },
+  "cold_restart": {
+    "v1_active_after_restart": true,
+    "v2_absent_after_restart": true,
+    "poison_absent_after_restart": true,
+    "all_good_skills_active_after_restart": true,
+    "audit_chain_valid_after_restart": true,
+    "all_passed": true
+  },
+  "resource_ledger": {
+    "full_model_params": 17923,
+    "adapter_trainable_params_per_skill": 2048,
+    "adapter_pct_of_model": 11.4,
+    "akili_storage_bytes_all_skills": 115441,
+    "isolated_full_models_bytes": 297460,
+    "gpu_required": "none \u2014 the entire lifecycle (train, validate, rollback, compose) runs on CPU",
+    "mission_steps_certified": 3
+  },
+  "sequential_ft": {
+    "forgetting": {
+      "reach_A_initial": 1.0,
+      "reach_A_after_reach_B": 0.0,
+      "reach_A_after_press_button": 0.0,
+      "reach_A_after_avoid_zone": 0.0
+    },
+    "poison_baked": true,
+    "surgical_removal": "impossible without full retrain"
+  },
+  "motion_library": {
+    "reach_A": {
+      "same_start_err": 0.005,
+      "shifted_5cm_err": 0.03
+    },
+    "reach_B": {
+      "same_start_err": 0.005,
+      "shifted_5cm_err": 0.042
+    },
+    "press_button": {
+      "same_start_err": 0.022,
+      "shifted_5cm_err": 0.064
+    },
+    "avoid_zone": {
+      "same_start_err": 0.025,
+      "shifted_5cm_err": 0.051
+    },
+    "poison_retrieved_and_executed": true,
+    "poison_detection": "none \u2014 the library executes whatever it retrieves"
+  },
+  "naive_bank": {
+    "deployed_without_validation": true,
+    "poison_success_in_production": false,
+    "poison_final_dist": 0.886,
+    "incident": "poisoned adapter served production traffic until a human noticed",
+    "manual_cleanup": "engineers can delete the file after the incident \u2014 detection is the gap"
+  },
+  "mission_receipt": {
+    "steps": [
+      {
+        "step": 0,
+        "skill": "reach_B@v1",
+        "success": true,
+        "clearance": 0.05,
+        "step_hash": "086eff9e76e0cccc52084e440f6c42eb79a7fe4a882b497fcf9b55a193bffdeb",
+        "prev": "MISSION_GENESIS",
+        "hash": "0e8969ea60ca2a1e3e4d3509b389c34b5227fedf131fc4cbf285876710faf031"
+      },
+      {
+        "step": 1,
+        "skill": "press_button@v1",
+        "success": true,
+        "clearance": 0.0802,
+        "step_hash": "a765df759b46929c1a639fa1d64a0c1e51c7743824547402081bba737d754f51",
+        "prev": "0e8969ea60ca2a1e3e4d3509b389c34b5227fedf131fc4cbf285876710faf031",
+        "hash": "e01c35b85b50fa10dea272be9e21cb78103aa2f25491b240de0fb18ea9114b7e"
+      },
+      {
+        "step": 2,
+        "skill": "avoid_zone@v1",
+        "success": true,
+        "clearance": 0.0515,
+        "step_hash": "0c1f2ccafd995742ba915afe309f3e3c03126d87fab27e098ba161a24d6f6b7d",
+        "prev": "e01c35b85b50fa10dea272be9e21cb78103aa2f25491b240de0fb18ea9114b7e",
+        "hash": "df1a0a34290d64d7b81434e3d00a9cde0b9ea79e558f527f5904324b4204cc84"
+      }
+    ],
+    "prev": "df1a0a34290d64d7b81434e3d00a9cde0b9ea79e558f527f5904324b4204cc84",
+    "all_steps_certified": true,
+    "chain_hash": "df1a0a34290d64d7b81434e3d00a9cde0b9ea79e558f527f5904324b4204cc84"
+  }
+}

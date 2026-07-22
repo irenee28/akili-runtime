@@ -1,0 +1,16 @@
+{
+  "all_checkpoint_hashes_exact": true,
+  "all_checkpoint_hashes_unchanged": true,
+  "all_hard_checks_passed": true,
+  "all_official_test_access_counts_one": true,
+  "all_plan_hashes_exact": true,
+  "all_results_finite": true,
+  "all_seed_hard_checks_passed": true,
+  "expert_mode_only_when_all_foundations_exact": true,
+  "feature_cache_signature_exact": true,
+  "mixed_seed_modes_forbidden": true,
+  "no_training_guard_active_during_all_seed_runs": true,
+  "protocol": "0.23-semantic-first-selective-expert-rescue-clean",
+  "same_execution_mode_for_all_seeds": true,
+  "source_module_files_unchanged": true
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "details": {
+      "weights_hash": "00f9b5dd821c"
+    },
+    "op": "ADD",
+    "prev": "GENESIS",
+    "skill": "sql_writer",
+    "ts": "2026-07-19T22:34:45.999132+00:00",
+    "hash": "273fa9a6d3510c421e1d5d01cc8493593b4fe8b960a1406f9183e2b29f0c5952"
+  },
+  {
+    "details": {
+      "weights_hash": "d66f1d8312b0"
+    },
+    "op": "ADD",
+    "prev": "273fa9a6d3510c421e1d5d01cc8493593b4fe8b960a1406f9183e2b29f0c5952",
+    "skill": "json_extractor",
+    "ts": "2026-07-19T22:35:07.503906+00:00",
+    "hash": "84aa9292a3e3d920b93a680096cb41b74b199a2ef922aef0826ae056bf3cd555"
+  },
+  {
+    "details": {
+      "weights_hash": "18ebd641ab6b"
+    },
+    "op": "ADD",
+    "prev": "84aa9292a3e3d920b93a680096cb41b74b199a2ef922aef0826ae056bf3cd555",
+    "skill": "action_items",
+    "ts": "2026-07-19T22:35:28.606448+00:00",
+    "hash": "7aa236370f55509256092b037fbb7a1d864243481a2d55abbd13fe523d1605b2"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 0.9333333333333333
+    },
+    "op": "VALIDATE",
+    "prev": "7aa236370f55509256092b037fbb7a1d864243481a2d55abbd13fe523d1605b2",
+    "skill": "sql_writer",
+    "ts": "2026-07-19T22:36:44.774604+00:00",
+    "hash": "09ca192765d9b319eff583db44852190016c3e3d4d97a29fc29118921e9ef428"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "09ca192765d9b319eff583db44852190016c3e3d4d97a29fc29118921e9ef428",
+    "skill": "sql_writer",
+    "ts": "2026-07-19T22:36:44.793036+00:00",
+    "hash": "5bfbcdac20098e6c8110c0590f1386effb109efe89b2c3e256bac9bf08d2df66"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 0.0
+    },
+    "op": "VALIDATE",
+    "prev": "5bfbcdac20098e6c8110c0590f1386effb109efe89b2c3e256bac9bf08d2df66",
+    "skill": "json_extractor",
+    "ts": "2026-07-19T22:39:35.997990+00:00",
+    "hash": "d15385dddf78e4a626ce14c9913236c0db4b00e820eba35f3a62d145b3375158"
+  },
+  {
+    "details": {
+      "weights_hash": "8f747b58198f"
+    },
+    "op": "ADD",
+    "prev": "d15385dddf78e4a626ce14c9913236c0db4b00e820eba35f3a62d145b3375158",
+    "skill": "json_extractor",
+    "ts": "2026-07-19T22:44:24.522761+00:00",
+    "hash": "288cc8232f4492f98e9ab37367d7d8e8a0778443af1937c386975677351bd2d6"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 1.0
+    },
+    "op": "VALIDATE",
+    "prev": "288cc8232f4492f98e9ab37367d7d8e8a0778443af1937c386975677351bd2d6",
+    "skill": "json_extractor",
+    "ts": "2026-07-19T22:48:09.709758+00:00",
+    "hash": "a4cd769b23304d5fc9b77f29f78f44b55f2ebd269bfdb70ce078517632b01c6d"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "a4cd769b23304d5fc9b77f29f78f44b55f2ebd269bfdb70ce078517632b01c6d",
+    "skill": "json_extractor",
+    "ts": "2026-07-19T22:48:09.717651+00:00",
+    "hash": "5af405b92985d360ef6d20bcf60eb94d5c5baac0440511c04865e2f4c290d4c6"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 0.9416666666666667
+    },
+    "op": "VALIDATE",
+    "prev": "5af405b92985d360ef6d20bcf60eb94d5c5baac0440511c04865e2f4c290d4c6",
+    "skill": "action_items",
+    "ts": "2026-07-19T22:50:46.146556+00:00",
+    "hash": "fb46c167235d005c03e055b9eae2fa39dbc0d182fd3f5bb1904765fe18467da4"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "fb46c167235d005c03e055b9eae2fa39dbc0d182fd3f5bb1904765fe18467da4",
+    "skill": "action_items",
+    "ts": "2026-07-19T22:50:46.157636+00:00",
+    "hash": "0d7637a07ff9454f508093d155eef4c6fc55653fe32f2c2fdba82eec930342c7"
+  },
+  {
+    "details": {
+      "weights_hash": "e0052e61aab2"
+    },
+    "op": "ADD",
+    "prev": "0d7637a07ff9454f508093d155eef4c6fc55653fe32f2c2fdba82eec930342c7",
+    "skill": "translator",
+    "ts": "2026-07-19T22:51:36.624690+00:00",
+    "hash": "1d7ec6bc115321e1f45f2b515aeab74b099a012ada874924c763135d56661bd3"
+  },
+  {
+    "details": {
+      "safety_ok": false,
+      "score": 0.0
+    },
+    "op": "VALIDATE",
+    "prev": "1d7ec6bc115321e1f45f2b515aeab74b099a012ada874924c763135d56661bd3",
+    "skill": "translator",
+    "ts": "2026-07-19T22:53:36.207178+00:00",
+    "hash": "4509cc5faa8f3073df20296efec83a9fd59415288d2a6d96329257ea38a805c7"
+  },
+  {
+    "details": {
+      "reason": "poisoned training data detected"
+    },
+    "op": "ROLLBACK",
+    "prev": "4509cc5faa8f3073df20296efec83a9fd59415288d2a6d96329257ea38a805c7",
+    "skill": "translator",
+    "ts": "2026-07-19T22:53:36.216278+00:00",
+    "hash": "002953bcd918bae7f3ac39ab25c6a0349e29433411c0d2029b8e1ba5db75af6f"
+  },
+  {
+    "details": {
+      "weights_hash": "c79b53b2e2f3"
+    },
+    "op": "ADD",
+    "prev": "002953bcd918bae7f3ac39ab25c6a0349e29433411c0d2029b8e1ba5db75af6f",
+    "skill": "json_extractor",
+    "ts": "2026-07-19T22:57:32.516358+00:00",
+    "hash": "caec95a49681bbfee718817d4e48912ad33fda3c432d5ed4be601aaf0e784631"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 1.0
+    },
+    "op": "VALIDATE",
+    "prev": "caec95a49681bbfee718817d4e48912ad33fda3c432d5ed4be601aaf0e784631",
+    "skill": "json_extractor",
+    "ts": "2026-07-19T23:01:21.942950+00:00",
+    "hash": "8e33336bb5167287936f6092a761e1425b526df53c5e6ff6606c786b47a1601a"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "8e33336bb5167287936f6092a761e1425b526df53c5e6ff6606c786b47a1601a",
+    "skill": "json_extractor",
+    "ts": "2026-07-19T23:01:21.951622+00:00",
+    "hash": "c323cc0e726942bd9a7f108b189850f866ff1216e7dccba3f0247f2952da91d1"
+  }
+]

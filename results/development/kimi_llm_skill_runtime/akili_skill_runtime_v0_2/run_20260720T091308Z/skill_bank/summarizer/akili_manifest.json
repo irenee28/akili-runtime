@@ -1,0 +1,19 @@
+{
+  "skill": "summarizer",
+  "data_hash": "3a94d18e8127a7b2bbe7d571841d0bcbab360e1a9107d944d7eef4eabc5c4d59",
+  "weights_hash": "a0ffaba5263399c8fb8306a0ef05acb0f634e146c218598516148a6317f2aea6",
+  "file_hash": "d8837583bee1bb446d4218a184c201d4423feee05d8a80c450535d620a84b784",
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "trained_at": "2026-07-20T09:17:14.707036+00:00"
+}

@@ -1,0 +1,6 @@
+{
+  "decision": "Exact shared-foundation recovery succeeded for all three seeds. Use the expert-rescue metrics and gate to decide whether v0.23 advances.",
+  "execution_mode": "expert",
+  "phase2_gate_passed": false,
+  "scientific_scope": "semantic-first selective expert rescue"
+}

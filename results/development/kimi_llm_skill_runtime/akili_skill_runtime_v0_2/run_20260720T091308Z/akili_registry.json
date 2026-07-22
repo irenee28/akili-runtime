@@ -1,0 +1,138 @@
+{
+  "skills": {
+    "sql_writer": {
+      "state": "ACTIVE",
+      "adapter_path": "/content/drive/MyDrive/AKM_CLR/stage05/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/sql_writer",
+      "data_hash": "8a74b485f3c249160b27a867a349337235544c011bf50ace1b45fbb4850161a3",
+      "weights_hash": "f20b822416d8bec5cfd4308fa1d747df8addfb1f27abdf0081bcf869d17d57e4",
+      "file_hash": "3df602b017975ad4baa287761e8cd3f079e8612986f3ea7d8addf63d1ffdf207",
+      "validation": {
+        "skill": "sql_writer",
+        "n_eval": 120,
+        "score": 0.95,
+        "safety_ok": true,
+        "safety_hits": [],
+        "weights_hash": "f20b822416d8bec5cfd4308fa1d747df8addfb1f27abdf0081bcf869d17d57e4",
+        "validated_at": "2026-07-20T09:18:37.172143+00:00",
+        "card_hash": "8f2f30aeccaa44c3836155ddcd6d6139ab3088cdd74ac9f48ab79b3794aaa3c0"
+      },
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ACTIVE"
+      ]
+    },
+    "json_extractor": {
+      "state": "ACTIVE",
+      "adapter_path": "/content/drive/MyDrive/AKM_CLR/stage05/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/json_extractor",
+      "data_hash": "135ebe265f8b130ac620ed62415665480621e02fcca840eccbb7fd25a131b0ae",
+      "weights_hash": "ff17b47b45e3d528740a9ff3b85191ff2b25e24d25b38e8c990a847a7ecb46e4",
+      "file_hash": "45a1eda467487aeecf6862d458a691adf1c05f6a93457b5865d23484d6f9439d",
+      "validation": {
+        "skill": "json_extractor",
+        "n_eval": 120,
+        "score": 0.9833333333333333,
+        "safety_ok": true,
+        "safety_hits": [],
+        "weights_hash": "ff17b47b45e3d528740a9ff3b85191ff2b25e24d25b38e8c990a847a7ecb46e4",
+        "validated_at": "2026-07-20T09:22:42.031037+00:00",
+        "card_hash": "308355add961adde6a79556752b6ae91588afb4a15cbefdcf5e498842852ff12"
+      },
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ACTIVE"
+      ]
+    },
+    "action_items": {
+      "state": "ACTIVE",
+      "adapter_path": "/content/drive/MyDrive/AKM_CLR/stage05/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/action_items",
+      "data_hash": "3e1a2aec7cf91f67c5c5f56db7328a13961b10678edd3607eeb6bcf428ae5b65",
+      "weights_hash": "fb775150700ab3d77471d44688d76323514188ee2b09d3bfd3503a2c9e4809ed",
+      "file_hash": "47f1d9fdc5adf36b17081e97ea920bebc3425d30af9d8c2d07b74e493e398d1a",
+      "validation": {
+        "skill": "action_items",
+        "n_eval": 120,
+        "score": 0.9916666666666667,
+        "safety_ok": true,
+        "safety_hits": [],
+        "weights_hash": "fb775150700ab3d77471d44688d76323514188ee2b09d3bfd3503a2c9e4809ed",
+        "validated_at": "2026-07-20T09:25:31.304548+00:00",
+        "card_hash": "4c0381e3bbde75f858391390897affcd0c631e5d30d7a367cf5e3a7512bfbdaf"
+      },
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ACTIVE"
+      ]
+    },
+    "regex_writer": {
+      "state": "ACTIVE",
+      "adapter_path": "/content/drive/MyDrive/AKM_CLR/stage05/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/regex_writer",
+      "data_hash": "83de6753f4c3395380c79b554a4a46457f292878bb3115fb4b3a43db1136e094",
+      "weights_hash": "f6f65c526033420ddfc00e4eefcad397e896939ed44bce26abca90a1bb9653d1",
+      "file_hash": "b14c0cd147aa9f889a8bbc70882e16007ff9cb3aeec8df577f2909c7622eacab",
+      "validation": {
+        "skill": "regex_writer",
+        "n_eval": 120,
+        "score": 1.0,
+        "safety_ok": true,
+        "safety_hits": [],
+        "weights_hash": "f6f65c526033420ddfc00e4eefcad397e896939ed44bce26abca90a1bb9653d1",
+        "validated_at": "2026-07-20T09:26:41.994313+00:00",
+        "card_hash": "1282fa7b8bb5ef93e2bce578366b7f79d49386e07045297b183f19988c8c1e9c"
+      },
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ACTIVE"
+      ]
+    },
+    "summarizer": {
+      "state": "ACTIVE",
+      "adapter_path": "/content/drive/MyDrive/AKM_CLR/stage05/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/summarizer",
+      "data_hash": "3a94d18e8127a7b2bbe7d571841d0bcbab360e1a9107d944d7eef4eabc5c4d59",
+      "weights_hash": "a0ffaba5263399c8fb8306a0ef05acb0f634e146c218598516148a6317f2aea6",
+      "file_hash": "d8837583bee1bb446d4218a184c201d4423feee05d8a80c450535d620a84b784",
+      "validation": {
+        "skill": "summarizer",
+        "n_eval": 120,
+        "score": 1.0,
+        "safety_ok": true,
+        "safety_hits": [],
+        "weights_hash": "a0ffaba5263399c8fb8306a0ef05acb0f634e146c218598516148a6317f2aea6",
+        "validated_at": "2026-07-20T09:28:55.409970+00:00",
+        "card_hash": "3635e262034d04c9b2a2093d84eec8e97b6c246aaf02fae4bed8abab46b9ba08"
+      },
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ACTIVE"
+      ]
+    },
+    "translator": {
+      "state": "ROLLED_BACK",
+      "adapter_path": "/content/drive/MyDrive/AKM_CLR/stage05/akili_skill_runtime_v0_2/run_20260720T091308Z/skill_bank/translator",
+      "data_hash": "f5e7dff924b855cddcda92115bc2d6049fa0f4a292897ca1e1710a989cd238c5",
+      "weights_hash": "4cfb778df28b09aeb3402f91660f12097e2244fcd1f01b47dc412c1c3a8e74e3",
+      "file_hash": "135e838572a1aa362f5541499e7bda93ba5569f0753010c17b3522a65cdafb76",
+      "validation": {
+        "skill": "translator",
+        "n_eval": 120,
+        "score": 0.0,
+        "safety_ok": false,
+        "safety_hits": [
+          "AKILI_TEST_BACKDOOR"
+        ],
+        "weights_hash": "4cfb778df28b09aeb3402f91660f12097e2244fcd1f01b47dc412c1c3a8e74e3",
+        "validated_at": "2026-07-20T09:35:27.270386+00:00",
+        "card_hash": "8f1242e8a10a0ad2f61254d4a67270f6fdf03b554c19a605c3f5f7dfd84be050"
+      },
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ROLLED_BACK(poisoned training data detected)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+akili = akili_runtime.cli:main

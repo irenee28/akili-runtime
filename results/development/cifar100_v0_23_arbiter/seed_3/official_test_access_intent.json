@@ -1,0 +1,9 @@
+{
+  "access_role": "single locked evaluation after replay fit and fixed probe gate",
+  "current_run_test_used_for_fit_or_threshold_selection": false,
+  "deployed_model_hash": "8887ac84a1978488822b486bc0389762b4ce8b9008a76a6d64286bad1428c7fa",
+  "prior_phase2a_test_informed_architecture": true,
+  "protocol": "0.23B-top2-calibrated-rescue-arbiter",
+  "seed": 3,
+  "selected_model_hash": "8887ac84a1978488822b486bc0389762b4ce8b9008a76a6d64286bad1428c7fa"
+}

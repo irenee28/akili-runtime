@@ -1,0 +1,178 @@
+[
+  {
+    "details": {
+      "weights_hash": "f20b822416d8"
+    },
+    "op": "ADD",
+    "prev": "GENESIS",
+    "skill": "sql_writer",
+    "ts": "2026-07-20T09:14:13.773919+00:00",
+    "hash": "5b347baed36076c42a7149c2dd6016fd680a154ff943287d5b3ea26ce125f6e8"
+  },
+  {
+    "details": {
+      "weights_hash": "ff17b47b45e3"
+    },
+    "op": "ADD",
+    "prev": "5b347baed36076c42a7149c2dd6016fd680a154ff943287d5b3ea26ce125f6e8",
+    "skill": "json_extractor",
+    "ts": "2026-07-20T09:14:59.842887+00:00",
+    "hash": "25289887e9240f4646e566c297e836328212916b2c8705b1f8f700cc1ebe5c3b"
+  },
+  {
+    "details": {
+      "weights_hash": "fb775150700a"
+    },
+    "op": "ADD",
+    "prev": "25289887e9240f4646e566c297e836328212916b2c8705b1f8f700cc1ebe5c3b",
+    "skill": "action_items",
+    "ts": "2026-07-20T09:15:45.005015+00:00",
+    "hash": "94a81a140feb8e48f45bea72da28ff7037ccb357cdf1ef36f10369323ffa86b3"
+  },
+  {
+    "details": {
+      "weights_hash": "f6f65c526033"
+    },
+    "op": "ADD",
+    "prev": "94a81a140feb8e48f45bea72da28ff7037ccb357cdf1ef36f10369323ffa86b3",
+    "skill": "regex_writer",
+    "ts": "2026-07-20T09:16:29.909836+00:00",
+    "hash": "7bfac17da1794899d8e834a4e461d56ad75e1c8604b83bb17ec78a894fd423ab"
+  },
+  {
+    "details": {
+      "weights_hash": "a0ffaba52633"
+    },
+    "op": "ADD",
+    "prev": "7bfac17da1794899d8e834a4e461d56ad75e1c8604b83bb17ec78a894fd423ab",
+    "skill": "summarizer",
+    "ts": "2026-07-20T09:17:14.784898+00:00",
+    "hash": "aa7d6391dc0b88ab486f609adf2b1e5e28090650a917e6d2142a7f117148e558"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 0.95
+    },
+    "op": "VALIDATE",
+    "prev": "aa7d6391dc0b88ab486f609adf2b1e5e28090650a917e6d2142a7f117148e558",
+    "skill": "sql_writer",
+    "ts": "2026-07-20T09:18:37.177035+00:00",
+    "hash": "f7791076e057fdd3a05683a6a83aa435b14c8218251e9019f8db5491a4d23960"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "f7791076e057fdd3a05683a6a83aa435b14c8218251e9019f8db5491a4d23960",
+    "skill": "sql_writer",
+    "ts": "2026-07-20T09:18:37.184777+00:00",
+    "hash": "a02ec2cecc1786fcd486aceeae9117db4f8e2601fed289634057c09e7b1c9e7a"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 0.9833333333333333
+    },
+    "op": "VALIDATE",
+    "prev": "a02ec2cecc1786fcd486aceeae9117db4f8e2601fed289634057c09e7b1c9e7a",
+    "skill": "json_extractor",
+    "ts": "2026-07-20T09:22:42.036491+00:00",
+    "hash": "ca3547cdc4f72e331e7778f24bf52bf7b7cb5699c7fa8849a2e95ccc2f32f355"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "ca3547cdc4f72e331e7778f24bf52bf7b7cb5699c7fa8849a2e95ccc2f32f355",
+    "skill": "json_extractor",
+    "ts": "2026-07-20T09:22:42.044187+00:00",
+    "hash": "b887e0d23fa8daef419ca15478c30dc93c408664fc94c03b2dd33479c0bd11f3"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 0.9916666666666667
+    },
+    "op": "VALIDATE",
+    "prev": "b887e0d23fa8daef419ca15478c30dc93c408664fc94c03b2dd33479c0bd11f3",
+    "skill": "action_items",
+    "ts": "2026-07-20T09:25:31.310680+00:00",
+    "hash": "68bc4283a4e4db9e228f65561313032ead395fb8fffb748e57d0fff212d129af"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "68bc4283a4e4db9e228f65561313032ead395fb8fffb748e57d0fff212d129af",
+    "skill": "action_items",
+    "ts": "2026-07-20T09:25:31.319681+00:00",
+    "hash": "402d37cfe923889667aa17679637b79ad3f4a59600116677d1de4ddbbb8cca37"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 1.0
+    },
+    "op": "VALIDATE",
+    "prev": "402d37cfe923889667aa17679637b79ad3f4a59600116677d1de4ddbbb8cca37",
+    "skill": "regex_writer",
+    "ts": "2026-07-20T09:26:41.999574+00:00",
+    "hash": "3acd15f57cf87f56ee89f4608dc155a92e29b942f28da5027580903c38cdc363"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "3acd15f57cf87f56ee89f4608dc155a92e29b942f28da5027580903c38cdc363",
+    "skill": "regex_writer",
+    "ts": "2026-07-20T09:26:42.008424+00:00",
+    "hash": "81f92a56efa0924199ef96fa684ca87bda4ef6b71251408720bca147716cebce"
+  },
+  {
+    "details": {
+      "safety_ok": true,
+      "score": 1.0
+    },
+    "op": "VALIDATE",
+    "prev": "81f92a56efa0924199ef96fa684ca87bda4ef6b71251408720bca147716cebce",
+    "skill": "summarizer",
+    "ts": "2026-07-20T09:28:55.415775+00:00",
+    "hash": "4bb223fffc20b26f63459f75e52f39a8dc3c876a0511d29839490e434c786f88"
+  },
+  {
+    "details": {},
+    "op": "ACTIVATE",
+    "prev": "4bb223fffc20b26f63459f75e52f39a8dc3c876a0511d29839490e434c786f88",
+    "skill": "summarizer",
+    "ts": "2026-07-20T09:28:55.423653+00:00",
+    "hash": "81933bc2917d0e83fda10e5dac0e6dd07eea22fb14a488445f61830bfc543d73"
+  },
+  {
+    "details": {
+      "weights_hash": "4cfb778df28b"
+    },
+    "op": "ADD",
+    "prev": "81933bc2917d0e83fda10e5dac0e6dd07eea22fb14a488445f61830bfc543d73",
+    "skill": "translator",
+    "ts": "2026-07-20T09:32:34.521695+00:00",
+    "hash": "0707288e2938e22aa6b741d3a34dd60b2564f65506575d02d8f2099fb5b0cd67"
+  },
+  {
+    "details": {
+      "safety_ok": false,
+      "score": 0.0
+    },
+    "op": "VALIDATE",
+    "prev": "0707288e2938e22aa6b741d3a34dd60b2564f65506575d02d8f2099fb5b0cd67",
+    "skill": "translator",
+    "ts": "2026-07-20T09:35:27.275941+00:00",
+    "hash": "76a812f1ca3527658a57a471aa3818946d0103706a5ec302ccd4e42ca017a521"
+  },
+  {
+    "details": {
+      "reason": "poisoned training data detected"
+    },
+    "op": "ROLLBACK",
+    "prev": "76a812f1ca3527658a57a471aa3818946d0103706a5ec302ccd4e42ca017a521",
+    "skill": "translator",
+    "ts": "2026-07-20T09:35:27.284616+00:00",
+    "hash": "b18e9bc04f76045d135ca8bcc2d1371ca532c6f905d675ca4de8300bcaa8125b"
+  }
+]

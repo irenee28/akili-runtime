@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use Akili Runtime, cite this software release."
+title: "Akili Runtime: Versioned Continual Capabilities for Safe, Resource-Bounded Adaptation"
+type: software
+authors:
+  - family-names: "Akilimali"
+    given-names: "Irénée"
+    email: "shukranimungu@gmail.com"
+version: 0.1.0-rc3
+date-released: 2026-07-21
+license: PolyForm-Noncommercial-1.0.0
+repository-code: "https://github.com/OWNER/akili-runtime"
+abstract: >-
+  A research runtime that separates continual-learning engines from behavioral
+  admission, version lifecycle, resource accounting and auditable recovery.

@@ -1,0 +1,22 @@
+{
+  "all_checkpoint_hashes_exact": true,
+  "all_checkpoint_hashes_unchanged": true,
+  "all_core_results_finite": true,
+  "all_foundations_exactly_recovered": true,
+  "all_hard_checks_passed": true,
+  "all_official_test_access_counts_one": true,
+  "all_plan_hashes_exact": true,
+  "all_seed_hard_checks_passed": true,
+  "candidate_feature_contract_locked": true,
+  "feature_cache_signature_exact": true,
+  "grouped_oof_replay_selection_only": true,
+  "metric_gate_counts_wrong_to_wrong_as_failed_invocations": true,
+  "no_expert_trunk_encoder_or_semantic_memory_training": true,
+  "official_test_not_used_for_fit_or_threshold_selection": true,
+  "only_tiny_cpu_logistic_arbiter_fitted": true,
+  "primary_candidate_set_locked_to_top2": true,
+  "probe_is_fixed_safety_gate_only": true,
+  "protocol": "0.23B-top2-calibrated-rescue-arbiter",
+  "source_module_files_unchanged": true,
+  "zero_invocation_precision_never_fabricated_as_one": true
+}

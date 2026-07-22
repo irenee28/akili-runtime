@@ -1,0 +1,43 @@
+{
+  "deployed_model": null,
+  "deployed_model_hash": "8887ac84a1978488822b486bc0389762b4ce8b9008a76a6d64286bad1428c7fa",
+  "model": null,
+  "probe_safety_gate": {
+    "deploy_model": false,
+    "observed": {
+      "absolute_gain": 0.0,
+      "baseline_accuracy": 0.65,
+      "chosen_candidate_score_mean": null,
+      "consequential_precision": null,
+      "damage_rate": 0.0,
+      "damaged_count": 0,
+      "examples": 100,
+      "final_accuracy": 0.65,
+      "invocation_count": 0,
+      "invocation_precision": null,
+      "invocation_rate": 0.0,
+      "rescue_rate": 0.0,
+      "rescued_count": 0,
+      "rule": "baseline_no_rescue",
+      "threshold": 1.0,
+      "wrong_to_wrong_change_count": 0
+    },
+    "passed": true,
+    "reason": "Replay OOF selected baseline."
+  },
+  "selected_model_hash": "8887ac84a1978488822b486bc0389762b4ce8b9008a76a6d64286bad1428c7fa",
+  "selection": {
+    "fold_report": {
+      "example_count": 400,
+      "fold_count": 5,
+      "groups_are_disjoint": true,
+      "negative_candidate_rows": 726,
+      "positive_candidate_rows": 74,
+      "positive_example_groups": 74,
+      "row_count": 800
+    },
+    "reason": "No OOF replay configuration met the locked precision, damage, rescue-count and invocation-count constraints.",
+    "selected": false
+  },
+  "sklearn_version": "1.6.1"
+}

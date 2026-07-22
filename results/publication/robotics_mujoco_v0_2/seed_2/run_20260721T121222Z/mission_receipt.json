@@ -1,0 +1,34 @@
+{
+  "steps": [
+    {
+      "step": 0,
+      "skill": "reach_B@v1",
+      "success": true,
+      "clearance": 0.05,
+      "step_hash": "086eff9e76e0cccc52084e440f6c42eb79a7fe4a882b497fcf9b55a193bffdeb",
+      "prev": "MISSION_GENESIS",
+      "hash": "0e8969ea60ca2a1e3e4d3509b389c34b5227fedf131fc4cbf285876710faf031"
+    },
+    {
+      "step": 1,
+      "skill": "press_button@v1",
+      "success": true,
+      "clearance": 0.0802,
+      "step_hash": "a765df759b46929c1a639fa1d64a0c1e51c7743824547402081bba737d754f51",
+      "prev": "0e8969ea60ca2a1e3e4d3509b389c34b5227fedf131fc4cbf285876710faf031",
+      "hash": "e01c35b85b50fa10dea272be9e21cb78103aa2f25491b240de0fb18ea9114b7e"
+    },
+    {
+      "step": 2,
+      "skill": "avoid_zone@v1",
+      "success": true,
+      "clearance": 0.0515,
+      "step_hash": "0c1f2ccafd995742ba915afe309f3e3c03126d87fab27e098ba161a24d6f6b7d",
+      "prev": "e01c35b85b50fa10dea272be9e21cb78103aa2f25491b240de0fb18ea9114b7e",
+      "hash": "df1a0a34290d64d7b81434e3d00a9cde0b9ea79e558f527f5904324b4204cc84"
+    }
+  ],
+  "prev": "df1a0a34290d64d7b81434e3d00a9cde0b9ea79e558f527f5904324b4204cc84",
+  "all_steps_certified": true,
+  "chain_hash": "df1a0a34290d64d7b81434e3d00a9cde0b9ea79e558f527f5904324b4204cc84"
+}

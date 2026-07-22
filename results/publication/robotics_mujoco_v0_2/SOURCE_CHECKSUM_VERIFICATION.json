@@ -1,0 +1,23 @@
+{
+  "all_available_entries_verified": true,
+  "available": 49,
+  "entries_total": 63,
+  "mismatches": [],
+  "missing_intentionally_from_lite": [
+    "seed_0/run_20260721T115644Z/animations/act1_skills.gif",
+    "seed_0/run_20260721T115644Z/animations/act3_naive_bank.gif",
+    "seed_0/run_20260721T115644Z/animations/act4_update_rejected.gif",
+    "seed_0/run_20260721T115644Z/animations/act5_mission.gif",
+    "seed_1/run_20260721T120433Z/animations/act1_skills.gif",
+    "seed_1/run_20260721T120433Z/animations/act2_forgetting.gif",
+    "seed_1/run_20260721T120433Z/animations/act3_naive_bank.gif",
+    "seed_1/run_20260721T120433Z/animations/act4_update_rejected.gif",
+    "seed_1/run_20260721T120433Z/animations/act5_mission.gif",
+    "seed_2/run_20260721T121222Z/animations/act1_skills.gif",
+    "seed_2/run_20260721T121222Z/animations/act2_forgetting.gif",
+    "seed_2/run_20260721T121222Z/animations/act3_naive_bank.gif",
+    "seed_2/run_20260721T121222Z/animations/act4_update_rejected.gif",
+    "seed_2/run_20260721T121222Z/animations/act5_mission.gif"
+  ],
+  "verified": 49
+}

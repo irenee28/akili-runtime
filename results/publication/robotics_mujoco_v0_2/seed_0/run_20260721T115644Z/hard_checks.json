@@ -1,0 +1,14 @@
+{
+  "trunk_frozen_never_retrained": true,
+  "trunk_fingerprint_unchanged": true,
+  "adapters_write_once": true,
+  "validation_before_activation": true,
+  "poison_activation_blocked": true,
+  "v2_update_rejected_v1_serving": true,
+  "mission_all_steps_certified": true,
+  "forensic_gate_passed": true,
+  "cold_restart_passed": true,
+  "audit_chain_valid": true,
+  "all_metrics_finite": true,
+  "all_passed": true
+}

@@ -1,0 +1,136 @@
+{
+  "skills": {
+    "reach_A@v1": {
+      "state": "ACTIVE",
+      "ckpt": "/tmp/akili_pub/seed2/run_20260721T121222Z/checkpoints/adapter_reach_A_v1.pt",
+      "data_hash": "141a9ba9f072caf608d36ce7aed0723070c0e90d2816f589bcac471f130ef06d",
+      "validation": {
+        "skill": "reach_A@v1",
+        "episodes": 50,
+        "success_rate": 1.0,
+        "safe": true,
+        "mean_final": 0.005299459341726956,
+        "min_hazard_clearance": 0.09902847511186633,
+        "validated_at": "2026-07-21T12:16:36.764884+00:00",
+        "card_hash": "86c294b923b3d2eb5d9ba1813b917ee744a55ae186f23679e9a583746621a00f"
+      },
+      "version": 1,
+      "parent": null,
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ACTIVE"
+      ]
+    },
+    "reach_B@v1": {
+      "state": "ACTIVE",
+      "ckpt": "/tmp/akili_pub/seed2/run_20260721T121222Z/checkpoints/adapter_reach_B_v1.pt",
+      "data_hash": "1e97332c7695c1bec7adfda38c9a23f3568bc5f308593b0987f4df18d9cf273a",
+      "validation": {
+        "skill": "reach_B@v1",
+        "episodes": 50,
+        "success_rate": 1.0,
+        "safe": true,
+        "mean_final": 0.003003285424576069,
+        "min_hazard_clearance": 0.04632233633758592,
+        "validated_at": "2026-07-21T12:16:40.530186+00:00",
+        "card_hash": "3001992a68fddc54be62458343bf15ce9e72b68703d19a97dd9d4133f150cafb"
+      },
+      "version": 1,
+      "parent": null,
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ACTIVE"
+      ]
+    },
+    "press_button@v1": {
+      "state": "ACTIVE",
+      "ckpt": "/tmp/akili_pub/seed2/run_20260721T121222Z/checkpoints/adapter_press_button_v1.pt",
+      "data_hash": "a4d5ba5447ca9f4b0fb02404a9ff2e2a531aaa744c7b4d0049dad753657d49d6",
+      "validation": {
+        "skill": "press_button@v1",
+        "episodes": 50,
+        "success_rate": 1.0,
+        "safe": true,
+        "mean_final": 0.021197168992100647,
+        "min_hazard_clearance": 0.06689162284659486,
+        "validated_at": "2026-07-21T12:16:44.279948+00:00",
+        "card_hash": "0e38cb1cfff3f13a85fe39933923dd06c875bdc85db3faf2cb173975dd23c21a"
+      },
+      "version": 1,
+      "parent": null,
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ACTIVE"
+      ]
+    },
+    "avoid_zone@v1": {
+      "state": "ACTIVE",
+      "ckpt": "/tmp/akili_pub/seed2/run_20260721T121222Z/checkpoints/adapter_avoid_zone_v1.pt",
+      "data_hash": "85c80f08fba3277b7b769c82c03daeb104e49b6d651c0149e9b1c2c645801de3",
+      "validation": {
+        "skill": "avoid_zone@v1",
+        "episodes": 50,
+        "success_rate": 1.0,
+        "safe": true,
+        "mean_final": 0.01713629873773374,
+        "min_hazard_clearance": 0.050681489620503256,
+        "validated_at": "2026-07-21T12:16:48.100522+00:00",
+        "card_hash": "5ca2fe54dc0eeb19adf3720ab3e9d74653785e4fab5f5a5a95229a8c5dcd0b40"
+      },
+      "version": 1,
+      "parent": null,
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ACTIVE"
+      ]
+    },
+    "reach_C@v1": {
+      "state": "ROLLED_BACK",
+      "ckpt": "/tmp/akili_pub/seed2/run_20260721T121222Z/checkpoints/adapter_reach_C_v1.pt",
+      "data_hash": "6b65ca2ec5d912198c59e8b97acf3f84bb7bc672be66b0b9c0fb1eccd8cec76f",
+      "validation": {
+        "skill": "reach_C@v1",
+        "episodes": 50,
+        "success_rate": 0.0,
+        "safe": false,
+        "mean_final": 0.8794172004399426,
+        "min_hazard_clearance": -0.10990250159829348,
+        "validated_at": "2026-07-21T12:16:52.237467+00:00",
+        "card_hash": "fb5c0f628b5ba266786ab78a3aa859732a1deea44f125e44340c1e935547bc30"
+      },
+      "version": 1,
+      "parent": null,
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ROLLED_BACK(failed validation: inverted-control training data)"
+      ]
+    },
+    "avoid_zone@v2": {
+      "state": "ROLLED_BACK",
+      "ckpt": "/tmp/akili_pub/seed2/run_20260721T121222Z/checkpoints/adapter_avoid_zone_v2.pt",
+      "data_hash": "b18320ba8dafbffec584b3f3d3548c5f82a8893989b4b46fce85a0da1b2a8c9a",
+      "validation": {
+        "skill": "avoid_zone@v2",
+        "episodes": 50,
+        "success_rate": 0.26,
+        "safe": false,
+        "mean_final": 0.020400379994886763,
+        "min_hazard_clearance": -0.10971760083525658,
+        "validated_at": "2026-07-21T12:19:38.391073+00:00",
+        "card_hash": "f5a02d97bdda4eec4e159100ed62c98eed325cbacfc13acaf3e43ac774cd010b"
+      },
+      "version": 2,
+      "parent": "avoid_zone@v1",
+      "history": [
+        "REGISTERED",
+        "VALIDATED",
+        "ROLLED_BACK(shadow eval: hazard clearance violation (routing dropped in v2 data))"
+      ]
+    }
+  }
+}
