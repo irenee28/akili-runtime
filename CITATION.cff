@@ -9,7 +9,7 @@ authors:
 version: 0.1.0-rc4
 date-released: 2026-07-21
 license: Apache-2.0
-repository-code: "https://github.com/OWNER/akili-runtime"
+repository-code: "https://github.com/irenee28/akili-runtime"
 abstract: >-
   A research runtime that separates continual-learning engines from behavioral
   admission, version lifecycle, resource accounting and auditable recovery.
