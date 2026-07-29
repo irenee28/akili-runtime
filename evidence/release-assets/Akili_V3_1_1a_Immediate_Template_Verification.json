@@ -1,0 +1,61 @@
+{
+  "verification_protocol": "akili-v3.1.1a-criterion-amendment-verification-v1",
+  "generated_at_utc": "2026-07-27T10:51:49.877377+00:00",
+  "source_notebook": "Akili_V3_1_1_Immediate_Template_Development_Colab.ipynb",
+  "source_sha256": "f42f3695a97fcefdbf809cedfd1c5342e76f3750fc43ef06a4e358515edb5c28",
+  "output_notebook": "Akili_V3_1_1a_Immediate_Template_Development_Colab.ipynb",
+  "output_sha256": "5fc66402358cd97d72ef64f247802705fa2c45b89fecc1100765cbcb75e70dc2",
+  "output_size_bytes": 212638,
+  "scientific_protocol": "akili-v3.1.1a-immediate-template-policy-heldout",
+  "criterion_amendment": {
+    "amendment_id": "SOC-RAW-RECALL-065-BEFORE-HELDOUT-2026-07-27",
+    "recorded_before_heldout": true,
+    "prior_draft_raw_recall_target": 0.75,
+    "frozen_raw_recall_target": 0.65,
+    "frozen_specificity_target": 0.8,
+    "primary_mechanism_diagnostic": "evidence_available_recall",
+    "logic_change": false,
+    "documentation_and_audit_change": true
+  },
+  "static_validation": {
+    "nbformat_v4_valid": true,
+    "code_cells_compile": "15/15",
+    "outputs_cleared": true,
+    "execution_counts_cleared": true,
+    "silent_default_removed": true,
+    "frozen_constants_explicit": true,
+    "amendment_in_opening_markdown": true,
+    "amendment_in_compatibility_hash": true,
+    "amendment_in_run_manifest": true,
+    "amendment_in_performance_detail": true,
+    "amendment_in_final_receipt": true,
+    "primary_diagnostic_in_final_receipt": true,
+    "new_session_prevents_stale_resume": true
+  },
+  "mechanism_code_unchanged": {
+    "envs": true,
+    "systems": true,
+    "harness": true,
+    "model": true,
+    "smoke": true,
+    "main_loop": true,
+    "integrity": true
+  },
+  "previous_full_mock_evidence_retained": {
+    "development_trace_count": 741,
+    "development_integrity_gates": "22/22",
+    "heldout_integrity_gates": "22/22",
+    "acquisition_template_coverage": "15/15",
+    "post_supersession_template_coverage": "9/9",
+    "note": "Mechanism and mock cells are byte-identical to the independently reviewed V3.1.1 notebook."
+  },
+  "real_model_execution_performed": false,
+  "performance_claim": "None. This amendment makes the already-used 0.65 SOC gate explicit and auditable before held-out evaluation.",
+  "dynamic_validation": {
+    "performance_threshold_below_0_65_fails": true,
+    "performance_threshold_at_0_65_passes": true,
+    "performance_detail_contains_amendment": true,
+    "compatibility_and_manifest_pin_amendment": true,
+    "final_receipt_pins_amendment_and_primary_diagnostic": true
+  }
+}

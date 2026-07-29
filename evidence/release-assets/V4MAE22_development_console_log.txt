@@ -1,0 +1,1330 @@
+qwen3_4b: pinned snapshot already complete; download skipped.
+{
+  "qwen3_4b": {
+    "repo": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7",
+    "slug": "qwen3-4b",
+    "requested_revision": "1cfa9a7",
+    "resolved_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "local_path": "/workspace/AKILI_CL/models/qwen3-4b-1cfa9a7",
+    "weight_shards": 3,
+    "snapshot_gib": 7.507
+  }
+}
+mistral_nemo: pinned snapshot already complete; download skipped.
+{
+  "mistral_nemo": {
+    "repo": "mistralai/Mistral-Nemo-Instruct-2407",
+    "revision": "04d8a90549d23fc6bd7f642064003592df51e9b3",
+    "slug": "mistral-nemo-instruct-2407",
+    "requested_revision": "04d8a90549d23fc6bd7f642064003592df51e9b3",
+    "resolved_revision": "04d8a90549d23fc6bd7f642064003592df51e9b3",
+    "local_path": "/workspace/AKILI_CL/models/mistral-nemo-instruct-2407-04d8a905",
+    "weight_shards": 5,
+    "snapshot_gib": 22.841
+  }
+}
+FROZEN SOURCE HASHES VERIFIED
+JSON NORMALIZER + EXACT-COPY REPAIR REGRESSION PASS
+SEMANTIC VERIFIER + BINDER + EXECUTABLE-CONTRACT PROMPT SELF-TEST PASS
+{
+  "all_bound_prompts_executable": true,
+  "all_bound_prompts_contain_signature": true,
+  "all_bound_prompts_contain_exact_executable_code": true,
+  "all_bound_prompts_omit_raw_memory": true,
+  "all_bound_prompts_omit_brief": true,
+  "all_bound_prompts_omit_rule_copy": true,
+  "all_bound_prompts_have_no_symbolic_slots": true,
+  "minimum_static_savings_at_least_30": true,
+  "mean_static_savings": 168.33333333333334,
+  "minimum_static_savings": 140,
+  "unbound_prompt_byte_equivalent": true
+}
+seed=25 arm=stateless
+seed=25 arm=bounded_icl
+seed=25 arm=template_only
+seed=25 arm=akili
+seed=26 arm=stateless
+seed=26 arm=bounded_icl
+seed=26 arm=template_only
+seed=26 arm=akili
+seed=27 arm=stateless
+seed=27 arm=bounded_icl
+seed=27 arm=template_only
+seed=27 arm=akili
+{
+  "arms": {
+    "stateless": {
+      "issues": 108,
+      "passed": 0,
+      "accuracy": 0.0,
+      "prompt_tokens": 14315,
+      "generated_tokens": 1188,
+      "memory_tokens": 0,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 1.0,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 0.0,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    "bounded_icl": {
+      "issues": 108,
+      "passed": 0,
+      "accuracy": 0.0,
+      "prompt_tokens": 117950,
+      "generated_tokens": 1188,
+      "memory_tokens": 103113,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 1.0,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 0.0,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    "template_only": {
+      "issues": 108,
+      "passed": 72,
+      "accuracy": 0.6666666666666666,
+      "prompt_tokens": 13981,
+      "generated_tokens": 3104,
+      "memory_tokens": 7716,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 1.0,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 0.6666666666666666,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        }
+      }
+    },
+    "akili": {
+      "issues": 108,
+      "passed": 108,
+      "accuracy": 1.0,
+      "prompt_tokens": 14697,
+      "generated_tokens": 4062,
+      "memory_tokens": 12549,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 1.0,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 1.0,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        }
+      }
+    }
+  },
+  "integrity": {
+    "fresh_three_seed_locked_design": true,
+    "all_arm_issue_counts_equal": true,
+    "environment_hashes_present": true,
+    "required_signatures_public": true,
+    "cross_scope_retrieval_zero": true,
+    "obsolete_retrieval_zero": true,
+    "akili_teaching_template_coverage": true,
+    "akili_recall_uses_persistent_template": true,
+    "binder_only_with_verified_template": true,
+    "akili_binder_full_coverage": true,
+    "template_only_no_recall_binder": true,
+    "executable_prompt_only_with_verified_binding": true,
+    "bound_prompt_omits_raw_memory": true,
+    "unbound_arms_keep_legacy_prompt": true,
+    "akili_static_savings_at_least_30_each": true,
+    "raw_outputs_logged": true,
+    "normalized_candidates_logged": true,
+    "semantic_repair_only_with_verified_binding": true,
+    "semantic_repair_audits_logged": true,
+    "semantic_repair_max_one": true,
+    "ast_and_execution_audits_logged": true,
+    "all_system_audits_valid": true,
+    "all_system_states_bounded": true
+  },
+  "performance": {
+    "criteria": {
+      "akili_accuracy_at_least_90": true,
+      "akili_acquisition_at_least_90": true,
+      "akili_return_at_least_90": true,
+      "akili_post_supersession_at_least_90": true,
+      "akili_restoration_advantage_at_least_30pp": true,
+      "prompt_reduction_at_least_70": true,
+      "obsolete_retrieval_zero": true,
+      "cross_scope_retrieval_zero": true,
+      "all_integrity_pass": true
+    },
+    "prompt_reduction": 0.8753963543874523,
+    "akili_restoration_rate": 1.0,
+    "template_only_restoration_rate": 0.0,
+    "restoration_advantage": 1.0,
+    "prompt_representation": {
+      "version": "exact-executable-contract-transport-v2.2",
+      "legacy_version": "v4ma-redundant-bound-prompt-v1",
+      "static_total_savings_tokens_approx": 19146,
+      "static_mean_savings_tokens_per_issue_approx": 177.27777777777777,
+      "static_min_savings_tokens_per_issue_approx": 158,
+      "raw_memory_omitted_after_verified_binding": true,
+      "executable_function_in_prompt": true
+    },
+    "PASS": true
+  }
+}
+THREE-SEED MOCK PREFLIGHT PASS
+RUNNING: /usr/local/bin/python /workspace/AKILI_CL/v4mae22/work/akili_v4mae22_benchmark.py --phase development --mode real --output /workspace/AKILI_CL/results/akili_v4mae22_development_seeds_25_26_27/qwen3_4b --model /workspace/AKILI_CL/models/qwen3-4b-1cfa9a7 --model-id qwen3_4b --icl-budget 1024 --akili-budget 288 --require-real-canary
+Loading checkpoint shards: 100%|██████████| 3/3 [00:18<00:00,  6.05s/it]
+REAL MODEL CANARY: qwen3_4b
+{
+  "canary_version": "real-model-six-family-canary-v3",
+  "model_id": "qwen3_4b",
+  "passed": 6,
+  "first_passed": 6,
+  "semantic_repairs": 0,
+  "repair_successes": 0,
+  "issues": 6,
+  "PASS": true
+}
+seed=25 arm=stateless
+seed=25 arm=bounded_icl
+seed=25 arm=template_only
+seed=25 arm=akili
+seed=26 arm=stateless
+seed=26 arm=bounded_icl
+seed=26 arm=template_only
+seed=26 arm=akili
+seed=27 arm=stateless
+seed=27 arm=bounded_icl
+seed=27 arm=template_only
+seed=27 arm=akili
+{
+  "arms": {
+    "stateless": {
+      "issues": 108,
+      "passed": 52,
+      "accuracy": 0.48148148148148145,
+      "prompt_tokens": 21670,
+      "generated_tokens": 5434,
+      "memory_tokens": 0,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 0.8888888888888888,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 0.0,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 3,
+          "rate": 0.16666666666666666
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 11,
+          "rate": 0.6111111111111112
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 11,
+          "rate": 0.6111111111111112
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 15,
+          "rate": 0.8333333333333334
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 10,
+          "rate": 0.5555555555555556
+        }
+      }
+    },
+    "bounded_icl": {
+      "issues": 108,
+      "passed": 43,
+      "accuracy": 0.39814814814814814,
+      "prompt_tokens": 125282,
+      "generated_tokens": 5524,
+      "memory_tokens": 103005,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 0.7962962962962963,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 0.0,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 2,
+          "rate": 0.1111111111111111
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 5,
+          "rate": 0.2777777777777778
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 6,
+          "rate": 0.3333333333333333
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 10,
+          "rate": 0.5555555555555556
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 11,
+          "rate": 0.6111111111111112
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 16,
+          "rate": 0.8888888888888888
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 6,
+          "rate": 0.3333333333333333
+        }
+      }
+    },
+    "template_only": {
+      "issues": 108,
+      "passed": 84,
+      "accuracy": 0.7777777777777778,
+      "prompt_tokens": 24544,
+      "generated_tokens": 5544,
+      "memory_tokens": 6360,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 0.9629629629629629,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 0.6666666666666666,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 3,
+          "rate": 0.16666666666666666
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 15,
+          "rate": 0.8333333333333334
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 15,
+          "rate": 0.8333333333333334
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        }
+      }
+    },
+    "akili": {
+      "issues": 108,
+      "passed": 108,
+      "accuracy": 1.0,
+      "prompt_tokens": 26886,
+      "generated_tokens": 5541,
+      "memory_tokens": 11081,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 1.0,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 1.0,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        }
+      }
+    }
+  },
+  "integrity": {
+    "fresh_three_seed_locked_design": true,
+    "all_arm_issue_counts_equal": true,
+    "environment_hashes_present": true,
+    "required_signatures_public": true,
+    "cross_scope_retrieval_zero": true,
+    "obsolete_retrieval_zero": true,
+    "akili_teaching_template_coverage": true,
+    "akili_recall_uses_persistent_template": true,
+    "binder_only_with_verified_template": true,
+    "akili_binder_full_coverage": true,
+    "template_only_no_recall_binder": true,
+    "executable_prompt_only_with_verified_binding": true,
+    "bound_prompt_omits_raw_memory": true,
+    "unbound_arms_keep_legacy_prompt": true,
+    "akili_static_savings_at_least_30_each": true,
+    "raw_outputs_logged": true,
+    "normalized_candidates_logged": true,
+    "semantic_repair_only_with_verified_binding": true,
+    "semantic_repair_audits_logged": true,
+    "semantic_repair_max_one": true,
+    "ast_and_execution_audits_logged": true,
+    "all_system_audits_valid": true,
+    "all_system_states_bounded": true
+  },
+  "performance": {
+    "criteria": {
+      "akili_accuracy_at_least_90": true,
+      "akili_acquisition_at_least_90": true,
+      "akili_return_at_least_90": true,
+      "akili_post_supersession_at_least_90": true,
+      "akili_restoration_advantage_at_least_30pp": true,
+      "prompt_reduction_at_least_70": true,
+      "obsolete_retrieval_zero": true,
+      "cross_scope_retrieval_zero": true,
+      "all_integrity_pass": true
+    },
+    "prompt_reduction": 0.7853961462939608,
+    "akili_restoration_rate": 1.0,
+    "template_only_restoration_rate": 0.3333333333333333,
+    "restoration_advantage": 0.6666666666666667,
+    "prompt_representation": {
+      "version": "exact-executable-contract-transport-v2.2",
+      "legacy_version": "v4ma-redundant-bound-prompt-v1",
+      "static_total_savings_tokens_approx": 19146,
+      "static_mean_savings_tokens_per_issue_approx": 177.27777777777777,
+      "static_min_savings_tokens_per_issue_approx": 158,
+      "raw_memory_omitted_after_verified_binding": true,
+      "executable_function_in_prompt": true
+    },
+    "PASS": true
+  }
+}
+{
+  "model_id": "qwen3_4b",
+  "real_model_canary": {
+    "passed": 6,
+    "first_passed": 6,
+    "semantic_repairs": 0,
+    "repair_successes": 0,
+    "issues": 6,
+    "PASS": true
+  },
+  "accuracy": 1.0,
+  "template_only_accuracy": 0.7777777777777778,
+  "restoration_advantage": 0.6666666666666667,
+  "prompt_reduction": 0.7853961462939608,
+  "static_prompt_savings_per_issue": 177.27777777777777,
+  "performance_pass": true
+}
+RUNNING: /usr/local/bin/python /workspace/AKILI_CL/v4mae22/work/akili_v4mae22_benchmark.py --phase development --mode real --output /workspace/AKILI_CL/results/akili_v4mae22_development_seeds_25_26_27/mistral_nemo --model /workspace/AKILI_CL/models/mistral-nemo-instruct-2407-04d8a905 --model-id mistral_nemo --icl-budget 1024 --akili-budget 288 --require-real-canary
+Loading checkpoint shards: 100%|██████████| 5/5 [00:38<00:00,  7.66s/it]
+REAL MODEL CANARY: mistral_nemo
+{
+  "canary_version": "real-model-six-family-canary-v3",
+  "model_id": "mistral_nemo",
+  "passed": 6,
+  "first_passed": 6,
+  "semantic_repairs": 0,
+  "repair_successes": 0,
+  "issues": 6,
+  "PASS": true
+}
+seed=25 arm=stateless
+seed=25 arm=bounded_icl
+seed=25 arm=template_only
+seed=25 arm=akili
+seed=26 arm=stateless
+seed=26 arm=bounded_icl
+seed=26 arm=template_only
+seed=26 arm=akili
+seed=27 arm=stateless
+seed=27 arm=bounded_icl
+seed=27 arm=template_only
+seed=27 arm=akili
+{
+  "arms": {
+    "stateless": {
+      "issues": 108,
+      "passed": 32,
+      "accuracy": 0.2962962962962963,
+      "prompt_tokens": 21382,
+      "generated_tokens": 4575,
+      "memory_tokens": 0,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 0.5648148148148148,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 0.0,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 6,
+          "rate": 0.3333333333333333
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 6,
+          "rate": 0.3333333333333333
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 3,
+          "rate": 0.16666666666666666
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 3,
+          "rate": 0.16666666666666666
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 7,
+          "rate": 0.3888888888888889
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 7,
+          "rate": 0.3888888888888889
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 15,
+          "rate": 0.8333333333333334
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 8,
+          "rate": 0.4444444444444444
+        }
+      }
+    },
+    "bounded_icl": {
+      "issues": 108,
+      "passed": 48,
+      "accuracy": 0.4444444444444444,
+      "prompt_tokens": 125116,
+      "generated_tokens": 4681,
+      "memory_tokens": 102926,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 0.4166666666666667,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 0.0,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 8,
+          "rate": 0.4444444444444444
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 10,
+          "rate": 0.5555555555555556
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 7,
+          "rate": 0.3888888888888889
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 4,
+          "rate": 0.2222222222222222
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 10,
+          "rate": 0.5555555555555556
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 13,
+          "rate": 0.7222222222222222
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 0,
+          "rate": 0.0
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 13,
+          "rate": 0.7222222222222222
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 9,
+          "rate": 0.5
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 13,
+          "rate": 0.7222222222222222
+        }
+      }
+    },
+    "template_only": {
+      "issues": 108,
+      "passed": 78,
+      "accuracy": 0.7222222222222222,
+      "prompt_tokens": 24634,
+      "generated_tokens": 4979,
+      "memory_tokens": 6888,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 0.9722222222222222,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 0.6666666666666666,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 3,
+          "rate": 0.16666666666666666
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 3,
+          "rate": 0.16666666666666666
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 15,
+          "rate": 0.8333333333333334
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 15,
+          "rate": 0.8333333333333334
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 12,
+          "rate": 0.6666666666666666
+        }
+      }
+    },
+    "akili": {
+      "issues": 108,
+      "passed": 108,
+      "accuracy": 1.0,
+      "prompt_tokens": 27138,
+      "generated_tokens": 5460,
+      "memory_tokens": 12092,
+      "retries": 0,
+      "usable_rate": 1.0,
+      "strict_first_rate": 1.0,
+      "obsolete_retrievals": 0,
+      "binder_coverage": 1.0,
+      "semantic_repairs": 0,
+      "semantic_repair_successes": 0,
+      "first_semantic_pass_rate": 1.0,
+      "by_slice": {
+        "acquisition_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "acquisition_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "post_supersession_return": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "return_after_interruption": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "supersession_1": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "supersession_2": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        }
+      },
+      "by_family": {
+        "validation_exception": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "serialization_mapping": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "structured_logging": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "config_precedence": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "batch_tail_policy": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        },
+        "artifact_naming": {
+          "issues": 18,
+          "passed": 18,
+          "rate": 1.0
+        }
+      }
+    }
+  },
+  "integrity": {
+    "fresh_three_seed_locked_design": true,
+    "all_arm_issue_counts_equal": true,
+    "environment_hashes_present": true,
+    "required_signatures_public": true,
+    "cross_scope_retrieval_zero": true,
+    "obsolete_retrieval_zero": true,
+    "akili_teaching_template_coverage": true,
+    "akili_recall_uses_persistent_template": true,
+    "binder_only_with_verified_template": true,
+    "akili_binder_full_coverage": true,
+    "template_only_no_recall_binder": true,
+    "executable_prompt_only_with_verified_binding": true,
+    "bound_prompt_omits_raw_memory": true,
+    "unbound_arms_keep_legacy_prompt": true,
+    "akili_static_savings_at_least_30_each": true,
+    "raw_outputs_logged": true,
+    "normalized_candidates_logged": true,
+    "semantic_repair_only_with_verified_binding": true,
+    "semantic_repair_audits_logged": true,
+    "semantic_repair_max_one": true,
+    "ast_and_execution_audits_logged": true,
+    "all_system_audits_valid": true,
+    "all_system_states_bounded": true
+  },
+  "performance": {
+    "criteria": {
+      "akili_accuracy_at_least_90": true,
+      "akili_acquisition_at_least_90": true,
+      "akili_return_at_least_90": true,
+      "akili_post_supersession_at_least_90": true,
+      "akili_restoration_advantage_at_least_30pp": true,
+      "prompt_reduction_at_least_70": true,
+      "obsolete_retrieval_zero": true,
+      "cross_scope_retrieval_zero": true,
+      "all_integrity_pass": true
+    },
+    "prompt_reduction": 0.783097285718853,
+    "akili_restoration_rate": 1.0,
+    "template_only_restoration_rate": 0.16666666666666666,
+    "restoration_advantage": 0.8333333333333334,
+    "prompt_representation": {
+      "version": "exact-executable-contract-transport-v2.2",
+      "legacy_version": "v4ma-redundant-bound-prompt-v1",
+      "static_total_savings_tokens_approx": 19146,
+      "static_mean_savings_tokens_per_issue_approx": 177.27777777777777,
+      "static_min_savings_tokens_per_issue_approx": 158,
+      "raw_memory_omitted_after_verified_binding": true,
+      "executable_function_in_prompt": true
+    },
+    "PASS": true
+  }
+}
+{
+  "model_id": "mistral_nemo",
+  "real_model_canary": {
+    "passed": 6,
+    "first_passed": 6,
+    "semantic_repairs": 0,
+    "repair_successes": 0,
+    "issues": 6,
+    "PASS": true
+  },
+  "accuracy": 1.0,
+  "template_only_accuracy": 0.7222222222222222,
+  "restoration_advantage": 0.8333333333333334,
+  "prompt_reduction": 0.783097285718853,
+  "static_prompt_savings_per_issue": 177.27777777777777,
+  "performance_pass": true
+}
+FINAL MANIFEST: /workspace/AKILI_CL/results/akili_v4mae22_development_seeds_25_26_27/V4MAE22_DEVELOPMENT_MANIFEST.json
+{
+  "qwen3_4b": {
+    "real_model_canary": {
+      "version": "real-model-six-family-canary-v3",
+      "passed": 6,
+      "first_passed": 6,
+      "semantic_repairs": 0,
+      "repair_successes": 0,
+      "issues": 6,
+      "PASS": true,
+      "not_in_benchmark_metrics": true
+    },
+    "accuracy": 1.0,
+    "passed": 108,
+    "template_only_accuracy": 0.7777777777777778,
+    "restoration_advantage": 0.6666666666666667,
+    "prompt_reduction": 0.7853961462939608,
+    "prompt_representation": {
+      "version": "exact-executable-contract-transport-v2.2",
+      "legacy_version": "v4ma-redundant-bound-prompt-v1",
+      "static_total_savings_tokens_approx": 19146,
+      "static_mean_savings_tokens_per_issue_approx": 177.27777777777777,
+      "static_min_savings_tokens_per_issue_approx": 158,
+      "raw_memory_omitted_after_verified_binding": true,
+      "executable_function_in_prompt": true
+    },
+    "integrity_pass": true,
+    "performance_pass": true,
+    "receipt_path": "/workspace/AKILI_CL/results/akili_v4mae22_development_seeds_25_26_27/qwen3_4b/FINAL_RECEIPT.json"
+  },
+  "mistral_nemo": {
+    "real_model_canary": {
+      "version": "real-model-six-family-canary-v3",
+      "passed": 6,
+      "first_passed": 6,
+      "semantic_repairs": 0,
+      "repair_successes": 0,
+      "issues": 6,
+      "PASS": true,
+      "not_in_benchmark_metrics": true
+    },
+    "accuracy": 1.0,
+    "passed": 108,
+    "template_only_accuracy": 0.7222222222222222,
+    "restoration_advantage": 0.8333333333333334,
+    "prompt_reduction": 0.783097285718853,
+    "prompt_representation": {
+      "version": "exact-executable-contract-transport-v2.2",
+      "legacy_version": "v4ma-redundant-bound-prompt-v1",
+      "static_total_savings_tokens_approx": 19146,
+      "static_mean_savings_tokens_per_issue_approx": 177.27777777777777,
+      "static_min_savings_tokens_per_issue_approx": 158,
+      "raw_memory_omitted_after_verified_binding": true,
+      "executable_function_in_prompt": true
+    },
+    "integrity_pass": true,
+    "performance_pass": true,
+    "receipt_path": "/workspace/AKILI_CL/results/akili_v4mae22_development_seeds_25_26_27/mistral_nemo/FINAL_RECEIPT.json"
+  }
+}
+ALL MODELS INTEGRITY PASS: True
+ALL MODELS PERFORMANCE PASS: True

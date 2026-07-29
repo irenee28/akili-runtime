@@ -1,0 +1,25 @@
+{
+  "protocol": "akili-v4-external-structural-generalisation-v1",
+  "artifact": "frozen-heldout-notebook",
+  "phase": "heldout",
+  "seeds": [
+    4,
+    5,
+    6
+  ],
+  "source_notebook_sha256": "354b8632ba244d7a91b6af1f08e52555af67cdc2265223a19bfc49dd7e98980a",
+  "heldout_notebook_sha256": "a586364f858b3a025437cfc06b996b54e70e5aa30c16fa823d659c9c2a3bc376",
+  "compile_errors": [],
+  "all_code_cells_compile": true,
+  "embedded_benchmark_cell_unchanged": true,
+  "embedded_benchmark_cell_sha256": "ae4f64c2e80e9c395919785f1a447c7e61e874c449b598044ec70cb4aa861ecf",
+  "locked_session": "akili_v4_external_generalisation_heldout_seeds_4_5_6",
+  "expected_implementation_fingerprint": "7a3880df400fcc6d1e436ae9828b739d9c9b6e813cc4f1fca4589bd76136008a",
+  "expected_script_sha256": "636e119f6ea1507fe7907cea2dd4d911e55fb5e5aa7f7fa257c42bf4c5602a51",
+  "allowed_changes": [
+    "markdown frozen-heldout marker",
+    "config phase/session lock",
+    "pre-run heldout assertion",
+    "cleared outputs/execution counts"
+  ]
+}

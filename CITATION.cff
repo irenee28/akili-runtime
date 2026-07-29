@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use Akili Runtime or its evidence packages, please cite this software."
+title: "Akili Runtime"
+type: software
+authors:
+  - family-names: "Akilimali"
+    given-names: "Irénée"
+email: "shukranimungu@gmail.com"
+version: "0.1.0-alpha"
+date-released: "2026-07-29"
+license: "Apache-2.0"
+repository-code: "https://github.com/irenee28/akili-runtime"
+keywords:
+  - agent memory
+  - procedural memory
+  - continual learning
+  - scoped memory
+  - audit

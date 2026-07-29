@@ -1,0 +1,18 @@
+{
+  "artifact": "Akili_Real_Repository_Coding_Agent_Frozen_Heldout_Colab.ipynb",
+  "sha256": "7189f61b17f36597e732849907632c6eed12c44e2879c9e271417b0d4e658ff0",
+  "source_notebook_sha256": "41cf0a29a6ea1d7fa237b878db166a0b61333f6afb51f5dd6f058045166888f9",
+  "phase": "heldout",
+  "seeds": [
+    4,
+    5,
+    6
+  ],
+  "changes": [
+    "prepended held-out notice",
+    "prepended phase-only launcher",
+    "cleared outputs"
+  ],
+  "original_cells_preserved_exactly": true,
+  "code_cells_compile": true
+}

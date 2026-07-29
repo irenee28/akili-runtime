@@ -1,0 +1,47 @@
+{
+  "project": "Akili Runtime",
+  "author": "Irénée Akilimali",
+  "contact": "shukranimungu@gmail.com",
+  "generated_on": "2026-07-29",
+  "results": {
+    "real_repository_agent": {
+      "combined_akili": "144/144",
+      "bounded_icl": "72/144",
+      "stateless": "42/144",
+      "prompt_reduction_approx": 0.7746,
+      "boundary": "Controlled multi-file Python repository fixtures with executable hidden tests."
+    },
+    "v3_1_1a": {
+      "heldout_code_akili": "57/57",
+      "heldout_code_icl": "50/57",
+      "heldout_code_stateless": "3/57",
+      "prompt_reduction_approx": 0.881
+    },
+    "v4_generation": {
+      "development_akili": "102/108",
+      "heldout_akili": "101/108",
+      "formal_result": "near-miss / fail",
+      "permanent_attribution": "Post-run analysis found both an underspecified interface around argument roles and genuine model-generation errors. The frozen result was not modified or rerun."
+    },
+    "v4ma_e2_2_transport": {
+      "combined_akili": "432/432",
+      "restoration": "144/144",
+      "models": [
+        "Qwen3-4B",
+        "Mistral Nemo"
+      ],
+      "prompt_reduction_approx": 0.784,
+      "boundary": "Verified procedure restoration and transport, not autonomous program synthesis."
+    },
+    "mac_horizon": {
+      "episodes": 500000,
+      "scopes": 100,
+      "families": 10,
+      "restoration": 1.0,
+      "cross_scope_retrievals": 0,
+      "obsolete_retrievals": 0,
+      "throughput_eps_per_s_approx": 20131
+    }
+  },
+  "missing_requested_assets": []
+}

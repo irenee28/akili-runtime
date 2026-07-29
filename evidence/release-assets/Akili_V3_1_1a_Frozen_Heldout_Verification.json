@@ -1,0 +1,47 @@
+{
+  "artifact": "Akili V3.1.1a frozen held-out launch copy",
+  "source_notebook": "Akili_V3_1_1a_Immediate_Template_Development_Colab.ipynb",
+  "source_sha256": "5fc66402358cd97d72ef64f247802705fa2c45b89fecc1100765cbcb75e70dc2",
+  "heldout_notebook": "Akili_V3_1_1a_Frozen_Heldout_Colab.ipynb",
+  "heldout_sha256": "482b28e4182b09cd6390efeaf4600585b05657b8851df7561d452850e45db529",
+  "original_cells_preserved_exactly": true,
+  "added_cells": [
+    "heldout_notice",
+    "heldout_launcher"
+  ],
+  "phase": "heldout",
+  "locked_seeds": [
+    4,
+    5,
+    6
+  ],
+  "expected_default_session": "v3_1_1a_heldout_seeds_4_5_6",
+  "expected_default_output": "/content/drive/MyDrive/akili_tonight/v3_1_1a_heldout_seeds_4_5_6",
+  "cleared_override_keys": [
+    "AKILI_V31_PHASE",
+    "AKILI_V3_PHASE",
+    "AKILI_SEEDS",
+    "AKILI_SESSION",
+    "AKILI_ICL_BUDGET",
+    "AKILI_MEMORY_BUDGET",
+    "AKILI_CURRENT_TEMPLATE_BUDGET",
+    "AKILI_WINDOW",
+    "AKILI_MAX_PROFILES",
+    "AKILI_MAX_VERSIONS",
+    "AKILI_MAX_STATS_KEYS",
+    "AKILI_MAX_RETRIEVAL_LOG",
+    "AKILI_SOC_EVENTS_PER_STAGE",
+    "AKILI_DELAY_WINDOW",
+    "AKILI_TASK_RETRY_LIMIT",
+    "AKILI_SMOKE_MODEL",
+    "AKILI_MAIN_MODEL",
+    "AKILI_SMOKE_GENS",
+    "AKILI_MAIN_GATE_GENS",
+    "AKILI_PARSE_GATE",
+    "AKILI_DRIVE_ROOT",
+    "AKILI_WORK_ROOT"
+  ],
+  "code_cells_compiled": 16,
+  "scientific_code_modified": false,
+  "development_artifacts_reused": false
+}
